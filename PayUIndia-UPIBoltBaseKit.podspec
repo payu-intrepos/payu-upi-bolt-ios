@@ -12,7 +12,11 @@ Pod::Spec.new do |s|
                             :tag => "#{s.version}"
                           }
   
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
+
   s.ios.deployment_target = "17.0"
   s.vendored_frameworks = 'Frameworks/PayUUPIBoltBaseKit.xcframework'
-
+  
 end
