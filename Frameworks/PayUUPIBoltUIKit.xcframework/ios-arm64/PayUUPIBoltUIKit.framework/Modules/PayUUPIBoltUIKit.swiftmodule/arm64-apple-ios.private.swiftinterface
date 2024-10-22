@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayUUPIBoltUIKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PayUUPIBoltUIKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
 import PayUAssetLibraryKit
@@ -9,6 +9,7 @@ import PayUCrashReporter
 import PayUNetworkReachability
 import PayUUPIBoltBaseKit
 import PayUUPIBoltKit
+@_exported import PayUUPIBoltUIKit
 import Swift
 import SwiftUI
 import UIKit
@@ -64,16 +65,16 @@ extension UIKit.UIFont {
   }
 }
 extension UIKit.UIButton {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func payuCustomizeFont()
 }
 extension UIKit.UILabel {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func payuCustomizeFont()
 }
 extension UIKit.UITextField {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func payuCustomizeFont()
 }
 extension UIKit.UITextView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func payuCustomizeFont()
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltUIConfig : PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig {
   @objc override dynamic public init()

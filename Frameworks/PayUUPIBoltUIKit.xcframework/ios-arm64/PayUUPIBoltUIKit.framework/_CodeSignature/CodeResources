@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qC61jfUTXHci/eTnuyzcsFEr078=
+		GIramPlh7hza8tUxHUq3EcSq3Ec=
 		</data>
 		<key>BalanceErrorView.nib</key>
 		<data>
@@ -30,11 +30,15 @@
 		</data>
 		<key>Headers/PayUUPIBoltUIKit-Swift.h</key>
 		<data>
-		39DdeRKuiRIxiwSyzVB18YjNSSM=
+		9BS/7KAR8t4R4ZKs5LoXoA9PdYM=
+		</data>
+		<key>Headers/PayUUPIBoltUIKit.h</key>
+		<data>
+		Tm2b1Oxc0Il8lmVeZmNz1smqVIo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nWxSOOwPMmkcVJGTSPk2zFdTISY=
+		/IcUFz9kWt0IJBM8ch54ztoiSMU=
 		</data>
 		<key>Main.storyboardc/AlertVC.nib</key>
 		<data>
@@ -66,7 +70,7 @@
 		</data>
 		<key>ManageAccountCell.nib</key>
 		<data>
-		jivOFOYoxk9x5MHuiw0b6dvWfZM=
+		YeMNTGT1UxTCYpNtd+VGlHo6zvs=
 		</data>
 		<key>Management.storyboardc/23N-Hb-U9p-view-ZTP-jN-g38.nib</key>
 		<data>
@@ -110,7 +114,7 @@
 		</data>
 		<key>Management.storyboardc/bAM-wM-00E-view-bl7-0k-6X8.nib</key>
 		<data>
-		rJ2rpeXe48oXsRKh5GWuY2NmuMQ=
+		nqq3d7bRQSs4sHxQFxBb4WNLwsU=
 		</data>
 		<key>Management.storyboardc/g0i-NM-a5i-view-Zrd-Kr-sDW.nib</key>
 		<data>
@@ -122,27 +126,27 @@
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dgiZFrrks62GXO3qFUsfbBoM5y0=
+		LVyTdhsOOq1Tnc2PFEP4MHxu9OA=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		n6eEUyIDs38NxktcG6Jh+zPeoGg=
+		NXmgqxJ5RyZ5qoounHEpE6fWY1s=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		mSmRX9kux6Onvxp6ZOJbLxH7aSs=
+		ntrO9nHp8o60RRzf9FVQroHeusM=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		n6eEUyIDs38NxktcG6Jh+zPeoGg=
+		NXmgqxJ5RyZ5qoounHEpE6fWY1s=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Hq2BUfexFmJqlaJLajw1HhEgRXg=
+		aW6jvs2j0LB43FFUjn3WAi9NeBo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		bBjqA1qWacGzEQ+r/FXHrVfWM7w=
+		AvtCKHlvCbxXNDwulQwq3MG7eLA=
 		</data>
 		<key>NavigationView.nib</key>
 		<data>
@@ -227,7 +231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qV3Y8Fra1Qxd+8BDTaMztjFJI8vp1OrOAfNxlArKUg=
+			8dkW0/6OLeIiYly9PodsgMTz9qR9XGNw1wL9uQe94gk=
 			</data>
 		</dict>
 		<key>BalanceErrorView.nib</key>
@@ -269,7 +273,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/tQCo/lQRIBgI8tPk2ANFddBzsDn6F2Y7a7IyxNEpM=
+			CBNdNb8KbJwyfFj6HxAX8Wf3HrVFMsjNiX17tGTlYRE=
+			</data>
+		</dict>
+		<key>Headers/PayUUPIBoltUIKit.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ROILx+AAj7QAA80n2jdJM61qjiqdLWfIEH+kWqoXx48=
 			</data>
 		</dict>
 		<key>Main.storyboardc/AlertVC.nib</key>
@@ -325,7 +336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ttu3dipAfqHSwcFY4qph/LbpcCkz0Zv+jjUJyLCfaIs=
+			xf8MhfsbayhkLjR5d3v9ROna6NJUX4g5f2vWZDqE4gE=
 			</data>
 		</dict>
 		<key>Management.storyboardc/23N-Hb-U9p-view-ZTP-jN-g38.nib</key>
@@ -402,7 +413,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s9vCqdzp2LWhu1kAksxlQRm+81G2OnPK8xlIfgW9bv4=
+			kuWVrrpsiM5/5WzH+jRMVPxd/sJDrhp42PmHTZIsrPs=
 			</data>
 		</dict>
 		<key>Management.storyboardc/g0i-NM-a5i-view-Zrd-Kr-sDW.nib</key>
@@ -423,42 +434,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y6DYjZMWF4tszCurOK/rSJYxjk36j2PLXtSpKowY4yk=
+			dkqbLvd/ET8XHKDtVZLDKmLUOukDjJPa1qksJr04+7A=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kOjBgJzk/GOxHDCNT8QFmhRNipoBOc1XT4mDpvYBaow=
+			MRB1E3PxLqLaYQC9BPsp0Ad9rvTGldlcIGWF26PQE0s=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLLsGkvFRjdlK33OS0JMdo9DNuF6imScoG8I2Rlwwqc=
+			nEPZccRlXsCL7JJjeG8jPPQiUU7CSX+SLKW5UusWSVc=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kOjBgJzk/GOxHDCNT8QFmhRNipoBOc1XT4mDpvYBaow=
+			MRB1E3PxLqLaYQC9BPsp0Ad9rvTGldlcIGWF26PQE0s=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qgKcY6F0ZKZn0rz58ITcBcMYnVwJhoqZk28nA/j7gU8=
+			Qic7haz7CwPxO/lhA5qcDiuX6A1oZO+w5tTDSyBAJ58=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GuSXVgteFGyYOtswduJg5KiTx/Hzm960JiLlEIH69FY=
+			ahtL0zSyGcS/aJyPZikP4PPTYWNi/SaPQOlYDDD3Lzo=
 			</data>
 		</dict>
 		<key>NavigationView.nib</key>
