@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/payu-intrepos/payu-upi-bolt-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
 
-  s.summary             = "The PayUUPIBoltUIKit SDK provides UPI features."
+  s.summary             = "The PayUUPIBoltUIKit SDK provides UPI features"
   s.description         = "The PayUUPIBoltUIKit SDK provides UPI features."
 
   s.source              = { :git => "https://github.com/payu-intrepos/payu-upi-bolt-ios.git",
