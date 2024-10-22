@@ -1,0 +1,4 @@
+framework module PayUUPIBoltUIKit {
+  header "PayUUPIBoltUIKit-Swift.h"
+  requires objc
+}
