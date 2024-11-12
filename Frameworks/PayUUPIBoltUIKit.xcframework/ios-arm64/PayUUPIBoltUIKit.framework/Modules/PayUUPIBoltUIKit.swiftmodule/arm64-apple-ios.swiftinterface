@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PayUUPIBoltUIKit
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PayUUPIBoltUIKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
@@ -41,7 +41,7 @@ import _SwiftConcurrencyShims
   }
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltUIInterface : ObjectiveC.NSObject {
-  @objc public func isUPIBoltSDKAvailable(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
+  @objc public func isUPIBoltSDKAvailable(callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
   @objc public func registerAndPay(paymentParams: PayUUPIBoltBaseKit.PayUUPIBoltPaymentParams)
   @objc public func openUPIManagement(screenType: PayUUPIBoltUIKit.PayUUPIBoltUIScreenType)
   @objc public func registerAndPay(paymentParamsJSON: Any?)

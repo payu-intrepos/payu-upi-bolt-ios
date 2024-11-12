@@ -11,7 +11,7 @@ let VERSION_ASSET_LIBRARY: PackageDescription.Version = "4.0.0"
 let package = Package(
     name: "PayUUPIBoltUIKit",
     platforms: [
-        .iOS(.v17) 
+        .iOS(.v13) 
     ],
     
     products: [

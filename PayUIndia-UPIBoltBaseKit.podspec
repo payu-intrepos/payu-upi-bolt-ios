@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-UPIBoltBaseKit"
-  s.version             = "1.0.0-alpha.0"
+  s.version             = "1.0.0-alpha.1"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-upi-bolt-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
   }
 
-  s.ios.deployment_target = "17.0"
+  s.ios.deployment_target = "13.0"
   s.vendored_frameworks = 'Frameworks/PayUUPIBoltBaseKit.xcframework'
   
 end
