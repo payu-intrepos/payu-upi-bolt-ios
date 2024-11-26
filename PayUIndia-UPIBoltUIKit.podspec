@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-UPIBoltUIKit"
-  s.version             = "1.0.0-alpha.1"
+  s.version             = "1.0.0-alpha.2"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-upi-bolt-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
