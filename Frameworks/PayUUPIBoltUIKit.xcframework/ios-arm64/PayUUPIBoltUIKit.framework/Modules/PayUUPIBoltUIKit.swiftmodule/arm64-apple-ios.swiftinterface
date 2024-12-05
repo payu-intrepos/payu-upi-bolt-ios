@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
+import PayUAnalyticsKit
 import PayUAssetLibraryKit
 import PayUCrashReporter
 import PayUNetworkReachability
@@ -78,7 +79,7 @@ extension UIKit.UITextView {
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltUIConfig : PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig {
   @objc override dynamic public init()
-  @objc override public init(merchantName: Swift.String, merchantKey: Swift.String, phone: Swift.String, email: Swift.String, refId: Swift.String, pluginTypes: [Swift.String], excludedBanksIINs: [Swift.String] = super, clientId: Swift.String = super, bankId: Swift.String = super, isProduction: Swift.Bool)
+  @objc override public init(merchantName: Swift.String, merchantKey: Swift.String, phone: Swift.String, email: Swift.String, refId: Swift.String, pluginTypes: [Swift.String], excludedBanksIINs: [Swift.String] = super, clientId: Swift.String = super, isProduction: Swift.Bool)
   @objc deinit
 }
 extension PayUUPIBoltUIKit.PayUUPIBoltUIScreenType : Swift.Equatable {}

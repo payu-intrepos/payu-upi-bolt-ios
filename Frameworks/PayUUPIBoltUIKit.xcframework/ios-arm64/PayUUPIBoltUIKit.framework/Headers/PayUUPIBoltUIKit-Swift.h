@@ -344,7 +344,7 @@ SWIFT_CLASS("_TtC16PayUUPIBoltUIKit13PayUUPIBoltUI")
 SWIFT_RESILIENT_CLASS("_TtC16PayUUPIBoltUIKit19PayUUPIBoltUIConfig")
 @interface PayUUPIBoltUIConfig : PayUUPIBoltBaseConfig
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithMerchantName:(NSString * _Nonnull)merchantName merchantKey:(NSString * _Nonnull)merchantKey phone:(NSString * _Nonnull)phone email:(NSString * _Nonnull)email refId:(NSString * _Nonnull)refId pluginTypes:(NSArray<NSString *> * _Nonnull)pluginTypes excludedBanksIINs:(NSArray<NSString *> * _Nonnull)excludedBanksIINs clientId:(NSString * _Nonnull)clientId bankId:(NSString * _Nonnull)bankId isProduction:(BOOL)isProduction OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantName:(NSString * _Nonnull)merchantName merchantKey:(NSString * _Nonnull)merchantKey phone:(NSString * _Nonnull)phone email:(NSString * _Nonnull)email refId:(NSString * _Nonnull)refId pluginTypes:(NSArray<NSString *> * _Nonnull)pluginTypes excludedBanksIINs:(NSArray<NSString *> * _Nonnull)excludedBanksIINs clientId:(NSString * _Nonnull)clientId isProduction:(BOOL)isProduction OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class PayUUPIBoltResponse;

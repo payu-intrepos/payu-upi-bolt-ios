@@ -317,14 +317,14 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit19HdfcAuthTokenResult")
 
 @class PayUUPIBoltBaseConfig;
 @protocol PayUUPIBoltHashDelegate;
-@protocol PayUUPIBoltInterface;
+@class PayUUPIBoltInterface;
 
 SWIFT_CLASS("_TtC14PayUUPIBoltKit11PayUUPIBolt")
 @interface PayUUPIBolt : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (id <PayUUPIBoltInterface> _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config hashDelegate:(id <PayUUPIBoltHashDelegate> _Nonnull)hashDelegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
-+ (id <PayUUPIBoltInterface> _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config hashDelegate:(id <PayUUPIBoltHashDelegate> _Nonnull)hashDelegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)reset;
 @end
 
@@ -339,8 +339,8 @@ SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit23PayUUPIBoltHashDelegate_")
 @class PayUUPIBoltAccountDetail;
 @class PayUUPIBoltPaymentParams;
 
-SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit20PayUUPIBoltInterface_")
-@protocol PayUUPIBoltInterface
+SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
+@interface PayUUPIBoltInterface : NSObject
 - (void)isUPIBoltSDKAvailableWithPg:(NSString * _Nonnull)pg callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)startDeviceBindingWithParentVC:(UIViewController * _Nonnull)parentVC callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (NSString * _Nullable)getRegisteredMobile SWIFT_WARN_UNUSED_RESULT;
@@ -353,6 +353,7 @@ SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit20PayUUPIBoltInterface_")
 - (void)addAccountWithAccountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deregisterWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)changeMPINWithParentVC:(UIViewController * _Nonnull)parentVC accountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
+- (void)checkVPAWithVpa:(NSString * _Nonnull)vpa requestType:(NSString * _Nonnull)requestType callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)updateVpaWithAccountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)getDisputeTypeListWithUpiTransactionRefNo:(NSString * _Nonnull)upiTransactionRefNo callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)disputeListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
@@ -366,6 +367,7 @@ SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit20PayUUPIBoltInterface_")
 - (void)saveVpaWithVpa:(NSString * _Nonnull)vpa name:(NSString * _Nonnull)name nickName:(NSString * _Nonnull)nickName callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deleteVpaWithVpa:(NSString * _Nonnull)vpa callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchRegisteredVpaListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

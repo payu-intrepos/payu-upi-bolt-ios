@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-UPIBoltUIKit"
-  s.version             = "1.0.0-alpha.2"
+  s.version             = "1.0.0"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-upi-bolt-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "13.0"
   s.vendored_frameworks = 'Frameworks/PayUUPIBoltUIKit.xcframework'
 
-  s.dependency            'PayUIndia-UPIBoltKit', '~> 1.0.0-alpha.1'
+  s.dependency            'PayUIndia-UPIBoltKit', '~> 1.0'
 
 end
