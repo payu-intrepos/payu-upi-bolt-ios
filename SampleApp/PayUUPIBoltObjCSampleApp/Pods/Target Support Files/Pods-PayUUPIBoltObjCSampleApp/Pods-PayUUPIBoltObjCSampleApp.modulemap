@@ -1,0 +1,6 @@
+framework module Pods_PayUUPIBoltObjCSampleApp {
+  umbrella header "Pods-PayUUPIBoltObjCSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

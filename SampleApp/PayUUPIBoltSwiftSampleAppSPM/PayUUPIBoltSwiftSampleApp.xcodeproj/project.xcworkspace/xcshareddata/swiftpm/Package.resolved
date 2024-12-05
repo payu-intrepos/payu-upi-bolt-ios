@@ -1,0 +1,51 @@
+{
+  "originHash" : "6e96fc952fbdaf9b2863950fcd019c1f7c0a1983be9e7c12e6cf8a10871be65b",
+  "pins" : [
+    {
+      "identity" : "payu-upi-bolt-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/payu-intrepos/payu-upi-bolt-ios",
+      "state" : {
+        "revision" : "fbb877e2026ad632b958cdd54707dd8f26dbf124",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "payuanalytics-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/payu-intrepos/PayUAnalytics-iOS.git",
+      "state" : {
+        "revision" : "1480d0e705bef0e2490967978f802690b4c80b54",
+        "version" : "4.0.0"
+      }
+    },
+    {
+      "identity" : "payuassetlibrary-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/payu-intrepos/PayUAssetLibrary-iOS.git",
+      "state" : {
+        "revision" : "799eabe32b68d4ffde27dc0451278267c16c63a5",
+        "version" : "4.0.0"
+      }
+    },
+    {
+      "identity" : "payucrashreporter-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/payu-intrepos/PayUCrashReporter-iOS.git",
+      "state" : {
+        "revision" : "fa2cd7eac330e08a810ba404b3e1893259d580af",
+        "version" : "4.0.0"
+      }
+    },
+    {
+      "identity" : "payunetworkreachability-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/payu-intrepos/PayUNetworkReachability-iOS.git",
+      "state" : {
+        "revision" : "59b54bbf0329389f418af2ead07f424d131d1a20",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

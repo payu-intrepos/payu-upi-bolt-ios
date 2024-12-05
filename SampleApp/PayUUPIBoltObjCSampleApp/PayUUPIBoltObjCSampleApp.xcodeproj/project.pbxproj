@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0943843B21DDAB2DFE0ECD /* Pods_PayUUPIBoltObjCSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4FFC6692C9353AD9C33EEF /* Pods_PayUUPIBoltObjCSampleApp.framework */; };
+		A7612F852C50DAB0009DAB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7612F7B2C50DAB0009DAB2C /* AppDelegate.swift */; };
+		A7612F862C50DAB0009DAB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7612F7C2C50DAB0009DAB2C /* Assets.xcassets */; };
+		A7612F882C50DAB0009DAB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7612F7F2C50DAB0009DAB2C /* LaunchScreen.storyboard */; };
+		A7612F892C50DAB0009DAB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7612F812C50DAB0009DAB2C /* Main.storyboard */; };
+		A7612F8A2C50DAB0009DAB2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7612F822C50DAB0009DAB2C /* SceneDelegate.swift */; };
+		A7612F8B2C50DAB0009DAB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7612F832C50DAB0009DAB2C /* ViewController.swift */; };
+		A7612FA82C50E633009DAB2C /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612F9B2C50E633009DAB2C /* DancingScript-Bold.ttf */; };
+		A7612FA92C50E633009DAB2C /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612F9C2C50E633009DAB2C /* DancingScript-Medium.ttf */; };
+		A7612FAA2C50E633009DAB2C /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612F9D2C50E633009DAB2C /* DancingScript-Regular.ttf */; };
+		A7612FAB2C50E633009DAB2C /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612F9E2C50E633009DAB2C /* DancingScript-SemiBold.ttf */; };
+		A7612FAC2C50E633009DAB2C /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA02C50E633009DAB2C /* JosefinSans-Bold.ttf */; };
+		A7612FAD2C50E633009DAB2C /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA12C50E633009DAB2C /* JosefinSans-Regular.ttf */; };
+		A7612FAE2C50E633009DAB2C /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA22C50E633009DAB2C /* JosefinSans-SemiBold.ttf */; };
+		A7612FAF2C50E633009DAB2C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA32C50E633009DAB2C /* Roboto-Bold.ttf */; };
+		A7612FB02C50E633009DAB2C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA42C50E633009DAB2C /* Roboto-Medium.ttf */; };
+		A7612FB12C50E633009DAB2C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7612FA52C50E633009DAB2C /* Roboto-Regular.ttf */; };
+		A7612FCE2C50E7AB009DAB2C /* SDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7612FCD2C50E7AB009DAB2C /* SDKHelper.m */; };
+		A778710C2CC7842F009EE21E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A778710B2CC7842F009EE21E /* Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A79B7B3B2D01D96E00E21FA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35CB3FDE8282B332EEBF2A7D /* Pods-PayUUPIBoltObjCSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUUPIBoltObjCSampleApp.debug.xcconfig"; path = "../SampleApp/PayUUPIBoltObjCSampleApp/Pods/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4FFC6692C9353AD9C33EEF /* Pods_PayUUPIBoltObjCSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUUPIBoltObjCSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C104DB42EE3A5D579BC065 /* Pods-PayUUPIBoltObjCSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUUPIBoltObjCSampleApp.release.xcconfig"; path = "../SampleApp/PayUUPIBoltObjCSampleApp/Pods/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		A75BF8AF2CA3F52300BD735B /* CommonLibrary.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CommonLibrary.xcframework; path = ../../Dependency/Frameworks/CommonLibrary.xcframework; sourceTree = "<group>"; };
+		A75BF8B02CA3F52300BD735B /* OlivePayLibrary.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OlivePayLibrary.xcframework; path = ../../Dependency/Frameworks/OlivePayLibrary.xcframework; sourceTree = "<group>"; };
+		A7612F7B2C50DAB0009DAB2C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7612F7C2C50DAB0009DAB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7612F7E2C50DAB0009DAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7612F802C50DAB0009DAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7612F822C50DAB0009DAB2C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7612F832C50DAB0009DAB2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7612F8D2C50DC65009DAB2C /* PayUUPIBoltKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PayUUPIBoltKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7612F8E2C50DC65009DAB2C /* PayUUPIBoltUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PayUUPIBoltUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7612F8F2C50DC65009DAB2C /* PayUUPIHdfcPluginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PayUUPIHdfcPluginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7612F992C50DD4B009DAB2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7612F9B2C50E633009DAB2C /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		A7612F9C2C50E633009DAB2C /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		A7612F9D2C50E633009DAB2C /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		A7612F9E2C50E633009DAB2C /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		A7612FA02C50E633009DAB2C /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		A7612FA12C50E633009DAB2C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		A7612FA22C50E633009DAB2C /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A7612FA32C50E633009DAB2C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A7612FA42C50E633009DAB2C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A7612FA52C50E633009DAB2C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A7612FCB2C50E7AA009DAB2C /* PayUUPIBoltObjCSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayUUPIBoltObjCSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7612FCC2C50E7AB009DAB2C /* SDKHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKHelper.h; sourceTree = "<group>"; };
+		A7612FCD2C50E7AB009DAB2C /* SDKHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKHelper.m; sourceTree = "<group>"; };
+		A77871072CC78302009EE21E /* PayUUPIBoltBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PayUUPIBoltBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A778710A2CC7842F009EE21E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A778710B2CC7842F009EE21E /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A7887EBD2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUUPIBoltObjCSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7887EBA2C491DB500CA8ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0943843B21DDAB2DFE0ECD /* Pods_PayUUPIBoltObjCSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E02B4B12B6EC76E69661FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77871072CC78302009EE21E /* PayUUPIBoltBaseKit.framework */,
+				A75BF8AF2CA3F52300BD735B /* CommonLibrary.xcframework */,
+				A75BF8B02CA3F52300BD735B /* OlivePayLibrary.xcframework */,
+				A7612F8D2C50DC65009DAB2C /* PayUUPIBoltKit.framework */,
+				A7612F8E2C50DC65009DAB2C /* PayUUPIBoltUIKit.framework */,
+				A7612F8F2C50DC65009DAB2C /* PayUUPIHdfcPluginKit.framework */,
+				3C4FFC6692C9353AD9C33EEF /* Pods_PayUUPIBoltObjCSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7612F842C50DAB0009DAB2C /* Common Files For Swift & ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A7612F7B2C50DAB0009DAB2C /* AppDelegate.swift */,
+				A7612F822C50DAB0009DAB2C /* SceneDelegate.swift */,
+				A7612F832C50DAB0009DAB2C /* ViewController.swift */,
+				A7612F812C50DAB0009DAB2C /* Main.storyboard */,
+				A7612F7F2C50DAB0009DAB2C /* LaunchScreen.storyboard */,
+				A7612F7C2C50DAB0009DAB2C /* Assets.xcassets */,
+				A7612FA72C50E633009DAB2C /* Fonts */,
+			);
+			name = "Common Files For Swift & ObjC";
+			path = "../../Common Files For Swift & ObjC";
+			sourceTree = "<group>";
+		};
+		A7612F9F2C50E633009DAB2C /* DancingScript */ = {
+			isa = PBXGroup;
+			children = (
+				A7612F9B2C50E633009DAB2C /* DancingScript-Bold.ttf */,
+				A7612F9C2C50E633009DAB2C /* DancingScript-Medium.ttf */,
+				A7612F9D2C50E633009DAB2C /* DancingScript-Regular.ttf */,
+				A7612F9E2C50E633009DAB2C /* DancingScript-SemiBold.ttf */,
+			);
+			path = DancingScript;
+			sourceTree = "<group>";
+		};
+		A7612FA62C50E633009DAB2C /* JosefinSans */ = {
+			isa = PBXGroup;
+			children = (
+				A7612FA02C50E633009DAB2C /* JosefinSans-Bold.ttf */,
+				A7612FA12C50E633009DAB2C /* JosefinSans-Regular.ttf */,
+				A7612FA22C50E633009DAB2C /* JosefinSans-SemiBold.ttf */,
+				A7612FA32C50E633009DAB2C /* Roboto-Bold.ttf */,
+				A7612FA42C50E633009DAB2C /* Roboto-Medium.ttf */,
+				A7612FA52C50E633009DAB2C /* Roboto-Regular.ttf */,
+			);
+			path = JosefinSans;
+			sourceTree = "<group>";
+		};
+		A7612FA72C50E633009DAB2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A7612F9F2C50E633009DAB2C /* DancingScript */,
+				A7612FA62C50E633009DAB2C /* JosefinSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A7887EB42C491DB500CA8ABC = {
+			isa = PBXGroup;
+			children = (
+				A7887EBF2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp */,
+				A7887EBE2C491DB500CA8ABC /* Products */,
+				C78C0894F178D82B4AEB3C52 /* Pods */,
+				21E02B4B12B6EC76E69661FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7887EBE2C491DB500CA8ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7887EBD2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7887EBF2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				A7612F842C50DAB0009DAB2C /* Common Files For Swift & ObjC */,
+				A7612F992C50DD4B009DAB2C /* Info.plist */,
+				A7612FCC2C50E7AB009DAB2C /* SDKHelper.h */,
+				A7612FCD2C50E7AB009DAB2C /* SDKHelper.m */,
+				A778710A2CC7842F009EE21E /* Utils.h */,
+				A778710B2CC7842F009EE21E /* Utils.m */,
+				A7612FCB2C50E7AA009DAB2C /* PayUUPIBoltObjCSampleApp-Bridging-Header.h */,
+			);
+			path = PayUUPIBoltObjCSampleApp;
+			sourceTree = "<group>";
+		};
+		C78C0894F178D82B4AEB3C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35CB3FDE8282B332EEBF2A7D /* Pods-PayUUPIBoltObjCSampleApp.debug.xcconfig */,
+				66C104DB42EE3A5D579BC065 /* Pods-PayUUPIBoltObjCSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7887EBC2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7887ED62C491DB600CA8ABC /* Build configuration list for PBXNativeTarget "PayUUPIBoltObjCSampleApp" */;
+			buildPhases = (
+				A94A58D4028D4143047103ED /* [CP] Check Pods Manifest.lock */,
+				A7887EB92C491DB500CA8ABC /* Sources */,
+				A7887EBA2C491DB500CA8ABC /* Frameworks */,
+				A7887EBB2C491DB500CA8ABC /* Resources */,
+				719AC081A4F09B8E96E17C41 /* [CP] Embed Pods Frameworks */,
+				A79B7B3B2D01D96E00E21FA4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayUUPIBoltObjCSampleApp;
+			productName = PayUUPIBoltObjCSampleApp;
+			productReference = A7887EBD2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7887EB52C491DB500CA8ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A7887EBC2C491DB500CA8ABC = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = A7887EB82C491DB500CA8ABC /* Build configuration list for PBXProject "PayUUPIBoltObjCSampleApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7887EB42C491DB500CA8ABC;
+			productRefGroup = A7887EBE2C491DB500CA8ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7887EBC2C491DB500CA8ABC /* PayUUPIBoltObjCSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7887EBB2C491DB500CA8ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7612F882C50DAB0009DAB2C /* LaunchScreen.storyboard in Resources */,
+				A7612FAC2C50E633009DAB2C /* JosefinSans-Bold.ttf in Resources */,
+				A7612FA82C50E633009DAB2C /* DancingScript-Bold.ttf in Resources */,
+				A7612FAE2C50E633009DAB2C /* JosefinSans-SemiBold.ttf in Resources */,
+				A7612FAF2C50E633009DAB2C /* Roboto-Bold.ttf in Resources */,
+				A7612F862C50DAB0009DAB2C /* Assets.xcassets in Resources */,
+				A7612FA92C50E633009DAB2C /* DancingScript-Medium.ttf in Resources */,
+				A7612F892C50DAB0009DAB2C /* Main.storyboard in Resources */,
+				A7612FB02C50E633009DAB2C /* Roboto-Medium.ttf in Resources */,
+				A7612FAA2C50E633009DAB2C /* DancingScript-Regular.ttf in Resources */,
+				A7612FB12C50E633009DAB2C /* Roboto-Regular.ttf in Resources */,
+				A7612FAD2C50E633009DAB2C /* JosefinSans-Regular.ttf in Resources */,
+				A7612FAB2C50E633009DAB2C /* DancingScript-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		719AC081A4F09B8E96E17C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94A58D4028D4143047103ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUUPIBoltObjCSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7887EB92C491DB500CA8ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7612FCE2C50E7AB009DAB2C /* SDKHelper.m in Sources */,
+				A7612F8B2C50DAB0009DAB2C /* ViewController.swift in Sources */,
+				A7612F852C50DAB0009DAB2C /* AppDelegate.swift in Sources */,
+				A778710C2CC7842F009EE21E /* Utils.m in Sources */,
+				A7612F8A2C50DAB0009DAB2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7612F7F2C50DAB0009DAB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7612F7E2C50DAB0009DAB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7612F812C50DAB0009DAB2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7612F802C50DAB0009DAB2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7887ED42C491DB600CA8ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7887ED52C491DB600CA8ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7887ED72C491DB600CA8ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CB3FDE8282B332EEBF2A7D /* Pods-PayUUPIBoltObjCSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayUUPIBoltObjCSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UPI;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.upiplugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUUPIBoltObjCSampleApp/PayUUPIBoltObjCSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7887ED82C491DB600CA8ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C104DB42EE3A5D579BC065 /* Pods-PayUUPIBoltObjCSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayUUPIBoltObjCSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UPI;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.upiplugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUUPIBoltObjCSampleApp/PayUUPIBoltObjCSampleApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7887EB82C491DB500CA8ABC /* Build configuration list for PBXProject "PayUUPIBoltObjCSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7887ED42C491DB600CA8ABC /* Debug */,
+				A7887ED52C491DB600CA8ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7887ED62C491DB600CA8ABC /* Build configuration list for PBXNativeTarget "PayUUPIBoltObjCSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7887ED72C491DB600CA8ABC /* Debug */,
+				A7887ED82C491DB600CA8ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7887EB52C491DB500CA8ABC /* Project object */;
+}

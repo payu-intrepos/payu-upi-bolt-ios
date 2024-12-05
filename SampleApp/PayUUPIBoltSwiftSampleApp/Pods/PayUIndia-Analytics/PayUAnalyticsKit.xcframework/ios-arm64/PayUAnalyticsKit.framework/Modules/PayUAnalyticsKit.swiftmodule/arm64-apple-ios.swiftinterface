@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayUAnalyticsKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PayUAnalyticsKit
+import PayUCrashReporter
+import PayUNetworkReachability
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class PayUAnalytics : ObjectiveC.NSObject {
+  public init(config: PayUAnalyticsKit.PayUAnalyticsConfig)
+  public func log(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc public enum PayUAnalyticsType : Swift.Int {
+  case clevertap
+  case eventAnalytics
+  case deviceAnalytics
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class PayUAnalyticsConfig : ObjectiveC.NSObject {
+  @objc public var ctAccountId: Swift.String?
+  @objc public var ctPassCode: Swift.String?
+  @objc public var initiatorIdentifier: Swift.String
+  @objc public var isProduction: Swift.Bool
+  @objc public var type: PayUAnalyticsKit.PayUAnalyticsType
+  @objc public init(ctAccountId: Swift.String? = nil, ctPassCode: Swift.String? = nil, initiatorIdentifier: Swift.String, isProduction: Swift.Bool = true, type: PayUAnalyticsKit.PayUAnalyticsType = .eventAnalytics)
+  @objc deinit
+}
+extension PayUAnalyticsKit.PayUAnalyticsType : Swift.Equatable {}
+extension PayUAnalyticsKit.PayUAnalyticsType : Swift.Hashable {}
+extension PayUAnalyticsKit.PayUAnalyticsType : Swift.RawRepresentable {}

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-PayUUPIBoltObjCSampleApp/Pods-PayUUPIBoltObjCSampleApp-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-Analytics/PayUAnalyticsKit.framework/PayUAnalyticsKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-AssetLibrary/PayUAssetLibraryKit.framework/PayUAssetLibraryKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-CrashReporter/PayUCrashReporter.framework/PayUCrashReporter
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-NetworkReachability/PayUNetworkReachability.framework/PayUNetworkReachability
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-UPIBoltBaseKit/PayUUPIBoltBaseKit.framework/PayUUPIBoltBaseKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-UPIBoltKit/PayUUPIBoltKit.framework/PayUUPIBoltKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUIndia-UPIBoltUIKit/PayUUPIBoltUIKit.framework/PayUUPIBoltUIKit
