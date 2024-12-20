@@ -23,11 +23,11 @@ class BoltSDKHelper {
     }
     
     func testisUPIBoltSDKAvailable(pg: String, callback: @escaping PayUUPIBoltCallBack) {
-        bolt?.isUPIBoltSDKAvailable(pg: pg, callback: callback)
+        bolt?.isUPIBoltEnabled(callback: callback)
     }
 
     func testStartDeviceBinding(callback: @escaping PayUUPIBoltCallBack) {
-        bolt?.startDeviceBinding(parentVC: parentVC, callback: callback)
+        bolt?.checkDeviceStatus(parentVC: parentVC, callback: callback)
     }
 
     func testFetchBankList(callback: @escaping PayUUPIBoltCallBack) {
@@ -53,7 +53,7 @@ class BoltSDKHelper {
         vpa: String,
         completionHandler: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.fetchVpaProfile(vpa: vpa, callback: completionHandler)
+        bolt?.fetchVPAProfile(vpa: vpa, callback: completionHandler)
     }
     
     func testSaveVPA(
@@ -62,21 +62,21 @@ class BoltSDKHelper {
         nickName: String,
         completionHandler: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.saveVpa(vpa: vpa, name: name, nickName: nickName, callback: completionHandler)
+        bolt?.saveVPA(vpa: vpa, name: name, nickName: nickName, callback: completionHandler)
     }
 
     func testDeleteVPA(
         vpa: String,
         completionHandler: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.deleteVpa(vpa: vpa, callback: completionHandler)
+        bolt?.deleteVPA(vpa: vpa, callback: completionHandler)
     }
 
     func testFetchRegisteredVPAList(
         vpa: String,
         completionHandler: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.fetchRegisteredVpaList(callback: completionHandler)
+        bolt?.fetchRegisteredVPAList(callback: completionHandler)
     }
 
     func testRegisterVpaAPI(
@@ -90,9 +90,9 @@ class BoltSDKHelper {
         accountDetail.accountId = "81280"
         accountDetail.accountName = "ABC"
         accountDetail.accountNo = "878658XXXXXXXX8"
-        accountDetail.ifscCode = "AABD0000011"
+        accountDetail.ifsc = "AABD0000011"
         accountDetail.accountType = "SAVINGS"
-        bolt?.updateVpa(accountDetail: accountDetail, callback: completionHandler)
+        bolt?.setVPA(accountDetail: accountDetail, callback: completionHandler)
     }
 
     func testTransactionStatus(txnId: String, completionHandler: @escaping PayUUPIBoltCallBack) {
@@ -114,14 +114,14 @@ class BoltSDKHelper {
         upiTransactionRefNo: String,
         completionHandler: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.getDisputeTypeList(
+        bolt?.fetchQueryTypeList(
             upiTransactionRefNo: upiTransactionRefNo,
             callback: completionHandler
         )
     }
     
     func testGetUserProfile(completionHandler: @escaping PayUUPIBoltCallBack) {
-        bolt?.fetchVpaProfile(vpa:"",callback: completionHandler)
+        bolt?.fetchVPAProfile(vpa:"",callback: completionHandler)
     }
     
     func testAddAccount(
@@ -135,7 +135,7 @@ class BoltSDKHelper {
         let accountInfo = PayUUPIBoltAccountDetail()
         accountInfo.vpa = vpa
         accountInfo.accountId = accountId
-        accountInfo.customerName = name
+        accountInfo.accountName = name
 //        accountInfo.defVPAStatus = defaultVPAStatus
         accountInfo.defaultFlag = primaryAccount
         bolt?.addAccount(accountDetail: accountInfo, callback: completionHandler)
@@ -197,19 +197,21 @@ class BoltSDKHelper {
         accountDetail.vpa = "9876543210@hdfc"
         accountDetail.mbeba = "N" // MPIN flag represents if the MPIN is already set ( Y - Yes/ N - NO)
         accountDetail.aeba = "N" // (Y- Yes,it is aadhar enabled payment system / N - No, It is not aadhar enabled payment system )
+//        accountDetail.formatType = "FORMAT2"
+        
         accountDetail.accountId = "81280"
         accountDetail.accountName = "ABC"
         accountDetail.bankCode = "AABD"
         accountDetail.accountType = "SAVINGS"
         accountDetail.formatType = "FORMAT1"
-        accountDetail.atmPinLength = "0"
+        accountDetail.atmdLength = "0"
         accountDetail.bankName = "Mybank"
         accountDetail.bankId = "20369"
         accountDetail.formatType = "FORMAT1"
         accountDetail.credentialType = "NUM"
         accountDetail.credentialLength = "6"
-        accountDetail.otpCredentialType = "NUM"
-        accountDetail.otpLength = "6"
+        accountDetail.otpdType = "NUM"
+        accountDetail.otpdLength = "6"
         accountDetail.iin = "500007"
         accountDetail.vpa = "9876543210@hdfc"
         accountDetail.accountNo = "878658XXXXXXXX8"
@@ -217,21 +219,21 @@ class BoltSDKHelper {
         accountDetail.note = "Payment"
 
         accountDetail.aeba = "N"
-        accountDetail.atmPinLength = "6"
-        accountDetail.ifscCode = "AABD0000011"
-        accountDetail.otpLength = "6"
-        accountDetail.otpDataType = "NUM"
+        accountDetail.atmdLength = "6"
+        accountDetail.ifsc = "AABD0000011"
+        accountDetail.otpdLength = "6"
+        accountDetail.otpdType = "NUM"
         accountDetail.mbeba = "Y"
         accountDetail.expiry = "0526"
         accountDetail.cardNo = "562653"
         accountDetail.cardType = "DEBIT"
         accountDetail.accountType = "SAVINGS"
 
-        bolt?.activateAccount(parentVC: parentVC, accountDetail: accountDetail, callback: completionHandler)
+        bolt?.setMPIN(parentVC: parentVC, accountDetail: accountDetail, callback: completionHandler)
     }
     
     func testRaiseDispute(completionHandler: @escaping PayUUPIBoltCallBack) {
-        bolt?.raiseDispute(
+        bolt?.raiseQuery(
             txnId: "payu1725349504760",
             refId: "payu1725349504760",
             amount: "1.00",
@@ -253,7 +255,7 @@ class BoltSDKHelper {
         account.accountId = "56725"
         account.vpa = vpa
         bolt?.removeAccount(
-            accountList: [account],
+            accountDetail: account,
             requestType: "DA",
             callback: completionHandler
         )
@@ -264,7 +266,7 @@ class BoltSDKHelper {
         account.accountId = "56725"
         account.vpa = vpa
         bolt?.removeAccount(
-            accountList: [account],
+            accountDetail: account,
             requestType: "RA",
             callback: completionHandler
         )

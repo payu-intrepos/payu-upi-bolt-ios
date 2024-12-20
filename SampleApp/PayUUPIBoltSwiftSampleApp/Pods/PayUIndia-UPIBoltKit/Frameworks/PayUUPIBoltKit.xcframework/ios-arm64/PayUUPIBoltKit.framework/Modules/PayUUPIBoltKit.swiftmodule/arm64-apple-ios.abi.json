@@ -1622,19 +1622,13 @@
         "children": [
           {
             "kind": "Function",
-            "name": "isUPIBoltSDKAvailable",
-            "printedName": "isUPIBoltSDKAvailable(pg:callback:)",
+            "name": "isUPIBoltEnabled",
+            "printedName": "isUPIBoltEnabled(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -1656,10 +1650,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)isUPIBoltSDKAvailableWithPg:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC21isUPIBoltSDKAvailable2pg8callbackySS_y0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)isUPIBoltEnabledWithCallback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC16isUPIBoltEnabled8callbackyy0ab4BaseC00aB8ResponseCc_tF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "isUPIBoltSDKAvailableWithPg:callback:",
+            "objc_name": "isUPIBoltEnabledWithCallback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1668,8 +1662,8 @@
           },
           {
             "kind": "Function",
-            "name": "startDeviceBinding",
-            "printedName": "startDeviceBinding(parentVC:callback:)",
+            "name": "checkDeviceStatus",
+            "printedName": "checkDeviceStatus(parentVC:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1702,10 +1696,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)startDeviceBindingWithParentVC:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC18startDeviceBinding8parentVC8callbackySo16UIViewControllerC_y0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)checkDeviceStatusWithParentVC:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC17checkDeviceStatus8parentVC8callbackySo16UIViewControllerC_y0ab4BaseC00aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "startDeviceBindingWithParentVC:callback:",
+            "objc_name": "checkDeviceStatusWithParentVC:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1976,8 +1970,106 @@
           },
           {
             "kind": "Function",
-            "name": "activateAccount",
-            "printedName": "activateAccount(parentVC:accountDetail:callback:)",
+            "name": "checkVPA",
+            "printedName": "checkVPA(vpa:requestType:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUUPIBoltResponse",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)checkVPAWithVpa:requestType:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC8checkVPA3vpa11requestType8callbackySS_SSy0ab4BaseC00aB8ResponseCctF",
+            "moduleName": "PayUUPIBoltKit",
+            "objc_name": "checkVPAWithVpa:requestType:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVPA",
+            "printedName": "setVPA(accountDetail:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PayUUPIBoltAccountDetail",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltAccountDetail"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUUPIBoltResponse",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)setVPAWithAccountDetail:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC6setVPA13accountDetail8callbacky0ab4BaseC00ab7AccountH0C_yAG0aB8ResponseCctF",
+            "moduleName": "PayUUPIBoltKit",
+            "objc_name": "setVPAWithAccountDetail:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMPIN",
+            "printedName": "setMPIN(parentVC:accountDetail:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2016,156 +2108,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)activateAccountWithParentVC:accountDetail:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC15activateAccount8parentVC13accountDetail8callbackySo16UIViewControllerC_0ab4BaseC00abfJ0CyAJ0aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)setMPINWithParentVC:accountDetail:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC7setMPIN8parentVC13accountDetail8callbackySo16UIViewControllerC_0ab4BaseC00ab7AccountJ0CyAJ0aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "activateAccountWithParentVC:accountDetail:callback:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAccount",
-            "printedName": "removeAccount(accountList:requestType:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltAccountDetail",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltAccountDetail"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltResponse",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)removeAccountWithAccountList:requestType:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC13removeAccount11accountList11requestType8callbackySay0ab4BaseC00abF6DetailCG_SSyAH0aB8ResponseCctF",
-            "moduleName": "PayUUPIBoltKit",
-            "objc_name": "removeAccountWithAccountList:requestType:callback:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAccount",
-            "printedName": "addAccount(accountDetail:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PayUUPIBoltAccountDetail",
-                "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltAccountDetail"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltResponse",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)addAccountWithAccountDetail:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC10addAccount13accountDetail8callbacky0ab4BaseC00abfH0C_yAG0aB8ResponseCctF",
-            "moduleName": "PayUUPIBoltKit",
-            "objc_name": "addAccountWithAccountDetail:callback:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deregister",
-            "printedName": "deregister(callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltResponse",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)deregisterWithCallback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC10deregister8callbackyy0ab4BaseC00aB8ResponseCc_tF",
-            "moduleName": "PayUUPIBoltKit",
-            "objc_name": "deregisterWithCallback:",
+            "objc_name": "setMPINWithParentVC:accountDetail:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2226,60 +2172,8 @@
           },
           {
             "kind": "Function",
-            "name": "checkVPA",
-            "printedName": "checkVPA(vpa:requestType:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltResponse",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)checkVPAWithVpa:requestType:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC8checkVPA3vpa11requestType8callbackySS_SSy0ab4BaseC00aB8ResponseCctF",
-            "moduleName": "PayUUPIBoltKit",
-            "objc_name": "checkVPAWithVpa:requestType:callback:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateVpa",
-            "printedName": "updateVpa(accountDetail:callback:)",
+            "name": "addAccount",
+            "printedName": "addAccount(accountDetail:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2312,10 +2206,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)updateVpaWithAccountDetail:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC9updateVpa13accountDetail8callbacky0ab4BaseC00ab7AccountH0C_yAG0aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)addAccountWithAccountDetail:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC10addAccount13accountDetail8callbacky0ab4BaseC00abfH0C_yAG0aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "updateVpaWithAccountDetail:callback:",
+            "objc_name": "addAccountWithAccountDetail:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2324,8 +2218,100 @@
           },
           {
             "kind": "Function",
-            "name": "getDisputeTypeList",
-            "printedName": "getDisputeTypeList(upiTransactionRefNo:callback:)",
+            "name": "removeAccount",
+            "printedName": "removeAccount(accountDetail:requestType:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PayUUPIBoltAccountDetail",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltAccountDetail"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUUPIBoltResponse",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)removeAccountWithAccountDetail:requestType:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC13removeAccount13accountDetail11requestType8callbacky0ab4BaseC00abfH0C_SSyAH0aB8ResponseCctF",
+            "moduleName": "PayUUPIBoltKit",
+            "objc_name": "removeAccountWithAccountDetail:requestType:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deregister",
+            "printedName": "deregister(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUUPIBoltResponse",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)deregisterWithCallback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC10deregister8callbackyy0ab4BaseC00aB8ResponseCc_tF",
+            "moduleName": "PayUUPIBoltKit",
+            "objc_name": "deregisterWithCallback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchQueryTypeList",
+            "printedName": "fetchQueryTypeList(upiTransactionRefNo:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2358,10 +2344,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)getDisputeTypeListWithUpiTransactionRefNo:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC18getDisputeTypeList19upiTransactionRefNo8callbackySS_y0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchQueryTypeListWithUpiTransactionRefNo:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC18fetchQueryTypeList19upiTransactionRefNo8callbackySS_y0ab4BaseC00aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "getDisputeTypeListWithUpiTransactionRefNo:callback:",
+            "objc_name": "fetchQueryTypeListWithUpiTransactionRefNo:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2370,8 +2356,72 @@
           },
           {
             "kind": "Function",
-            "name": "disputeList",
-            "printedName": "disputeList(callback:)",
+            "name": "raiseQuery",
+            "printedName": "raiseQuery(txnId:refId:amount:query:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUUPIBoltResponse",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)raiseQueryWithTxnId:refId:amount:query:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC10raiseQuery5txnId03refH06amount5query8callbackySS_S3Sy0ab4BaseC00aB8ResponseCctF",
+            "moduleName": "PayUUPIBoltKit",
+            "objc_name": "raiseQueryWithTxnId:refId:amount:query:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchQueryList",
+            "printedName": "fetchQueryList(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2398,10 +2448,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)disputeListWithCallback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC11disputeList8callbackyy0ab4BaseC00aB8ResponseCc_tF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchQueryListWithCallback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC14fetchQueryList8callbackyy0ab4BaseC00aB8ResponseCc_tF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "disputeListWithCallback:",
+            "objc_name": "fetchQueryListWithCallback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2554,37 +2604,13 @@
           },
           {
             "kind": "Function",
-            "name": "raiseDispute",
-            "printedName": "raiseDispute(txnId:refId:amount:query:callback:)",
+            "name": "cancelTransaction",
+            "printedName": "cancelTransaction(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -2606,10 +2632,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)raiseDisputeWithTxnId:refId:amount:query:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC12raiseDispute5txnId03refH06amount5query8callbackySS_S3Sy0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)cancelTransactionWithCallback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC17cancelTransaction8callbackyy0ab4BaseC00aB8ResponseCc_tF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "raiseDisputeWithTxnId:refId:amount:query:callback:",
+            "objc_name": "cancelTransactionWithCallback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2670,48 +2696,8 @@
           },
           {
             "kind": "Function",
-            "name": "cancelTransaction",
-            "printedName": "cancelTransaction(callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PayUUPIBoltResponse",
-                    "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltResponse",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)cancelTransactionWithCallback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC17cancelTransaction8callbackyy0ab4BaseC00aB8ResponseCc_tF",
-            "moduleName": "PayUUPIBoltKit",
-            "objc_name": "cancelTransactionWithCallback:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchVpaProfile",
-            "printedName": "fetchVpaProfile(vpa:callback:)",
+            "name": "fetchVPAProfile",
+            "printedName": "fetchVPAProfile(vpa:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2744,10 +2730,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchVpaProfileWithVpa:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC15fetchVpaProfile3vpa8callbackySS_y0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchVPAProfileWithVpa:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC15fetchVPAProfile3vpa8callbackySS_y0ab4BaseC00aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "fetchVpaProfileWithVpa:callback:",
+            "objc_name": "fetchVPAProfileWithVpa:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -2757,8 +2743,8 @@
           },
           {
             "kind": "Function",
-            "name": "saveVpa",
-            "printedName": "saveVpa(vpa:name:nickName:callback:)",
+            "name": "saveVPA",
+            "printedName": "saveVPA(vpa:name:nickName:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2803,10 +2789,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)saveVpaWithVpa:name:nickName:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC7saveVpa3vpa4name8nickName8callbackySS_S2Sy0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)saveVPAWithVpa:name:nickName:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC7saveVPA3vpa4name8nickName8callbackySS_S2Sy0ab4BaseC00aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "saveVpaWithVpa:name:nickName:callback:",
+            "objc_name": "saveVPAWithVpa:name:nickName:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2815,8 +2801,8 @@
           },
           {
             "kind": "Function",
-            "name": "deleteVpa",
-            "printedName": "deleteVpa(vpa:callback:)",
+            "name": "deleteVPA",
+            "printedName": "deleteVPA(vpa:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2849,10 +2835,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)deleteVpaWithVpa:callback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC9deleteVpa3vpa8callbackySS_y0ab4BaseC00aB8ResponseCctF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)deleteVPAWithVpa:callback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC9deleteVPA3vpa8callbackySS_y0ab4BaseC00aB8ResponseCctF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "deleteVpaWithVpa:callback:",
+            "objc_name": "deleteVPAWithVpa:callback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2861,8 +2847,8 @@
           },
           {
             "kind": "Function",
-            "name": "fetchRegisteredVpaList",
-            "printedName": "fetchRegisteredVpaList(callback:)",
+            "name": "fetchRegisteredVPAList",
+            "printedName": "fetchRegisteredVPAList(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2889,10 +2875,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchRegisteredVpaListWithCallback:",
-            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC22fetchRegisteredVpaList8callbackyy0ab4BaseC00aB8ResponseCc_tF",
+            "usr": "c:@M@PayUUPIBoltKit@objc(cs)PayUUPIBoltInterface(im)fetchRegisteredVPAListWithCallback:",
+            "mangledName": "$s14PayUUPIBoltKit0aB9InterfaceC22fetchRegisteredVPAList8callbackyy0ab4BaseC00aB8ResponseCc_tF",
             "moduleName": "PayUUPIBoltKit",
-            "objc_name": "fetchRegisteredVpaListWithCallback:",
+            "objc_name": "fetchRegisteredVPAListWithCallback:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -4644,595 +4630,602 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10971,
+      "offset": 10943,
       "length": 5,
       "value": "\"UPI\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11016,
+      "offset": 10988,
       "length": 20,
       "value": "\"TRANSACTION_STATUS\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11061,
+      "offset": 11033,
       "length": 4,
       "value": "\"U1\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11091,
+      "offset": 11063,
       "length": 5,
       "value": "\"TXN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11122,
+      "offset": 11094,
       "length": 5,
       "value": "\"P2M\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11155,
+      "offset": 11127,
       "length": 4,
       "value": "\"00\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11216,
+      "offset": 11188,
       "length": 9,
       "value": "\"payment\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11317,
+      "offset": 11289,
       "length": 23,
       "value": "\"https:\/\/info.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11396,
+      "offset": 11368,
       "length": 27,
       "value": "\"https:\/\/pp30info.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11482,
+      "offset": 11454,
       "length": 25,
       "value": "\"https:\/\/secure.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11560,
+      "offset": 11532,
       "length": 29,
       "value": "\"https:\/\/pp30secure.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11643,
+      "offset": 11615,
       "length": 22,
       "value": "\"https:\/\/api.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11713,
+      "offset": 11685,
       "length": 26,
       "value": "\"https:\/\/pp30api.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11790,
+      "offset": 11762,
       "length": 33,
       "value": "\"https:\/\/pingupi.axisbank.co.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11868,
+      "offset": 11840,
       "length": 32,
       "value": "\"https:\/\/upiuat.axisbank.co.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11925,
+      "offset": 11897,
       "length": 10,
       "value": "\"_payment\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11969,
+      "offset": 11941,
       "length": 17,
       "value": "\"sdk\/transaction\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12013,
+      "offset": 11985,
       "length": 29,
       "value": "\"merchant\/postservice?form=2\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12065,
+      "offset": 12037,
       "length": 28,
       "value": "\"payment-mode\/v1\/sdk-plugin\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12114,
+      "offset": 12086,
       "length": 23,
       "value": "\"v1\/v2\/sdk\/servertoken\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12168,
+      "offset": 12140,
       "length": 21,
       "value": "\"upi-plugin\/v1\/token\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13796,
+      "offset": 13768,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13822,
+      "offset": 13794,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13902,
+      "offset": 13874,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13981,
+      "offset": 13953,
       "length": 50,
       "value": "\"application\/x-www-form-urlencoded; charset=utf-8\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14084,
+      "offset": 14056,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14122,
+      "offset": 14094,
       "length": 21,
       "value": "\"Cancel Transaction?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14169,
+      "offset": 14141,
       "length": 5,
       "value": "\"YES\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14199,
+      "offset": 14171,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14261,
+      "offset": 14233,
       "length": 40,
       "value": "\"Do you want to cancel this transaction\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14354,
+      "offset": 14326,
       "length": 21,
       "value": "\"(\\d*)(\\.)?(\\d*)?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14403,
+      "offset": 14375,
       "length": 51,
       "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14482,
+      "offset": 14454,
       "length": 18,
       "value": "\"^[5-9][0-9]{11}$\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14531,
+      "offset": 14503,
       "length": 21,
       "value": "\"^#([A-Fa-f0-9]{6})$\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14605,
+      "offset": 14577,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14628,
+      "offset": 14600,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14659,
+      "offset": 14631,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14685,
+      "offset": 14657,
       "length": 2,
       "value": "99"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14715,
+      "offset": 14687,
       "length": 3,
-      "value": "100"
+      "value": "502"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14750,
+      "offset": 14722,
       "length": 3,
       "value": "103"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14786,
+      "offset": 14758,
       "length": 3,
       "value": "104"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14824,
+      "offset": 14796,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14834,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14854,
+      "offset": 14864,
       "length": 3,
       "value": "501"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15494,
+      "offset": 15570,
       "length": 89,
       "value": "\"Device registration attempts for the day are exhausted. Please try again after 24 hours\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15620,
+      "offset": 15696,
       "length": 24,
       "value": "\"Message sending failed\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15688,
+      "offset": 15764,
       "length": 42,
       "value": "\"Message Sending failed with UnknownError\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15769,
+      "offset": 15845,
       "length": 26,
       "value": "\"Mobile number mismatched\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15831,
+      "offset": 15907,
       "length": 23,
       "value": "\"MPIN set successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15897,
+      "offset": 15973,
       "length": 30,
       "value": "\"Account deleted successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15975,
+      "offset": 16051,
       "length": 35,
       "value": "\"Account deregistered successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16050,
+      "offset": 16126,
       "length": 27,
       "value": "\"MPIN changed successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16114,
+      "offset": 16190,
       "length": 24,
       "value": "\"VPA saved successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16177,
+      "offset": 16253,
       "length": 26,
       "value": "\"VPA deleted successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16242,
+      "offset": 16318,
       "length": 26,
       "value": "\"VPA updated successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16298,
+      "offset": 16374,
       "length": 31,
       "value": "\"User canceled the transaction\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16362,
+      "offset": 16438,
       "length": 19,
       "value": "\"Handshake success\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16413,
+      "offset": 16489,
       "length": 18,
       "value": "\"Handshake failed\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16464,
+      "offset": 16540,
       "length": 24,
       "value": "\"UPI bolt not supported\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16523,
+      "offset": 16599,
       "length": 27,
       "value": "\"Method bolt not supported\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16579,
+      "offset": 16655,
       "length": 19,
       "value": "\"BE token is valid\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16622,
+      "offset": 16698,
       "length": 10,
       "value": "\"Time out\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16659,
+      "offset": 16735,
       "length": 13,
       "value": "\"Invalid URL\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16701,
+      "offset": 16777,
       "length": 15,
       "value": "\"Invalid token\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16754,
+      "offset": 16830,
       "length": 25,
       "value": "\"Invalid payment request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16817,
+      "offset": 16893,
       "length": 29,
       "value": "\"Payment not initialised yet\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16881,
+      "offset": 16957,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 16931,
+      "offset": 17007,
       "length": 60,
       "value": "\" - SDK not found. Please check your framework dependencies\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17034,
+      "offset": 17110,
       "length": 31,
       "value": "\"Invalid check balance request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17111,
+      "offset": 17187,
       "length": 34,
       "value": "\"Invalid Activate Account request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17189,
+      "offset": 17265,
       "length": 32,
       "value": "\"Invalid Remove Account request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17262,
+      "offset": 17338,
       "length": 29,
       "value": "\"Invalid Change Mpin request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17331,
+      "offset": 17407,
       "length": 28,
       "value": "\"Invalid Update VPA request\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17383,
+      "offset": 17459,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17454,
+      "offset": 17530,
       "length": 9,
       "value": "\"SAVINGS\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17486,
+      "offset": 17562,
       "length": 8,
       "value": "\"CREDIT\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17518,
+      "offset": 17594,
       "length": 9,
       "value": "\"CURRENT\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17581,
+      "offset": 17657,
       "length": 6,
       "value": "\"AXIS\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17608,
+      "offset": 17684,
       "length": 6,
       "value": "\"HDFC\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17669,
+      "offset": 17745,
       "length": 33,
       "value": "\"OlivePayLibrary.OliveUpiManager\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17729,
+      "offset": 17805,
       "length": 12,
       "value": "\"CLServices\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17768,
+      "offset": 17844,
       "length": 40,
       "value": "\"PayUUPIHdfcPluginKit.PayUUPIHdfcPlugin\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 17978,
+      "offset": 18054,
       "length": 4,
       "value": "\"VA\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 18011,
+      "offset": 18087,
       "length": 4,
       "value": "\"AC\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 18042,
+      "offset": 18118,
       "length": 4,
       "value": "\"AD\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 18080,
+      "offset": 18156,
       "length": 4,
       "value": "\"MI\""
     },
@@ -5314,13 +5307,6 @@
       "value": "\"merchId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Implementaiton\/AXIS\/Implementation\/AxisUPIBoltImplementation.swift",
-      "kind": "StringLiteral",
-      "offset": 3224,
-      "length": 4,
-      "value": "\"DA\""
-    },
-    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
       "offset": 175,
@@ -5351,49 +5337,49 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 678,
       "length": 7,
       "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 691,
+      "offset": 711,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 744,
       "length": 9,
       "value": "\"error: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 780,
       "length": 12,
       "value": "\"hashName: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 821,
       "length": 12,
       "value": "\"noHashName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 843,
+      "offset": 863,
       "length": 9,
       "value": "\"count: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventData.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 908,
       "length": 19,
       "value": "\"classReferenceNil\""
     },
@@ -5715,77 +5701,91 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2206,
+      "length": 13,
+      "value": "\"plugin_type\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
       "length": 18,
       "value": "\"isUpiBoltEnabled\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3143,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3125,
+      "offset": 3171,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3187,
+      "offset": 3233,
       "length": 6,
       "value": "\"High\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3259,
       "length": 5,
       "value": "\"Low\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3356,
+      "offset": 3402,
       "length": 19,
       "value": "\"Paying Amount: %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3415,
+      "offset": 3461,
       "length": 25,
       "value": "\"Initiate Pay Amount: %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3525,
       "length": 20,
       "value": "\"Resetting Bolt Kit\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "Dictionary",
-      "offset": 3536,
+      "offset": 3582,
       "length": 424,
       "value": "[(\"merchId\", \"\"), (\"merchChanId\", \"\"), (\"balance\", \"\"), (\"otp\", \"\"), (\"mpin\", \"\"), (\"merchantauthtoken\", \"\"), (\"email\", \"\"), (\"hash\", \"\"), (\"checkSum\", \"\"), (\"atmpinFormat\", \"\"), (\"merchantchannelid\", \"\"), (\"customerId\", \"\"), (\"mcc\", \"\"), (\"submerchantid\", \"\"), (\"merchantId\", \"\"), (\"merchantvpa\", \"\"), (\"name\", \"\")]"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "Dictionary",
-      "offset": 3990,
+      "offset": 4036,
       "length": 260,
       "value": "[(\"mobileNumber\", \"\"), (\"phone\", \"\"), (\"mobileNo\", \"\"), (\"accountNo\", \"\"), (\"accountId\", \"\"), (\"accRefNumber\", \"\"), (\"accountNumber\", \"\"), (\"unqCustId\", \"\"), (\"vpa\", \"\"), (\"virtualAddress\", \"\")]"
     },
     {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Utils\/Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4950,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltKit\/PayUUPIBoltKit\/Internal Files\/Implementaiton\/HDFC\/Implementation\/HdfcUPIBoltImplementation.swift",
       "kind": "StringLiteral",
-      "offset": 3983,
+      "offset": 3594,
       "length": 4,
       "value": "\"DA\""
     },

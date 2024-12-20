@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PayUUPIBoltBaseKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
@@ -452,28 +452,29 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc public class PayUUPIBoltAccountDetail : ObjectiveC.NSObject, Foundation.NSCopying, Swift.Codable {
+@_inheritsConvenienceInitializers @objc public class PayUUPIBoltAccountDetail : ObjectiveC.NSObject, Foundation.NSCopying, Swift.Codable {
   @objc public var accountId: Swift.String?
   @objc public var accountNo: Swift.String?
-  @objc public var unmaskAccountNo: Swift.String?
-  @objc public var ifscCode: Swift.String?
   @objc public var accountName: Swift.String?
+  @objc public var accountType: Swift.String?
+  @objc public var bankId: Swift.String?
+  @objc public var bankName: Swift.String?
   @objc public var bankCode: Swift.String?
   @objc public var credentialType: Swift.String?
   @objc public var credentialLength: Swift.String?
   @objc public var aeba: Swift.String?
   @objc public var mmid: Swift.String?
   @objc public var mbeba: Swift.String?
-  @objc public var accountType: Swift.String?
-  @objc public var formatType: Swift.String?
-  @objc public var atmPinLength: Swift.String?
-  @objc public var bankName: Swift.String?
-  @objc public var otpCredentialType: Swift.String?
-  @objc public var otpLength: Swift.String?
-  @objc public var dLength: Swift.String?
-  @objc public var dType: Swift.String?
+  @objc public var status: Swift.String?
+  @objc public var ifsc: Swift.String?
   @objc public var iin: Swift.String?
-  @objc public var bankId: Swift.String?
+  @objc public var formatType: Swift.String?
+  @objc public var atmdLength: Swift.String?
+  @objc public var otpdLength: Swift.String?
+  @objc public var dLength: Swift.String?
+  @objc public var atmdType: Swift.String?
+  @objc public var otpdType: Swift.String?
+  @objc public var dType: Swift.String?
   @objc public var vpa: Swift.String?
   @objc public var defVPAStatus: Swift.String?
   @objc public var defaultFlag: Swift.String?
@@ -486,12 +487,10 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var expiry: Swift.String?
   @objc public var balance: Swift.String?
   @objc public var baltime: Swift.String?
-  @objc public var atmDataType: Swift.String?
-  @objc public var otpDataType: Swift.String?
   @objc public var intlAccFlag: Swift.String?
   @objc public var preferredFlag: Swift.String?
-  @objc public init(accountId: Swift.String? = nil, accountNo: Swift.String? = nil, unmaskAccountNo: Swift.String? = nil, ifscCode: Swift.String? = nil, accountName: Swift.String? = nil, bankCode: Swift.String? = nil, credentialType: Swift.String? = nil, credentialLength: Swift.String? = nil, aeba: Swift.String? = nil, mbeba: Swift.String? = nil, accountType: Swift.String? = nil, formatType: Swift.String? = nil, atmPinLength: Swift.String? = nil, bankName: Swift.String? = nil, otpCredentialType: Swift.String? = nil, otpLength: Swift.String? = nil, dLength: Swift.String? = nil, dType: Swift.String? = nil, iin: Swift.String? = nil, bankId: Swift.String? = nil, vpa: Swift.String? = nil, defVPAStatus: Swift.String? = nil, defaultFlag: Swift.String? = nil, customerName: Swift.String? = nil, refUrl: Swift.String? = nil, cardNo: Swift.String? = nil, expiry: Swift.String? = nil, balance: Swift.String? = nil, baltime: Swift.String? = nil, atmDataType: Swift.String? = nil, otpDataType: Swift.String? = nil, intlAccFlag: Swift.String? = nil, preferredFlag: Swift.String? = nil)
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -569,10 +568,10 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var creditVPA: Swift.String?
   @objc public var creditBankName: Swift.String?
   @objc public var query: Swift.String?
-  @objc public var querystatus: Swift.String?
-  @objc public var querydate: Foundation.Date?
+  @objc public var queryStatus: Swift.String?
+  @objc public var queryDate: Foundation.Date?
   @objc public var queryId: Swift.String?
-  @objc public var expirydatetime: Swift.String?
+  @objc public var expiryDateTime: Swift.String?
   @objc public var status: Swift.String?
   @objc public var mcc: Swift.String?
   @objc public var initMode: Swift.String?
