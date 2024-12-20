@@ -3,10 +3,10 @@
 
 import PackageDescription
 
-let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.0"
-let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.0"
-let VERSION_NETWORK_REACHABILITY: PackageDescription.Version = "2.1.0"
-let VERSION_ASSET_LIBRARY: PackageDescription.Version = "4.0.0"
+let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.2"
+let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.1"
+let VERSION_NETWORK_REACHABILITY: PackageDescription.Version = "2.1.1"
+let VERSION_ASSET_LIBRARY: PackageDescription.Version = "4.0.1"
 
 let package = Package(
     name: "PayUUPIBoltUIKit",
