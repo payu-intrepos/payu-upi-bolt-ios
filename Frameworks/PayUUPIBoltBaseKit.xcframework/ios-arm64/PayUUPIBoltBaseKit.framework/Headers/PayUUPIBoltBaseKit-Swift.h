@@ -305,25 +305,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSString;
 
-SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit19CustomerDisputeList")
-@interface CustomerDisputeList : NSObject
-@property (nonatomic, copy) NSString * _Nullable ticketNo;
-@property (nonatomic, copy) NSString * _Nullable pgMeTrnRefNo;
-@property (nonatomic, copy) NSString * _Nullable status;
-@property (nonatomic, copy) NSString * _Nullable storeId;
-@property (nonatomic, copy) NSString * _Nullable crtDate;
-@property (nonatomic, copy) NSString * _Nullable fvaddr;
-@property (nonatomic, copy) NSString * _Nullable custid;
-@property (nonatomic, copy) NSString * _Nullable targetDate;
-@property (nonatomic, copy) NSString * _Nullable custRefNo;
-@property (nonatomic, copy) NSString * _Nullable reqReasnDesc;
-@property (nonatomic, copy) NSString * _Nullable txnid;
-@property (nonatomic, copy) NSString * _Nullable txnRemark;
-@property (nonatomic, copy) NSString * _Nullable amount;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit20DisputeComplaintInfo")
 @interface DisputeComplaintInfo : NSObject
 @property (nonatomic, copy) NSString * _Nullable actionType;
@@ -338,14 +319,6 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit20DisputeComplaintInfo")
 @property (nonatomic, copy) NSString * _Nullable orgTxnId;
 @property (nonatomic, copy) NSString * _Nullable rrn;
 @property (nonatomic, copy) NSString * _Nullable userMsg;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit15DisputeTypeList")
-@interface DisputeTypeList : NSObject
-@property (nonatomic, copy) NSString * _Nullable reasonCode;
-@property (nonatomic, copy) NSString * _Nullable reasonDesc;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -498,6 +471,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit21PayUUPIBoltBaseConfig")
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull excludedBanksIINs;
 @property (nonatomic, copy) NSString * _Nonnull clientId;
 @property (nonatomic) BOOL isProduction;
+@property (nonatomic) BOOL isProtectSenstiveScreen;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithMerchantName:(NSString * _Nonnull)merchantName merchantKey:(NSString * _Nonnull)merchantKey phone:(NSString * _Nonnull)phone email:(NSString * _Nonnull)email refId:(NSString * _Nonnull)refId pluginTypes:(NSArray<NSString *> * _Nonnull)pluginTypes excludedBanksIINs:(NSArray<NSString *> * _Nonnull)excludedBanksIINs clientId:(NSString * _Nonnull)clientId isProduction:(BOOL)isProduction OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -526,29 +500,21 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit25PayUUPIBoltCheckVpaDetail")
 @end
 
 
-SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit29PayUUPIBoltCustomerDeviceInfo")
-@interface PayUUPIBoltCustomerDeviceInfo : NSObject
-@property (nonatomic, copy) NSString * _Nullable androidId;
-@property (nonatomic, copy) NSString * _Nullable appGenId;
-@property (nonatomic, copy) NSString * _Nullable appName;
-@property (nonatomic, copy) NSString * _Nullable appVersionCode;
-@property (nonatomic, copy) NSString * _Nullable appVersionName;
-@property (nonatomic, copy) NSString * _Nullable capability;
-@property (nonatomic, copy) NSString * _Nullable deviceId;
-@property (nonatomic, copy) NSString * _Nullable deviceType;
-@property (nonatomic, copy) NSString * _Nullable fcmToken;
-@property (nonatomic, copy) NSString * _Nullable geoCode;
-@property (nonatomic, copy) NSString * _Nullable ip;
-@property (nonatomic, copy) NSString * _Nullable location;
-@property (nonatomic, copy) NSString * _Nullable mobileNo;
-@property (nonatomic, copy) NSString * _Nullable os;
-@property (nonatomic, copy) NSString * _Nullable regId;
-@property (nonatomic, copy) NSString * _Nullable relayButton;
-@property (nonatomic, copy) NSString * _Nullable bluetoothMac;
-@property (nonatomic, copy) NSString * _Nullable safetyNetId;
-@property (nonatomic, copy) NSString * _Nullable simId;
-@property (nonatomic, copy) NSString * _Nullable wifiMac;
-@property (nonatomic, copy) NSString * _Nullable reverifyHashKey;
+SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit26PayUUPIBoltCustomerDispute")
+@interface PayUUPIBoltCustomerDispute : NSObject
+@property (nonatomic, copy) NSString * _Nullable ticketNo;
+@property (nonatomic, copy) NSString * _Nullable pgMeTrnRefNo;
+@property (nonatomic, copy) NSString * _Nullable status;
+@property (nonatomic, copy) NSString * _Nullable storeId;
+@property (nonatomic, copy) NSString * _Nullable crtDate;
+@property (nonatomic, copy) NSString * _Nullable fvaddr;
+@property (nonatomic, copy) NSString * _Nullable custid;
+@property (nonatomic, copy) NSString * _Nullable targetDate;
+@property (nonatomic, copy) NSString * _Nullable custRefNo;
+@property (nonatomic, copy) NSString * _Nullable reqReasnDesc;
+@property (nonatomic, copy) NSString * _Nullable txnid;
+@property (nonatomic, copy) NSString * _Nullable txnRemark;
+@property (nonatomic, copy) NSString * _Nullable amount;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -609,6 +575,14 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit23PayUUPIBoltDeviceStatus")
 @end
 
 
+SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit22PayUUPIBoltDisputeType")
+@interface PayUUPIBoltDisputeType : NSObject
+@property (nonatomic, copy) NSString * _Nullable reasonCode;
+@property (nonatomic, copy) NSString * _Nullable reasonDesc;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit16PayUUPIBoltError")
 @interface PayUUPIBoltError : NSObject
 @property (nonatomic, copy) NSString * _Nonnull message;
@@ -626,18 +600,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit25PayUUPIBoltGetDisputeList")
 @property (nonatomic, copy) NSString * _Nullable statusDesc;
 @property (nonatomic, copy) NSString * _Nullable ticketNo;
 @property (nonatomic, copy) NSString * _Nullable upiTranRefNo;
-@property (nonatomic, copy) NSArray<CustomerDisputeList *> * _Nullable listofCustDispute;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit29PayUUPIBoltGetDisputeTypeList")
-@interface PayUUPIBoltGetDisputeTypeList : NSObject
-@property (nonatomic, copy) NSString * _Nullable status;
-@property (nonatomic, copy) NSString * _Nullable statusDesc;
-@property (nonatomic, copy) NSString * _Nullable ticketNo;
-@property (nonatomic, copy) NSString * _Nullable upiTransactionRefNo;
-@property (nonatomic, copy) NSArray<DisputeTypeList *> * _Nullable disputeTypeList;
+@property (nonatomic, copy) NSArray<PayUUPIBoltCustomerDispute *> * _Nullable listofCustDispute;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -675,7 +638,6 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit23PayUUPIBoltInitiateMPIN")
 @property (nonatomic, copy) NSString * _Nullable upiTransactionRefNo;
 @property (nonatomic, copy) NSString * _Nullable npciTransactionId;
 @property (nonatomic, copy) NSString * _Nullable otpNpciTransactionId;
-@property (nonatomic, strong) PayUUPIBoltCustomerDeviceInfo * _Nullable deviceInfo;
 @property (nonatomic, strong) PayUUPIBoltInitiateMPINPayerType * _Nullable payerType;
 @property (nonatomic, copy) NSString * _Nullable transactionNote;
 @property (nonatomic, copy) NSString * _Nullable refUrl;
@@ -899,35 +861,18 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit29PayUUPIBoltTransactionHistory")
 @property (nonatomic, copy) NSString * _Nullable queryStatus;
 @property (nonatomic, copy) NSDate * _Nullable queryDate;
 @property (nonatomic, copy) NSString * _Nullable queryId;
-@property (nonatomic, copy) NSString * _Nullable expiryDateTime;
 @property (nonatomic, copy) NSString * _Nullable status;
-@property (nonatomic, copy) NSString * _Nullable mcc;
-@property (nonatomic, copy) NSString * _Nullable initMode;
-- (NSString * _Nullable)initMode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, copy) NSString * _Nullable purposeCode;
-@property (nonatomic, copy) NSString * _Nullable remarks;
-@property (nonatomic, copy) NSString * _Nullable umn;
-@property (nonatomic, copy) NSString * _Nullable refCategory;
 @property (nonatomic, copy) NSString * _Nullable beneficiaryName;
 @property (nonatomic, copy) NSString * _Nullable mobileNumber;
-@property (nonatomic) NSInteger id;
-/// txnId
-@property (nonatomic, copy) NSString * _Nullable clientTxnId;
-@property (nonatomic, copy) NSString * _Nullable subClientIdentifier;
+@property (nonatomic, copy) NSString * _Nullable remarks;
 @property (nonatomic, copy) NSString * _Nullable npciTxnId;
 @property (nonatomic, copy) NSString * _Nullable payerVpa;
 @property (nonatomic, copy) NSString * _Nullable payerAccountNumber;
-@property (nonatomic, copy) NSString * _Nullable payeeIfsc;
 @property (nonatomic, copy) NSString * _Nullable payerAccountType;
 @property (nonatomic, copy) NSString * _Nullable payeeVpa;
-@property (nonatomic, copy) NSString * _Nullable bankResponseCode;
 @property (nonatomic, copy) NSString * _Nullable message;
 @property (nonatomic, copy) NSString * _Nullable upiTransRefNo;
-@property (nonatomic, copy) NSString * _Nullable npciResponseCode;
-@property (nonatomic, copy) NSString * _Nullable addedOn;
 @property (nonatomic, copy) NSString * _Nullable updatedOn;
-@property (nonatomic, copy) NSString * _Nullable clientId;
-@property (nonatomic, copy) NSString * _Nullable customerId;
 @property (nonatomic, copy) NSString * _Nullable txnStatus;
 @property (nonatomic, copy) NSString * _Nullable payerBankName;
 @property (nonatomic, copy) NSString * _Nullable payeeName;
@@ -983,7 +928,6 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit28PayUUPIBoltVerifyServerGenId")
 @property (nonatomic, copy) NSString * _Nullable errcode;
 @property (nonatomic, copy) NSString * _Nullable servGenId;
 @property (nonatomic, strong) PayUUPIBoltServerGenIdRequestInfo * _Nullable requestInfo;
-@property (nonatomic, strong) PayUUPIBoltCustomerDeviceInfo * _Nullable deviceInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

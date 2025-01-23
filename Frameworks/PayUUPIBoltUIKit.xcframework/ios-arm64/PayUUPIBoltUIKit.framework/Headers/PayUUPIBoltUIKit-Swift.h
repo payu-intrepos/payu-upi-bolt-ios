@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import PayUUPIBoltBaseKit;
@@ -377,6 +378,33 @@ typedef SWIFT_ENUM(NSInteger, PayUUPIBoltUIScreenType, open) {
   PayUUPIBoltUIScreenTypeDeregisterUPI = 4,
 };
 
+@class UIView;
+
+SWIFT_CLASS("_TtC16PayUUPIBoltUIKit15ScreenProtector")
+@interface ScreenProtector : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ScreenProtector * _Nonnull shared;)
++ (ScreenProtector * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic) BOOL isEnabled;
+- (void)startScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)stopScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)startScreenRecordingProtection;
+- (void)stopScreenRecordingProtection;
+@end
+
+@class UIWindow;
+@class NSCoder;
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC16PayUUPIBoltUIKit19SecureContainerView")
+@interface SecureContainerView : UIView
+- (void)layoutSubviews;
+- (void)willMoveToWindow:(UIWindow * _Nullable)newWindow;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 @interface UIButton (SWIFT_EXTENSION(PayUUPIBoltUIKit))
 - (void)payuCustomizeFont;
@@ -407,6 +435,8 @@ typedef SWIFT_ENUM(NSInteger, PayUUPIBoltUIScreenType, open) {
 @interface UITextView (SWIFT_EXTENSION(PayUUPIBoltUIKit))
 - (void)payuCustomizeFont;
 @end
+
+
 
 
 
