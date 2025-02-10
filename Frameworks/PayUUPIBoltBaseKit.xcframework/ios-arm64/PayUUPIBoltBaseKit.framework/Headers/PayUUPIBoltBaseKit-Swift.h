@@ -471,7 +471,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit21PayUUPIBoltBaseConfig")
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull excludedBanksIINs;
 @property (nonatomic, copy) NSString * _Nonnull clientId;
 @property (nonatomic) BOOL isProduction;
-@property (nonatomic) BOOL isProtectSenstiveScreen;
+@property (nonatomic) BOOL isProtectedScreen;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithMerchantName:(NSString * _Nonnull)merchantName merchantKey:(NSString * _Nonnull)merchantKey phone:(NSString * _Nonnull)phone email:(NSString * _Nonnull)email refId:(NSString * _Nonnull)refId pluginTypes:(NSArray<NSString *> * _Nonnull)pluginTypes excludedBanksIINs:(NSArray<NSString *> * _Nonnull)excludedBanksIINs clientId:(NSString * _Nonnull)clientId isProduction:(BOOL)isProduction OBJC_DESIGNATED_INITIALIZER;
 @end

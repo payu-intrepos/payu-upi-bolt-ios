@@ -131,7 +131,7 @@ import _SwiftConcurrencyShims
   @objc public var excludedBanksIINs: [Swift.String]
   @objc public var clientId: Swift.String
   @objc public var isProduction: Swift.Bool
-  @objc public var isProtectSenstiveScreen: Swift.Bool
+  @objc public var isProtectedScreen: Swift.Bool
   @objc override dynamic public init()
   @objc public init(merchantName: Swift.String, merchantKey: Swift.String, phone: Swift.String, email: Swift.String, refId: Swift.String, pluginTypes: [Swift.String], excludedBanksIINs: [Swift.String] = [], clientId: Swift.String = "", isProduction: Swift.Bool)
   @objc deinit
