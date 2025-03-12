@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name                = "PayUIndia-UPIBoltKit"
-  s.version             = "2.0.0-alpha.0"
+  s.name                = "PayUIndia-UPIHdfcPluginKit"
+  s.version             = "1.0.0-alpha.0"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-upi-bolt-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
 
-  s.summary             = "The PayUUPIBoltKit SDK provides core functionality, used across other framewroks"
-  s.description         = "The PayUUPIBoltKit SDK provides core functionality, used across other framewroks."
+  s.summary             = "The PayUUPIHdfcPluginKit SDK provides core functionality, used across other framewroks"
+  s.description         = "The PayUUPIHdfcPluginKit SDK provides core functionality, used across other framewroks."
 
   s.source              = { :git => "https://github.com/payu-intrepos/payu-upi-bolt-ios.git",
                             :tag => "#{s.version}"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   }
   
   s.ios.deployment_target = "13.0"
-  s.vendored_frameworks = 'Frameworks/PayUUPIBoltKit.xcframework'
+  s.vendored_frameworks = 'Frameworks/PayUUPIHdfcPluginKit.xcframework'
 
   s.dependency            'PayUIndia-UPIBoltBaseKit', '2.0.0-alpha.0'
   s.dependency            'PayUIndia-CrashReporter', '~> 4.0'

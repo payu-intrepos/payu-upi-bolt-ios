@@ -12,13 +12,13 @@ import _SwiftConcurrencyShims
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
   @objc public var errCode: Swift.String?
-  @objc public var complaintInfo: PayUUPIBoltBaseKit.DisputeComplaintInfo?
+  @objc public var complaintInfo: PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class DisputeComplaintInfo : ObjectiveC.NSObject, Swift.Codable {
+@_inheritsConvenienceInitializers @objc public class PayUUPIDisputeComplaintInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc public var actionType: Swift.String?
   @objc public var crn: Swift.String?
   @objc public var expectedResolDate: Swift.String?
@@ -170,24 +170,13 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var defaultVPAStatus: Swift.String?
   @objc public var statusDesc: Swift.String?
   @objc public var userInfo: PayUUPIBoltBaseKit.PayUUPIBoltUserInfo?
-  @objc public var vpaAccountDetails: [PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]?
+  @objc public var vpaAccountDetails: [PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class UserProfileVpaAccountDetail : ObjectiveC.NSObject, Swift.Codable {
-  @objc public var virtualAddress: Swift.String?
-  @objc public var status: Swift.String?
-  @objc public var accountId: Swift.String?
-  @objc public var defaultVPAStatus: Swift.String?
-  @objc public var accountInfo: [PayUUPIBoltBaseKit.UserProfileAccountDetail]?
-  @objc override dynamic public init()
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_inheritsConvenienceInitializers @objc public class UserProfileAccountDetail : ObjectiveC.NSObject, Swift.Codable {
+@_inheritsConvenienceInitializers @objc public class PayUUPIUserProfileAccountDetail : ObjectiveC.NSObject, Swift.Codable {
   @objc public var crdLength: Swift.String?
   @objc public var accountType: Swift.String?
   @objc public var atmdLength: Swift.String?
@@ -206,6 +195,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var crdType: Swift.String?
   @objc public var formatType: Swift.String?
   @objc public var intlAccFlag: Swift.String?
+  @objc public var virtualAddress: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -473,7 +463,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class PayUUPIBoltMakePayment : ObjectiveC.NSObject, Swift.Codable {
+@objc public class PayUUPIBoltMakePayment : ObjectiveC.NSObject, Swift.Codable {
   @objc public var custRefNo: Swift.String?
   @objc public var upiTransRefNo: Swift.Int
   @objc public var amount: Swift.String?
@@ -491,10 +481,9 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var refId: Swift.String?
   @objc public var prRespCode: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltRequestInfo?
-  @objc override dynamic public init()
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltDeregisterVPA : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
@@ -547,6 +536,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var txnStatus: Swift.String?
   @objc public var payerBankName: Swift.String?
   @objc public var payeeName: Swift.String?
+  @objc public var isRefreshing: Swift.Bool
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -563,12 +553,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var smsGateWayContent: Swift.String?
   @objc public var smsGateWayKey: Swift.String?
   @objc public var smsGateWayNo: Swift.String?
-  @objc public var sessionFlag: Swift.Int
   @objc public var smsStatus: Swift.String?
-  @objc public var preRegId: Swift.Int
-  @objc public var isPreRegUser: Swift.Bool
-  @objc public var deviceBindTimeSec: Swift.Int
-  @objc public var isUserReg: Swift.Bool
   @objc public var npciTokenRefreshFlag: Swift.String?
   @objc override dynamic public init()
   @objc deinit
@@ -638,7 +623,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltBankDetail : ObjectiveC.NSObject, Swift.Codable {
-  @objc public var bankId: Swift.Int
+  @objc public var bankId: Swift.String?
   @objc public var bankName: Swift.String?
   @objc public var ifsc: Swift.String?
   @objc public var bankCode: Swift.String?

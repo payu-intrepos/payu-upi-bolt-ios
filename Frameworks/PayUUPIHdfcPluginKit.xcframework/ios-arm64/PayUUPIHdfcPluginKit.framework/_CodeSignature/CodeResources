@@ -4,41 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/PayUUPIBoltKit-Swift.h</key>
+		<key>Headers/PayUUPIHdfcPluginKit-Swift.h</key>
 		<data>
-		7j/F0DWvMQideKf8dQKu9+DrP6o=
+		QLsC6hJrSYxGiei5B4rHqPBYmlE=
 		</data>
-		<key>Headers/PayUUPIBoltKit.h</key>
+		<key>Headers/PayUUPIHdfcPluginKit.h</key>
 		<data>
-		M+ZzbkcWW6wEuvv9tU/pOd0U5ec=
+		ODRbXM5UPYsJ1gpdzAtdEUrAYwE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tEbZfLariJUKhoE9NsNKQsR1RkE=
+		m+cBqa0oAp08STFAYJw7ohWbTVk=
 		</data>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gTyOEOctDIP4h7bBmL1OEJkxUPc=
+		+exV1TSqJqmjP7bo6OHkY3XhDPc=
 		</data>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ilUbDHMgjXNuptz5LIm6q6P/Z1g=
+		lU+uzYBl7kKuEgHNMXMw6fN1TqM=
 		</data>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bY+61+BrPVYdlMR8AivfK9+jRTs=
+		7FXB8cJDOBGuE9f6DxDDruXhYFo=
 		</data>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ilUbDHMgjXNuptz5LIm6q6P/Z1g=
+		lU+uzYBl7kKuEgHNMXMw6fN1TqM=
 		</data>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zEPmpja6t7gfVaCdo108JVIKdAQ=
+		aPVcnDZNP2SFIcb3533Y4SEOzdM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		bK1ndIL8hgljelVBfrx9CTlNcUE=
+		l+X/hnTyDjZlS51VHyjkIg41NtY=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -47,60 +47,60 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/PayUUPIBoltKit-Swift.h</key>
+		<key>Headers/PayUUPIHdfcPluginKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iR9wKOdsG3fXrK+yJOwXQTEfM8Ovw8DSzSyz6lhkkYs=
+			ZR1id15KqMooKw4U7K6XZm2wkLlBUxcBcIVfonvyBKI=
 			</data>
 		</dict>
-		<key>Headers/PayUUPIBoltKit.h</key>
+		<key>Headers/PayUUPIHdfcPluginKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHvBIFmPeoYZHf0+Lc+xInR+deKZZiooC7K6bzbLf+M=
+			VWW4DIKL4D0Pkd7SJ0njWkhotZj9LJdpr/hxwJv5J1Y=
 			</data>
 		</dict>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGNCv3en/bqDv4/X2IZ4Pmd6bvyYTtTAj+QxZ560dj8=
+			lHPTsooEhWUIvBXivFSslXZ1DN9U4CGmUUmw9gu5P64=
 			</data>
 		</dict>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pEpNra4HI10Q3JdusIm+7w0rxJkgSk3VkrJ/DN/uvUA=
+			VeziV7Y1ri27vfW36vT9KIyaD9zILJPQBfIStVCs3Wg=
 			</data>
 		</dict>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/kT74KCobjzXwKKXjZMmtJSsNfn6H5cZrhKn6IrPq4=
+			CIePUUa7BrNUHS0BPqlFaqOrO1s55haZD/iBqN8oSK8=
 			</data>
 		</dict>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pEpNra4HI10Q3JdusIm+7w0rxJkgSk3VkrJ/DN/uvUA=
+			VeziV7Y1ri27vfW36vT9KIyaD9zILJPQBfIStVCs3Wg=
 			</data>
 		</dict>
-		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/PayUUPIHdfcPluginKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BIyemwFDHMq6lT5hk1UCmQdq4gaY2tuUoT9z31fF2g=
+			DuJhn6WTp9d+PK2Xy1tkU6DpwFOIaqFXPcwW4Nn2qTo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bBxus/i7a7FYOUOQ424vgGRO4Tc12VLFDIxd70pRxMU=
+			n8x9CMZv93W6oEnEWN6ZebFiTcezkKpx2mpaUDHO0wo=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

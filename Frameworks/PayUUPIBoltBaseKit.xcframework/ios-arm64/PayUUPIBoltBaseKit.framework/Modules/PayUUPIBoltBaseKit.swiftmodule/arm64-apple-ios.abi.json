@@ -378,13 +378,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo?",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "DisputeComplaintInfo",
-                    "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo",
-                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo"
+                    "name": "PayUUPIDisputeComplaintInfo",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo",
+                    "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo"
                   }
                 ],
                 "usr": "s:Sq"
@@ -392,7 +392,7 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltRaiseDispute(py)complaintInfo",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0f9ComplaintH0CSgvp",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0a20UUPIDisputeComplaintH0CSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -410,13 +410,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo?",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DisputeComplaintInfo",
-                        "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo",
-                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo"
+                        "name": "PayUUPIDisputeComplaintInfo",
+                        "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo",
+                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo"
                       }
                     ],
                     "usr": "s:Sq"
@@ -424,7 +424,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltRaiseDispute(im)complaintInfo",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0f9ComplaintH0CSgvg",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0a20UUPIDisputeComplaintH0CSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -445,13 +445,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo?",
+                    "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DisputeComplaintInfo",
-                        "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo",
-                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo"
+                        "name": "PayUUPIDisputeComplaintInfo",
+                        "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo",
+                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo"
                       }
                     ],
                     "usr": "s:Sq"
@@ -459,7 +459,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltRaiseDispute(im)setComplaintInfo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0f9ComplaintH0CSgvs",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0a20UUPIDisputeComplaintH0CSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -479,8 +479,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0f9ComplaintH0CSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0f9ComplaintH0CSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0a20UUPIDisputeComplaintH0CSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB12RaiseDisputeC13complaintInfoAA0a20UUPIDisputeComplaintH0CSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -663,8 +663,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "DisputeComplaintInfo",
-        "printedName": "DisputeComplaintInfo",
+        "name": "PayUUPIDisputeComplaintInfo",
+        "printedName": "PayUUPIDisputeComplaintInfo",
         "children": [
           {
             "kind": "Var",
@@ -687,8 +687,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)actionType",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10actionTypeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)actionType",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10actionTypeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -719,8 +719,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)actionType",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10actionTypeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)actionType",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10actionTypeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -754,8 +754,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setActionType:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10actionTypeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setActionType:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10actionTypeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -775,8 +775,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC10actionTypeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10actionTypeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10actionTypeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10actionTypeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -804,8 +804,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)crn",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3crnSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)crn",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3crnSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -836,8 +836,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)crn",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3crnSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)crn",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3crnSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -871,8 +871,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setCrn:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3crnSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setCrn:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3crnSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -892,8 +892,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC3crnSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3crnSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3crnSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3crnSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -921,8 +921,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)expectedResolDate",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC17expectedResolDateSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)expectedResolDate",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC17expectedResolDateSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -953,8 +953,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)expectedResolDate",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC17expectedResolDateSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)expectedResolDate",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC17expectedResolDateSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -988,8 +988,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setExpectedResolDate:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC17expectedResolDateSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setExpectedResolDate:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC17expectedResolDateSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1009,8 +1009,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC17expectedResolDateSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC17expectedResolDateSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC17expectedResolDateSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC17expectedResolDateSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1038,8 +1038,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)ticketNo",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8ticketNoSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)ticketNo",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8ticketNoSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1070,8 +1070,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)ticketNo",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8ticketNoSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)ticketNo",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8ticketNoSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1105,8 +1105,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setTicketNo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8ticketNoSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setTicketNo:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8ticketNoSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1126,8 +1126,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC8ticketNoSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8ticketNoSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8ticketNoSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8ticketNoSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1155,8 +1155,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)txnId",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC5txnIdSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)txnId",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC5txnIdSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1187,8 +1187,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)txnId",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC5txnIdSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)txnId",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC5txnIdSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1222,8 +1222,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setTxnId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC5txnIdSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setTxnId:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC5txnIdSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1243,8 +1243,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC5txnIdSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC5txnIdSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC5txnIdSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC5txnIdSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1272,8 +1272,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)disputeType",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC11disputeTypeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)disputeType",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC11disputeTypeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1304,8 +1304,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)disputeType",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC11disputeTypeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)disputeType",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC11disputeTypeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1339,8 +1339,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setDisputeType:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC11disputeTypeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setDisputeType:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC11disputeTypeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1360,8 +1360,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC11disputeTypeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC11disputeTypeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC11disputeTypeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC11disputeTypeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1389,8 +1389,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)onBehalfOf",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10onBehalfOfSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)onBehalfOf",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10onBehalfOfSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1421,8 +1421,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)onBehalfOf",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10onBehalfOfSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)onBehalfOf",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10onBehalfOfSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1456,8 +1456,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setOnBehalfOf:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10onBehalfOfSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setOnBehalfOf:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10onBehalfOfSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1477,8 +1477,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC10onBehalfOfSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10onBehalfOfSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10onBehalfOfSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10onBehalfOfSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1506,8 +1506,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)orgRrn",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC6orgRrnSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)orgRrn",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6orgRrnSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1538,8 +1538,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)orgRrn",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC6orgRrnSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)orgRrn",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6orgRrnSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1573,8 +1573,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setOrgRrn:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC6orgRrnSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setOrgRrn:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6orgRrnSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1594,8 +1594,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC6orgRrnSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC6orgRrnSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6orgRrnSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6orgRrnSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1623,8 +1623,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)orgTxnDate",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10orgTxnDateSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)orgTxnDate",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10orgTxnDateSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1655,8 +1655,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)orgTxnDate",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10orgTxnDateSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)orgTxnDate",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10orgTxnDateSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1690,8 +1690,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setOrgTxnDate:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10orgTxnDateSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setOrgTxnDate:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10orgTxnDateSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1711,8 +1711,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC10orgTxnDateSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC10orgTxnDateSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10orgTxnDateSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC10orgTxnDateSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1740,8 +1740,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)orgTxnId",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8orgTxnIdSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)orgTxnId",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8orgTxnIdSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1772,8 +1772,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)orgTxnId",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8orgTxnIdSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)orgTxnId",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8orgTxnIdSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1807,8 +1807,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setOrgTxnId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8orgTxnIdSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setOrgTxnId:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8orgTxnIdSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1828,8 +1828,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC8orgTxnIdSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC8orgTxnIdSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8orgTxnIdSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC8orgTxnIdSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1857,8 +1857,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)rrn",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3rrnSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)rrn",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3rrnSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1889,8 +1889,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)rrn",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3rrnSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)rrn",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3rrnSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1924,8 +1924,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setRrn:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3rrnSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setRrn:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3rrnSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1945,8 +1945,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC3rrnSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC3rrnSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3rrnSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC3rrnSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1974,8 +1974,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(py)userMsg",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC7userMsgSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(py)userMsg",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC7userMsgSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -2006,8 +2006,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)userMsg",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC7userMsgSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)userMsg",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC7userMsgSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -2041,8 +2041,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)setUserMsg:",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC7userMsgSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)setUserMsg:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC7userMsgSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -2062,8 +2062,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC7userMsgSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC7userMsgSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC7userMsgSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC7userMsgSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2077,14 +2077,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "DisputeComplaintInfo",
-                "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo"
+                "name": "PayUUPIDisputeComplaintInfo",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo(im)init",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoCACycfc",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo(im)init",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoCACycfc",
             "moduleName": "PayUUPIBoltBaseKit",
             "overriding": true,
             "implicit": true,
@@ -2103,9 +2103,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "DisputeComplaintInfo",
-                "printedName": "PayUUPIBoltBaseKit.DisputeComplaintInfo",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo"
+                "name": "PayUUPIDisputeComplaintInfo",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo"
               },
               {
                 "kind": "TypeNominal",
@@ -2115,8 +2115,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC4fromACs7Decoder_p_tKcfc",
             "moduleName": "PayUUPIBoltBaseKit",
             "implicit": true,
             "declAttributes": [
@@ -2143,8 +2143,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18PayUUPIBoltBaseKit20DisputeComplaintInfoC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC6encode2toys7Encoder_p_tKF",
+            "usr": "s:18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC6encode2toys7Encoder_p_tKF",
             "moduleName": "PayUUPIBoltBaseKit",
             "implicit": true,
             "throwing": true,
@@ -2152,8 +2152,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)DisputeComplaintInfo",
-        "mangledName": "$s18PayUUPIBoltBaseKit20DisputeComplaintInfoC",
+        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIDisputeComplaintInfo",
+        "mangledName": "$s18PayUUPIBoltBaseKit0A24UUPIDisputeComplaintInfoC",
         "moduleName": "PayUUPIBoltBaseKit",
         "declAttributes": [
           "AccessControl",
@@ -12062,18 +12062,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]?",
+                "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]",
+                    "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UserProfileVpaAccountDetail",
-                        "printedName": "PayUUPIBoltBaseKit.UserProfileVpaAccountDetail",
-                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail"
+                        "name": "PayUUPIUserProfileAccountDetail",
+                        "printedName": "PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail",
+                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail"
                       }
                     ],
                     "usr": "s:Sa"
@@ -12084,7 +12084,7 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltGetProfile(py)vpaAccountDetails",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA04Userf3VpaH6DetailCGSgvp",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA0a8UUPIUserfH6DetailCGSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -12102,18 +12102,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]?",
+                    "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]",
+                        "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "UserProfileVpaAccountDetail",
-                            "printedName": "PayUUPIBoltBaseKit.UserProfileVpaAccountDetail",
-                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail"
+                            "name": "PayUUPIUserProfileAccountDetail",
+                            "printedName": "PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail",
+                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail"
                           }
                         ],
                         "usr": "s:Sa"
@@ -12124,7 +12124,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltGetProfile(im)vpaAccountDetails",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA04Userf3VpaH6DetailCGSgvg",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA0a8UUPIUserfH6DetailCGSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -12145,18 +12145,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]?",
+                    "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[PayUUPIBoltBaseKit.UserProfileVpaAccountDetail]",
+                        "printedName": "[PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "UserProfileVpaAccountDetail",
-                            "printedName": "PayUUPIBoltBaseKit.UserProfileVpaAccountDetail",
-                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail"
+                            "name": "PayUUPIUserProfileAccountDetail",
+                            "printedName": "PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail",
+                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail"
                           }
                         ],
                         "usr": "s:Sa"
@@ -12167,7 +12167,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltGetProfile(im)setVpaAccountDetails:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA04Userf3VpaH6DetailCGSgvs",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA0a8UUPIUserfH6DetailCGSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -12187,8 +12187,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA04Userf3VpaH6DetailCGSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA04Userf3VpaH6DetailCGSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA0a8UUPIUserfH6DetailCGSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10GetProfileC17vpaAccountDetailsSayAA0a8UUPIUserfH6DetailCGSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12371,796 +12371,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UserProfileVpaAccountDetail",
-        "printedName": "UserProfileVpaAccountDetail",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "virtualAddress",
-            "printedName": "virtualAddress",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(py)virtualAddress",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC14virtualAddressSSSgvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)virtualAddress",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC14virtualAddressSSSgvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)setVirtualAddress:",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC14virtualAddressSSSgvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC14virtualAddressSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC14virtualAddressSSSgvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "status",
-            "printedName": "status",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(py)status",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6statusSSSgvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)status",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6statusSSSgvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)setStatus:",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6statusSSSgvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6statusSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6statusSSSgvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountId",
-            "printedName": "accountId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(py)accountId",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC9accountIdSSSgvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)accountId",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC9accountIdSSSgvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)setAccountId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC9accountIdSSSgvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC9accountIdSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC9accountIdSSSgvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "defaultVPAStatus",
-            "printedName": "defaultVPAStatus",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(py)defaultVPAStatus",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC16defaultVPAStatusSSSgvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)defaultVPAStatus",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC16defaultVPAStatusSSSgvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)setDefaultVPAStatus:",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC16defaultVPAStatusSSSgvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC16defaultVPAStatusSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC16defaultVPAStatusSSSgvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountInfo",
-            "printedName": "accountInfo",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserProfileAccountDetail",
-                        "printedName": "PayUUPIBoltBaseKit.UserProfileAccountDetail",
-                        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(py)accountInfo",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC11accountInfoSayAA0efhI0CGSgvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UserProfileAccountDetail",
-                            "printedName": "PayUUPIBoltBaseKit.UserProfileAccountDetail",
-                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)accountInfo",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC11accountInfoSayAA0efhI0CGSgvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PayUUPIBoltBaseKit.UserProfileAccountDetail]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UserProfileAccountDetail",
-                            "printedName": "PayUUPIBoltBaseKit.UserProfileAccountDetail",
-                            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)setAccountInfo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC11accountInfoSayAA0efhI0CGSgvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC11accountInfoSayAA0efhI0CGSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC11accountInfoSayAA0efhI0CGSgvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UserProfileVpaAccountDetail",
-                "printedName": "PayUUPIBoltBaseKit.UserProfileVpaAccountDetail",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail(im)init",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailCACycfc",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UserProfileVpaAccountDetail",
-                "printedName": "PayUUPIBoltBaseKit.UserProfileVpaAccountDetail",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC6encode2toys7Encoder_p_tKF",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileVpaAccountDetail",
-        "mangledName": "$s18PayUUPIBoltBaseKit27UserProfileVpaAccountDetailC",
-        "moduleName": "PayUUPIBoltBaseKit",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UserProfileAccountDetail",
-        "printedName": "UserProfileAccountDetail",
+        "name": "PayUUPIUserProfileAccountDetail",
+        "printedName": "PayUUPIUserProfileAccountDetail",
         "children": [
           {
             "kind": "Var",
@@ -13183,8 +12395,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)crdLength",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC9crdLengthSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)crdLength",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC9crdLengthSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13215,8 +12427,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)crdLength",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC9crdLengthSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)crdLength",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC9crdLengthSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13250,8 +12462,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setCrdLength:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC9crdLengthSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setCrdLength:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC9crdLengthSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13271,8 +12483,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC9crdLengthSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC9crdLengthSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC9crdLengthSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC9crdLengthSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13300,8 +12512,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)accountType",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11accountTypeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)accountType",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11accountTypeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13332,8 +12544,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)accountType",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11accountTypeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)accountType",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11accountTypeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13367,8 +12579,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAccountType:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11accountTypeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAccountType:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11accountTypeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13388,8 +12600,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC11accountTypeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11accountTypeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11accountTypeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11accountTypeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13417,8 +12629,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)atmdLength",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10atmdLengthSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)atmdLength",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10atmdLengthSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13449,8 +12661,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)atmdLength",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10atmdLengthSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)atmdLength",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10atmdLengthSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13484,8 +12696,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAtmdLength:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10atmdLengthSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAtmdLength:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10atmdLengthSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13505,8 +12717,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC10atmdLengthSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10atmdLengthSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10atmdLengthSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10atmdLengthSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13534,8 +12746,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)accNo",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accNoSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)accNo",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accNoSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13566,8 +12778,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)accNo",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accNoSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)accNo",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accNoSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13601,8 +12813,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAccNo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accNoSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAccNo:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accNoSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13622,8 +12834,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accNoSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accNoSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accNoSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accNoSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13651,8 +12863,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)preferredFlag",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC13preferredFlagSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)preferredFlag",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC13preferredFlagSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13683,8 +12895,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)preferredFlag",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC13preferredFlagSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)preferredFlag",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC13preferredFlagSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13718,8 +12930,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setPreferredFlag:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC13preferredFlagSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setPreferredFlag:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC13preferredFlagSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13739,8 +12951,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC13preferredFlagSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC13preferredFlagSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC13preferredFlagSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC13preferredFlagSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13768,8 +12980,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)otpdLength",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10otpdLengthSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)otpdLength",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10otpdLengthSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13800,8 +13012,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)otpdLength",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10otpdLengthSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)otpdLength",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10otpdLengthSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13835,8 +13047,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setOtpdLength:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10otpdLengthSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setOtpdLength:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10otpdLengthSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13856,8 +13068,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC10otpdLengthSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10otpdLengthSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10otpdLengthSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10otpdLengthSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13885,8 +13097,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)accName",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7accNameSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)accName",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7accNameSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -13917,8 +13129,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)accName",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7accNameSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)accName",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7accNameSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13952,8 +13164,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAccName:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7accNameSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAccName:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7accNameSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -13973,8 +13185,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC7accNameSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7accNameSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7accNameSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7accNameSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14002,8 +13214,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)bankName",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankNameSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)bankName",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankNameSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14034,8 +13246,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)bankName",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankNameSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)bankName",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankNameSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14069,8 +13281,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setBankName:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankNameSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setBankName:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankNameSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14090,8 +13302,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankNameSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankNameSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankNameSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankNameSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14119,8 +13331,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)mpinFlag",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8mpinFlagSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)mpinFlag",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8mpinFlagSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14151,8 +13363,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)mpinFlag",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8mpinFlagSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)mpinFlag",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8mpinFlagSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14186,8 +13398,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setMpinFlag:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8mpinFlagSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setMpinFlag:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8mpinFlagSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14207,8 +13419,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC8mpinFlagSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8mpinFlagSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8mpinFlagSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8mpinFlagSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14236,8 +13448,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)refUrl",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6refUrlSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)refUrl",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6refUrlSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14268,8 +13480,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)refUrl",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6refUrlSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)refUrl",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6refUrlSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14303,8 +13515,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setRefUrl:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6refUrlSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setRefUrl:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6refUrlSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14324,8 +13536,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC6refUrlSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6refUrlSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6refUrlSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6refUrlSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14353,8 +13565,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)bankCode",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankCodeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)bankCode",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankCodeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14385,8 +13597,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)bankCode",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankCodeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)bankCode",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankCodeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14420,8 +13632,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setBankCode:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankCodeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setBankCode:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankCodeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14441,8 +13653,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankCodeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8bankCodeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankCodeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8bankCodeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14470,8 +13682,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)ifscCode",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8ifscCodeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)ifscCode",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8ifscCodeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14502,8 +13714,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)ifscCode",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8ifscCodeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)ifscCode",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8ifscCodeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14537,8 +13749,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setIfscCode:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8ifscCodeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setIfscCode:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8ifscCodeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14558,8 +13770,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC8ifscCodeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8ifscCodeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8ifscCodeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8ifscCodeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14587,8 +13799,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)bankId",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6bankIdSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)bankId",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6bankIdSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14619,8 +13831,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)bankId",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6bankIdSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)bankId",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6bankIdSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14654,8 +13866,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setBankId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6bankIdSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setBankId:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6bankIdSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14675,8 +13887,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC6bankIdSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6bankIdSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6bankIdSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6bankIdSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14704,8 +13916,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)aepsFlag",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8aepsFlagSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)aepsFlag",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8aepsFlagSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14736,8 +13948,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)aepsFlag",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8aepsFlagSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)aepsFlag",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8aepsFlagSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14771,8 +13983,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAepsFlag:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8aepsFlagSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAepsFlag:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8aepsFlagSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14792,8 +14004,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC8aepsFlagSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC8aepsFlagSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8aepsFlagSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC8aepsFlagSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14821,8 +14033,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)accId",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accIdSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)accId",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accIdSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14853,8 +14065,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)accId",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accIdSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)accId",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accIdSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14888,8 +14100,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setAccId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accIdSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setAccId:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accIdSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -14909,8 +14121,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accIdSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC5accIdSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accIdSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC5accIdSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14938,8 +14150,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)crdType",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7crdTypeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)crdType",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7crdTypeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -14970,8 +14182,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)crdType",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7crdTypeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)crdType",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7crdTypeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15005,8 +14217,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setCrdType:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7crdTypeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setCrdType:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7crdTypeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15026,8 +14238,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC7crdTypeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC7crdTypeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7crdTypeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC7crdTypeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15055,8 +14267,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)formatType",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10formatTypeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)formatType",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10formatTypeSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -15087,8 +14299,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)formatType",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10formatTypeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)formatType",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10formatTypeSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15122,8 +14334,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setFormatType:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10formatTypeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setFormatType:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10formatTypeSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15143,8 +14355,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC10formatTypeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC10formatTypeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10formatTypeSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC10formatTypeSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15172,8 +14384,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(py)intlAccFlag",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11intlAccFlagSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)intlAccFlag",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11intlAccFlagSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -15204,8 +14416,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)intlAccFlag",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11intlAccFlagSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)intlAccFlag",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11intlAccFlagSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15239,8 +14451,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)setIntlAccFlag:",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11intlAccFlagSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setIntlAccFlag:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11intlAccFlagSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -15260,8 +14472,125 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC11intlAccFlagSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC11intlAccFlagSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11intlAccFlagSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC11intlAccFlagSSSgvM",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "virtualAddress",
+            "printedName": "virtualAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)virtualAddress",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC14virtualAddressSSSgvp",
+            "moduleName": "PayUUPIBoltBaseKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)virtualAddress",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC14virtualAddressSSSgvg",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setVirtualAddress:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC14virtualAddressSSSgvs",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC14virtualAddressSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC14virtualAddressSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15275,14 +14604,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileAccountDetail",
-                "printedName": "PayUUPIBoltBaseKit.UserProfileAccountDetail",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail"
+                "name": "PayUUPIUserProfileAccountDetail",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail(im)init",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailCACycfc",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)init",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailCACycfc",
             "moduleName": "PayUUPIBoltBaseKit",
             "overriding": true,
             "implicit": true,
@@ -15301,9 +14630,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileAccountDetail",
-                "printedName": "PayUUPIBoltBaseKit.UserProfileAccountDetail",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail"
+                "name": "PayUUPIUserProfileAccountDetail",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail"
               },
               {
                 "kind": "TypeNominal",
@@ -15313,8 +14642,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC4fromACs7Decoder_p_tKcfc",
             "moduleName": "PayUUPIBoltBaseKit",
             "implicit": true,
             "declAttributes": [
@@ -15341,8 +14670,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18PayUUPIBoltBaseKit24UserProfileAccountDetailC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC6encode2toys7Encoder_p_tKF",
+            "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC6encode2toys7Encoder_p_tKF",
             "moduleName": "PayUUPIBoltBaseKit",
             "implicit": true,
             "throwing": true,
@@ -15350,8 +14679,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)UserProfileAccountDetail",
-        "mangledName": "$s18PayUUPIBoltBaseKit24UserProfileAccountDetailC",
+        "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail",
+        "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC",
         "moduleName": "PayUUPIBoltBaseKit",
         "declAttributes": [
           "AccessControl",
@@ -37847,6 +37176,35 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PayUUPIBoltMakePayment",
+                "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltMakePayment",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltMakePayment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PayUUPIBoltBaseKit0aB11MakePaymentC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB11MakePaymentC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PayUUPIBoltBaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init()",
             "children": [
               {
@@ -37868,35 +37226,6 @@
               "ObjC",
               "Override"
             ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PayUUPIBoltMakePayment",
-                "printedName": "PayUUPIBoltBaseKit.PayUUPIBoltMakePayment",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltMakePayment"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PayUUPIBoltBaseKit0aB11MakePaymentC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB11MakePaymentC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -37934,7 +37263,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -42747,6 +42075,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isRefreshing",
+            "printedName": "isRefreshing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionHistory(py)isRefreshing",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB18TransactionHistoryC12isRefreshingSbvp",
+            "moduleName": "PayUUPIBoltBaseKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionHistory(im)isRefreshing",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB18TransactionHistoryC12isRefreshingSbvg",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionHistory(im)setIsRefreshing:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB18TransactionHistoryC12isRefreshingSbvs",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PayUUPIBoltBaseKit0aB18TransactionHistoryC12isRefreshingSbvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB18TransactionHistoryC12isRefreshingSbvM",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -44107,99 +43528,6 @@
           },
           {
             "kind": "Var",
-            "name": "sessionFlag",
-            "printedName": "sessionFlag",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(py)sessionFlag",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC11sessionFlagSivp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)sessionFlag",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC11sessionFlagSivg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)setSessionFlag:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC11sessionFlagSivs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12DeviceStatusC11sessionFlagSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC11sessionFlagSivM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "smsStatus",
             "printedName": "smsStatus",
             "children": [
@@ -44317,378 +43645,6 @@
           },
           {
             "kind": "Var",
-            "name": "preRegId",
-            "printedName": "preRegId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(py)preRegId",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC8preRegIdSivp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)preRegId",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC8preRegIdSivg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)setPreRegId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC8preRegIdSivs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12DeviceStatusC8preRegIdSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC8preRegIdSivM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isPreRegUser",
-            "printedName": "isPreRegUser",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(py)isPreRegUser",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC12isPreRegUserSbvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)isPreRegUser",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC12isPreRegUserSbvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)setIsPreRegUser:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC12isPreRegUserSbvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12DeviceStatusC12isPreRegUserSbvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC12isPreRegUserSbvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "deviceBindTimeSec",
-            "printedName": "deviceBindTimeSec",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(py)deviceBindTimeSec",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC17deviceBindTimeSecSivp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)deviceBindTimeSec",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC17deviceBindTimeSecSivg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)setDeviceBindTimeSec:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC17deviceBindTimeSecSivs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12DeviceStatusC17deviceBindTimeSecSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC17deviceBindTimeSecSivM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isUserReg",
-            "printedName": "isUserReg",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(py)isUserReg",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC9isUserRegSbvp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)isUserReg",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC9isUserRegSbvg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltDeviceStatus(im)setIsUserReg:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC9isUserRegSbvs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB12DeviceStatusC9isUserRegSbvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB12DeviceStatusC9isUserRegSbvM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "npciTokenRefreshFlag",
             "printedName": "npciTokenRefreshFlag",
             "children": [
@@ -44715,7 +43671,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -49639,14 +48596,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltBankDetail(py)bankId",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSivp",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -49663,14 +48628,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltBankDetail(im)bankId",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSivg",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -49690,14 +48663,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltBankDetail(im)setBankId:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSivs",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -49717,8 +48698,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSivM",
+                "usr": "s:18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB10BankDetailC6bankIdSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -51277,315 +50258,280 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "BooleanLiteral",
       "offset": 958,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "BooleanLiteral",
       "offset": 1010,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 14,
       "value": "\"atmCrdLength\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "StringLiteral",
       "offset": 1624,
       "length": 12,
       "value": "\"atmCrdType\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 14,
       "value": "\"otpCrdLength\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltInitiateMPIN.swift",
       "kind": "StringLiteral",
       "offset": 1747,
       "length": 12,
       "value": "\"otpCrdType\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltCheckVpaDetail.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltCheckVpaDetail.swift",
       "kind": "BooleanLiteral",
       "offset": 420,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "Array",
       "offset": 434,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "Array",
       "offset": 488,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 576,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 629,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "Array",
       "offset": 896,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseConfig.swift",
       "kind": "StringLiteral",
       "offset": 927,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltResponse.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 435,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "Dictionary",
       "offset": 461,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "StringLiteral",
       "offset": 1972,
       "length": 12,
       "value": "\"hashString\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "StringLiteral",
       "offset": 2024,
       "length": 10,
       "value": "\"hashType\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "StringLiteral",
       "offset": 2074,
       "length": 10,
       "value": "\"hashName\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "StringLiteral",
       "offset": 2124,
       "length": 10,
       "value": "\"postSalt\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 12,
       "value": "\"statusDesc\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
       "kind": "StringLiteral",
       "offset": 465,
       "length": 13,
       "value": "\"npciTransId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 11,
       "value": "\"accountId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBalanceEnquiry.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 14,
       "value": "\"availableBal\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltMakePayment.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltMakePayment.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltError.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltError.swift",
       "kind": "StringLiteral",
       "offset": 142,
-      "length": 22,
-      "value": "\"Something went wrong\""
+      "length": 60,
+      "value": "\"Something went wrong. Please try again or check back later\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltError.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/PayUUPIBoltError.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 394,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionHistory.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionHistory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1464,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionHistory.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1813,
       "length": 13,
       "value": "\"querystatus\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionHistory.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionHistory.swift",
       "kind": "StringLiteral",
-      "offset": 1804,
+      "offset": 1852,
       "length": 11,
       "value": "\"querydate\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 675,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 754,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
       "kind": "BooleanLiteral",
-      "offset": 798,
+      "offset": 1852,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 850,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 891,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltDeviceStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBankInfo.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBankInfo.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 16,
       "value": "\"bankMasterList\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBankInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 750,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios 3\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBankInfo.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltBankInfo.swift",
       "kind": "StringLiteral",
       "offset": 1299,
       "length": 13,
