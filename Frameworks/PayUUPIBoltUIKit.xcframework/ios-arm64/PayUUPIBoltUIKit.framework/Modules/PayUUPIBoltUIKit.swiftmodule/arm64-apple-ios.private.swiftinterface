@@ -22,6 +22,8 @@ import _SwiftConcurrencyShims
   @objc public class func initSDK(parentVC: UIKit.UIViewController, configJSON: Any?, delegate: any PayUUPIBoltUIKit.PayUUPIBoltUIDelegate) -> PayUUPIBoltUIKit.PayUUPIBoltUIInterface?
   @objc public class func getInstance() -> PayUUPIBoltUIKit.PayUUPIBoltUIInterface?
   @objc public class func reset()
+  @objc public class func isRegistered(with pg: Swift.String) -> Swift.Bool
+  @objc public class func clearCache(with pg: Swift.String)
   @objc deinit
 }
 @objc public protocol PayUUPIBoltUIDelegate : PayUUPIBoltKit.PayUUPIBoltHashDelegate {

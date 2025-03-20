@@ -345,7 +345,7 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 @interface PayUUPIBoltInterface : NSObject
 - (void)isUPIBoltEnabledWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkDeviceStatusWithParentVC:(UIViewController * _Nonnull)parentVC callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (NSString * _Nullable)getRegisteredMobile SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getRegisteredMobileWithPg:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
 - (void)fetchBankListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchAccountsWithIInIin:(NSString * _Nonnull)iin bankName:(NSString * _Nonnull)bankName bankCode:(NSString * _Nullable)bankCode bankId:(NSString * _Nullable)bankId vpa:(NSString * _Nullable)vpa requestType:(NSString * _Nullable)requestType isCCTxnEnabled:(BOOL)isCCTxnEnabled callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchLinkedAccountsWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
@@ -369,7 +369,7 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 - (void)saveVPAWithVpa:(NSString * _Nonnull)vpa name:(NSString * _Nonnull)name nickName:(NSString * _Nonnull)nickName callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deleteVPAWithVpa:(NSString * _Nonnull)vpa callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchRegisteredVPAListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (void)clearCache;
+- (void)clearCacheWithPg:(NSString * _Nonnull)pg;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -539,6 +539,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit23PayUUPIBoltDeviceStatus")
 @property (nonatomic, strong) PayUUPIBoltDeviceInfo * _Nullable deviceInfo;
 @property (nonatomic, copy) NSString * _Nullable status;
 @property (nonatomic, copy) NSString * _Nullable statusDesc;
+@property (nonatomic, copy) NSString * _Nullable errorCode;
 @property (nonatomic, copy) NSString * _Nullable deviceStatus;
 @property (nonatomic, copy) NSString * _Nullable simStatus;
 @property (nonatomic, strong) PayUUPIBoltUserInfo * _Nullable userInfo;

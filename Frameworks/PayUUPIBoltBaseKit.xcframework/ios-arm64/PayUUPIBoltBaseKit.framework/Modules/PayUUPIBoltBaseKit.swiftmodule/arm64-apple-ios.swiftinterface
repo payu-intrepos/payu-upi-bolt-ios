@@ -546,6 +546,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var deviceInfo: PayUUPIBoltBaseKit.PayUUPIBoltDeviceInfo?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var errorCode: Swift.String?
   @objc public var deviceStatus: Swift.String?
   @objc public var simStatus: Swift.String?
   @objc public var userInfo: PayUUPIBoltBaseKit.PayUUPIBoltUserInfo?

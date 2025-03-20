@@ -18,7 +18,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class PayUUPIHdfcPluginInterface : ObjectiveC.NSObject {
-  @objc public func getRegisteredMobile() -> Swift.String?
+  @objc public func getRegisteredMobile(pg: Swift.String) -> Swift.String?
   @objc public func checkDeviceStatus(parentVC: UIKit.UIViewController, callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
   @objc public func fetchBankList(callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
   @objc public func fetchAccountList(bankCode: Swift.String, bankId: Swift.String, iin: Swift.String, accountType: Swift.String, vpa: Swift.String, requestType: Swift.String, callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
@@ -37,7 +37,7 @@ import _SwiftConcurrencyShims
   @objc public func addAccount(accountDetail: PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail, callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
   @objc public func removeAccount(accountList: [PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail], requestType: Swift.String, callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
   @objc public func deregister(callback: @escaping PayUUPIBoltBaseKit.PayUUPIBoltCallBack)
-  @objc public func clearCache()
+  @objc public func clearCache(pg: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }

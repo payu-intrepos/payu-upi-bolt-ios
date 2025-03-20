@@ -339,6 +339,8 @@ SWIFT_CLASS("_TtC16PayUUPIBoltUIKit13PayUUPIBoltUI")
 + (PayUUPIBoltUIInterface * _Nullable)initSDKWithParentVC:(UIViewController * _Nonnull)parentVC configJSON:(id _Nullable)configJSON delegate:(id <PayUUPIBoltUIDelegate> _Nonnull)delegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
 + (PayUUPIBoltUIInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)reset;
++ (BOOL)isRegisteredWith:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
++ (void)clearCacheWith:(NSString * _Nonnull)pg;
 @end
 
 

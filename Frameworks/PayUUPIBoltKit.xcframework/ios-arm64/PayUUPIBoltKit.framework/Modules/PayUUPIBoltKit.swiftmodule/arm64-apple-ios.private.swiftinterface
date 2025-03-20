@@ -46,7 +46,7 @@ extension UIKit.UIDevice {
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltInterface : ObjectiveC.NSObject {
   @objc public func isUPIBoltEnabled(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkDeviceStatus(parentVC: UIKit.UIViewController, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func getRegisteredMobile() -> Swift.String?
+  @objc public func getRegisteredMobile(pg: Swift.String) -> Swift.String?
   @objc public func fetchBankList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchAccountsWithIIn(iin: Swift.String, bankName: Swift.String, bankCode: Swift.String?, bankId: Swift.String?, vpa: Swift.String?, requestType: Swift.String?, isCCTxnEnabled: Swift.Bool, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchLinkedAccounts(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
@@ -70,7 +70,7 @@ extension UIKit.UIDevice {
   @objc public func saveVPA(vpa: Swift.String, name: Swift.String, nickName: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func deleteVPA(vpa: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchRegisteredVPAList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func clearCache()
+  @objc public func clearCache(pg: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }

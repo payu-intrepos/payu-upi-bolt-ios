@@ -1,5 +1,5 @@
 {
-  "originHash" : "3812a57ed7075a87f9e480d7a9cbf626cf05ce548b4996cdb8c24b5d68697c55",
+  "originHash" : "38e6b7ddbe799ea91253a1c0d99417c84df28e55b07388b5d309a043c5964985",
   "pins" : [
     {
       "identity" : "payuanalytics-ios",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/payu-intrepos/PayUCrashReporter-iOS.git",
       "state" : {
-        "revision" : "454760775aaa4a9cf9d9a3ec8aec2fdf276ad664",
-        "version" : "4.0.1"
+        "revision" : "104535b2a4a827802c66cfd578efb0d507614f20",
+        "version" : "4.0.2"
       }
     },
     {

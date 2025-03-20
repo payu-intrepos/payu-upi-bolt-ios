@@ -326,7 +326,7 @@ SWIFT_CLASS("_TtC20PayUUPIHdfcPluginKit17PayUUPIHdfcPlugin")
 
 SWIFT_CLASS("_TtC20PayUUPIHdfcPluginKit26PayUUPIHdfcPluginInterface")
 @interface PayUUPIHdfcPluginInterface : NSObject
-- (NSString * _Nullable)getRegisteredMobile SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getRegisteredMobileWithPg:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
 - (void)checkDeviceStatusWithParentVC:(UIViewController * _Nonnull)parentVC callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchBankListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchAccountListWithBankCode:(NSString * _Nonnull)bankCode bankId:(NSString * _Nonnull)bankId iin:(NSString * _Nonnull)iin accountType:(NSString * _Nonnull)accountType vpa:(NSString * _Nonnull)vpa requestType:(NSString * _Nonnull)requestType callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
@@ -345,7 +345,7 @@ SWIFT_CLASS("_TtC20PayUUPIHdfcPluginKit26PayUUPIHdfcPluginInterface")
 - (void)addAccountWithAccountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)removeAccountWithAccountList:(NSArray<PayUUPIBoltAccountDetail *> * _Nonnull)accountList requestType:(NSString * _Nonnull)requestType callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deregisterWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (void)clearCache;
+- (void)clearCacheWithPg:(NSString * _Nonnull)pg;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
