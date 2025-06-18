@@ -11,6 +11,7 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltRaiseDispute : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var errCode: Swift.String?
   @objc public var complaintInfo: PayUUPIBoltBaseKit.PayUUPIDisputeComplaintInfo?
   @objc override dynamic public init()
@@ -46,6 +47,7 @@ import _SwiftConcurrencyShims
   @objc public var credential: PayUUPIBoltBaseKit.PayUUPIBoltInitiateMPINCredential?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -81,6 +83,7 @@ import _SwiftConcurrencyShims
   @objc public var pspRefNo: Swift.String?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var npciTransId: Swift.String?
   @objc override dynamic public init()
   @objc deinit
@@ -90,6 +93,7 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltCheckVpaDetail : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var payeeList: [PayUUPIBoltBaseKit.PayUUPIBoltVpaPayeeList]?
   @objc public var paymentType: Swift.String?
   @objc public var verificationFlag: Swift.Bool
@@ -104,6 +108,7 @@ import _SwiftConcurrencyShims
   @objc public var name: Swift.String?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -140,6 +145,7 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltVerifyServerGenId : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var errcode: Swift.String?
   @objc public var servGenId: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltServerGenIdRequestInfo?
@@ -170,6 +176,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var notificationCount: Swift.String?
   @objc public var defaultVPAStatus: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var status: Swift.String?
   @objc public var userInfo: PayUUPIBoltBaseKit.PayUUPIBoltUserInfo?
   @objc public var vpaAccountDetails: [PayUUPIBoltBaseKit.PayUUPIUserProfileAccountDetail]?
@@ -216,6 +223,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltRegisterVpaDetail : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltRequestInfo?
   @objc public var registrationDate: Swift.String?
   @objc public var userInfo: PayUUPIBoltBaseKit.PayUUPIBoltUserInfo?
@@ -228,6 +236,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltGetDisputeList : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var ticketNo: Swift.String?
   @objc public var upiTranRefNo: Swift.String?
   @objc public var listofCustDispute: [PayUUPIBoltBaseKit.PayUUPIBoltCustomerDispute]?
@@ -261,6 +270,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var amount: Swift.String?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var txnRefNo: Swift.Int
   @objc public var txnStatusDetails: PayUUPIBoltBaseKit.PayUUPIBoltTransactionDetail?
   @objc override dynamic public init()
@@ -276,6 +286,10 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+public typealias PayUUPIBoltRetryGenerationCompletion = (_ bool: Swift.Bool) -> Swift.Void
+@objc public protocol PayUUPIBoltBaseDelegate {
+  @objc func handleRetry(for errorCode: Swift.Int, errorMessage: Swift.String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion)
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltListKeys : ObjectiveC.NSObject, Swift.Codable {
   @objc public var txnId: Swift.String?
@@ -297,6 +311,8 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var furl: Swift.String
   @objc public var additionalParam: [Swift.String : Any]
   @objc public var udfs: PayUUPIBoltBaseKit.PayUUPIBoltUserDefines?
+  @objc public var initiationMode: Swift.String
+  @objc public var purpose: Swift.String
   @objc public var payerAccountDetail: PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail?
   @objc public var payeeAccountDetail: PayUUPIBoltBaseKit.PayUUPIBoltPayeeAccountDetail?
   @objc public init(txnId: Swift.String, amount: Swift.String, productInfo: Swift.String, firstName: Swift.String, surl: Swift.String, furl: Swift.String)
@@ -324,6 +340,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltRemoveAccount : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var errCode: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltRequestInfo?
   @objc override dynamic public init()
@@ -391,6 +408,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltChangeMPIN : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var npciTransId: Swift.String?
   @objc override dynamic public init()
   @objc deinit
@@ -400,6 +418,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltAccountInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var pspRespRefNo: Swift.String?
   @objc public var vpaSuggestionList: [Swift.String]?
   @objc public var accountList: [PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail]?
@@ -457,12 +476,9 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var mobile: Swift.String?
   @objc public var vpa: Swift.String?
   @objc public var vpaType: Swift.String?
-  @objc public var mode: Swift.String?
   @objc public var merchantId: Swift.String?
   @objc public var mcc: Swift.String?
-  @objc public var purpose: Swift.String?
   @objc public var note: Swift.String?
-  @objc public var nickName: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -477,6 +493,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var approvalNumber: Swift.String?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var accountId: Swift.String?
   @objc public var payerVPA: Swift.String?
   @objc public var payeeVPA: Swift.String?
@@ -493,6 +510,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltDeregisterVPA : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltRequestInfo?
   @objc public var regRefId: Swift.String?
   @objc public var userInfo: PayUUPIBoltBaseKit.PayUUPIBoltUserInfo?
@@ -551,6 +569,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var deviceInfo: PayUUPIBoltBaseKit.PayUUPIBoltDeviceInfo?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var errorCode: Swift.String?
   @objc public var deviceStatus: Swift.String?
   @objc public var simStatus: Swift.String?
@@ -614,6 +633,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltBankInfo : ObjectiveC.NSObject, Swift.Codable {
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
+  @objc public var statusCode: Swift.String?
   @objc public var requestInfo: PayUUPIBoltBaseKit.PayUUPIBoltRequestInfo?
   @objc public var bankList: [PayUUPIBoltBaseKit.PayUUPIBoltBankDetail]?
   @objc override dynamic public init()

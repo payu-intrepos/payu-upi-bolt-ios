@@ -16,7 +16,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUUPIBolt : ObjectiveC.NSObject {
-  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, hashDelegate: any PayUUPIBoltKit.PayUUPIBoltHashDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
+  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, delegate: any PayUUPIBoltKit.PayUUPIBoltDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
   @objc public class func getInstance() -> PayUUPIBoltKit.PayUUPIBoltInterface?
   @objc public class func reset()
   @objc public class func isRegistered(with pg: Swift.String) -> Swift.Bool
@@ -27,6 +27,8 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 public typealias PayUUPIBoltHashGenerationCompletion = (_ hashDict: [Swift.String : Swift.String]) -> Swift.Void
 @objc public protocol PayUUPIBoltHashDelegate {
   @objc func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping PayUUPIBoltKit.PayUUPIBoltHashGenerationCompletion)
+}
+@objc public protocol PayUUPIBoltDelegate : PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate, PayUUPIBoltKit.PayUUPIBoltHashDelegate {
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public var payuModelName: Swift.String {

@@ -306,13 +306,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @class PayUUPIBoltBaseConfig;
+@protocol PayUUPIBoltBaseDelegate;
 @class PayUUPIHdfcPluginInterface;
 @class NSString;
 SWIFT_CLASS("_TtC20PayUUPIHdfcPluginKit17PayUUPIHdfcPlugin")
 @interface PayUUPIHdfcPlugin : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (PayUUPIHdfcPluginInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIHdfcPluginInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config delegate:(id <PayUUPIBoltBaseDelegate> _Nonnull)delegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
 + (PayUUPIHdfcPluginInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)setBearerTokenWithToken:(NSString * _Nullable)token;
 + (void)reset;

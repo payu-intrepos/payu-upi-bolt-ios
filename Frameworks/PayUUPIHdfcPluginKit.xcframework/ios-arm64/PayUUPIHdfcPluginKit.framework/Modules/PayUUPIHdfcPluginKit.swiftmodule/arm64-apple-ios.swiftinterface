@@ -43,7 +43,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUUPIHdfcPlugin : ObjectiveC.NSObject {
-  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig) -> PayUUPIHdfcPluginKit.PayUUPIHdfcPluginInterface
+  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, delegate: any PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate) -> PayUUPIHdfcPluginKit.PayUUPIHdfcPluginInterface
   @objc public class func getInstance() -> PayUUPIHdfcPluginKit.PayUUPIHdfcPluginInterface?
   @objc public class func setBearerToken(token: Swift.String?)
   @objc public class func reset()

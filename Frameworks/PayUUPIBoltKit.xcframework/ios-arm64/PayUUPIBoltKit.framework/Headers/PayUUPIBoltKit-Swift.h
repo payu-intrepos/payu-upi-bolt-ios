@@ -283,6 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import PayUUPIBoltBaseKit;
 #endif
 
 #endif
@@ -316,13 +317,13 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit19HdfcAuthTokenResult")
 @end
 
 @class PayUUPIBoltBaseConfig;
-@protocol PayUUPIBoltHashDelegate;
+@protocol PayUUPIBoltDelegate;
 @class PayUUPIBoltInterface;
 SWIFT_CLASS("_TtC14PayUUPIBoltKit11PayUUPIBolt")
 @interface PayUUPIBolt : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config hashDelegate:(id <PayUUPIBoltHashDelegate> _Nonnull)hashDelegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config delegate:(id <PayUUPIBoltDelegate> _Nonnull)delegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
 + (PayUUPIBoltInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)reset;
 + (BOOL)isRegisteredWith:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
@@ -332,6 +333,10 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit11PayUUPIBolt")
 SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit23PayUUPIBoltHashDelegate_")
 @protocol PayUUPIBoltHashDelegate
 - (void)generateHashFor:(NSDictionary<NSString *, NSString *> * _Nonnull)param onCompletion:(void (^ _Nonnull)(NSDictionary<NSString *, NSString *> * _Nonnull))onCompletion;
+@end
+
+SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit19PayUUPIBoltDelegate_")
+@protocol PayUUPIBoltDelegate <PayUUPIBoltBaseDelegate, PayUUPIBoltHashDelegate>
 @end
 
 @class PayUUPIBoltResponse;
