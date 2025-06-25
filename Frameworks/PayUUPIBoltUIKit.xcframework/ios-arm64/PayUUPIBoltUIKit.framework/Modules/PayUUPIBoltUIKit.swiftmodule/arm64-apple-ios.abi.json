@@ -235,65 +235,6 @@
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isRegistered",
-            "printedName": "isRegistered(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltUIKit@objc(cs)PayUUPIBoltUI(cm)isRegisteredWith:",
-            "mangledName": "$s16PayUUPIBoltUIKit0aB2UIC12isRegistered4withSbSS_tFZ",
-            "moduleName": "PayUUPIBoltUIKit",
-            "static": true,
-            "objc_name": "isRegisteredWith:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearCache",
-            "printedName": "clearCache(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltUIKit@objc(cs)PayUUPIBoltUI(cm)clearCacheWith:",
-            "mangledName": "$s16PayUUPIBoltUIKit0aB2UIC10clearCache4withySS_tFZ",
-            "moduleName": "PayUUPIBoltUIKit",
-            "static": true,
-            "objc_name": "clearCacheWith:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -655,30 +596,6 @@
       },
       {
         "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -691,16 +608,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
         "declKind": "Import",
         "moduleName": "PayUUPIBoltUIKit",
         "declAttributes": [
@@ -752,23 +659,6 @@
         "kind": "Import",
         "name": "PayUUPIBoltKit",
         "printedName": "PayUUPIBoltKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltKit",
-        "printedName": "PayUUPIBoltKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
         "declKind": "Import",
         "moduleName": "PayUUPIBoltUIKit"
       },
@@ -846,23 +736,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
       },
       {
         "kind": "Import",
@@ -1917,13 +1790,6 @@
       },
       {
         "kind": "Import",
-        "name": "PayUUPIBoltKit",
-        "printedName": "PayUUPIBoltKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1955,6 +1821,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PayUUPIBoltUIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "PayUUPIBoltBaseKit",
         "printedName": "PayUUPIBoltBaseKit",
         "declKind": "Import",
@@ -2006,8 +1882,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "PayUUPIBoltBaseKit",
+        "printedName": "PayUUPIBoltBaseKit",
         "declKind": "Import",
         "moduleName": "PayUUPIBoltUIKit",
         "declAttributes": [
@@ -2016,8 +1892,8 @@
       },
       {
         "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PayUUPIBoltUIKit"
       },
@@ -2692,13 +2568,6 @@
       },
       {
         "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2794,13 +2663,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "PayUUPIBoltBaseKit",
-        "printedName": "PayUUPIBoltBaseKit",
-        "declKind": "Import",
-        "moduleName": "PayUUPIBoltUIKit"
       },
       {
         "kind": "Import",
@@ -4837,105 +4699,84 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 14,
-      "value": "\"issuingBanks\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1185,
       "length": 19,
       "value": "\"excludedBanksIINs\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1293,
+      "offset": 1244,
       "length": 19,
       "value": "\"isProtectedScreen\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1343,
+      "offset": 1294,
       "length": 10,
       "value": "\"clientId\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
+      "offset": 1341,
       "length": 16,
       "value": "\"userCredential\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1385,
       "length": 7,
       "value": "\"txnId\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 16,
-      "value": "\"initiationMode\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1532,
+      "offset": 1430,
       "length": 17,
       "value": "\"additionalParam\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
-      "length": 9,
-      "value": "\"purpose\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1510,
       "length": 6,
       "value": "\"udf1\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1547,
       "length": 6,
       "value": "\"udf2\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1584,
       "length": 6,
       "value": "\"udf3\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 1621,
       "length": 6,
       "value": "\"udf4\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1799,
+      "offset": 1658,
       "length": 6,
       "value": "\"udf5\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1695,
       "length": 6,
       "value": "\"udf6\""
     },
@@ -5005,98 +4846,91 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Splash\/ViewModel\/SplashVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 980,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Management\/ViewModel\/RaiseDisputeVM.swift",
-      "kind": "BooleanLiteral",
-      "offset": 499,
+      "offset": 960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2075,
+      "offset": 1722,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2118,
+      "offset": 1765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2150,
+      "offset": 1797,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2834,
+      "offset": 2481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3316,
+      "offset": 2963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3346,
+      "offset": 2993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "StringLiteral",
-      "offset": 6379,
+      "offset": 6026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "StringLiteral",
-      "offset": 8455,
+      "offset": 7839,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "StringLiteral",
-      "offset": 8710,
+      "offset": 8094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10414,
+      "offset": 9798,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/CustomViews\/BottomSheetHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 723,
+      "offset": 678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/CustomViews\/BottomSheetHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 834,
+      "offset": 789,
       "length": 4,
       "value": "true"
     },
@@ -5192,13 +5026,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Management\/ViewModel\/DisputeTypeListVM.swift",
-      "kind": "IntegerLiteral",
-      "offset": 464,
-      "length": 2,
-      "value": "-1"
-    },
-    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Management\/View\/Cells\/DisputeCell.swift",
       "kind": "StringLiteral",
       "offset": 225,
@@ -5222,35 +5049,28 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Splash\/View\/Controllers\/LoaderVC.swift",
       "kind": "StringLiteral",
-      "offset": 837,
+      "offset": 700,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Splash\/View\/Controllers\/LoaderVC.swift",
       "kind": "StringLiteral",
-      "offset": 867,
+      "offset": 730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/RegisterAndPayment\/ViewModel\/DeviceBindingVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 414,
+      "offset": 628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/RegisterAndPayment\/ViewModel\/DeviceBindingVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 906,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/RegisterAndPayment\/ViewModel\/DeviceBindingVM.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1168,
+      "offset": 890,
       "length": 5,
       "value": "false"
     },
@@ -5423,6 +5243,13 @@
       "value": "20"
     },
     {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/LoaderIndicatorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 910,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/RegisterAndPayment\/ViewModel\/PaymentBankVM.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
@@ -5439,1652 +5266,1687 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6076,
+      "offset": 5467,
       "length": 4,
       "value": "2000"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6094,
+      "offset": 5485,
       "length": 12,
       "value": "2001"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6120,
+      "offset": 5511,
       "length": 18,
       "value": "2002"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6152,
+      "offset": 5543,
       "length": 18,
       "value": "2003"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6184,
+      "offset": 5575,
       "length": 17,
       "value": "2004"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/HybridFiles\/PayUHybridUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6215,
+      "offset": 5606,
       "length": 17,
       "value": "2005"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Splash\/View\/Controllers\/AlertVC.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Splash\/View\/Controllers\/AlertVC.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 3273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 15,
+      "value": "\"loader-square\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 16,
+      "value": "\"loader-square2\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
       "offset": 252,
-      "length": 3,
-      "value": "1.0"
+      "length": 16,
+      "value": "\"loader-square3\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 305,
-      "length": 3,
-      "value": "2.0"
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 10,
+      "value": "\"loader-u\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "12.0"
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 12,
+      "value": "\"loader-pay\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 517,
-      "length": 5,
-      "value": "133.0"
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 21,
+      "value": "\"completionAnimation\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 566,
-      "length": 5,
-      "value": "170.0"
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 8,
+      "value": "\"loader\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 8,
+      "value": "\"animId\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 18,
+      "value": "\"needEndAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 20,
+      "value": "\"payLoaderAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 18,
+      "value": "\"uLoaderAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 23,
+      "value": "\"squareLoaderAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 24,
+      "value": "\"square2LoaderAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 24,
+      "value": "\"square3LoaderAnimation\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 8,
+      "value": "\"hidden\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 11,
+      "value": "\"transform\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 9,
+      "value": "\"opacity\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 15,
+      "value": "\"instanceDelay\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 611,
+      "offset": 1261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 726,
-      "length": 4,
-      "value": "12.0"
+      "kind": "BooleanLiteral",
+      "offset": 16937,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Loader\/PayULogoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 178,
+      "offset": 16980,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 215,
+      "offset": 223,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 299,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 294,
+      "offset": 339,
       "length": 3,
       "value": "501"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 336,
+      "offset": 381,
       "length": 6,
       "value": "100000"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 419,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 443,
+      "offset": 488,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 490,
+      "offset": 535,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 539,
+      "offset": 584,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 593,
+      "offset": 638,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 686,
       "length": 21,
       "value": "\"payuBackgroundLayer\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 698,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 721,
-      "length": 3,
-      "value": "\"y\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 13,
-      "value": "\"payUSdkName\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 805,
-      "length": 16,
-      "value": "\"payUSdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 853,
-      "length": 15,
-      "value": "\"PayUUPIBoltUI\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 890,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 734,
       "length": 22,
       "value": "\"dd\/MM\/yyyy | hh:mm a\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 785,
       "length": 12,
       "value": "\"dd-MM-yyyy\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 826,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1099,
-      "length": 28,
-      "value": "\"dd\/MM\/yyyy hh:mm:ss.SSSZ a\""
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 892,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
       "length": 23,
       "value": "\"dd\/MM\/yyyy hh:mm:ss a\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 984,
       "length": 21,
       "value": "\"dd\/MM\/yyyy HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
-      "length": 6,
-      "value": "\"axis\""
+      "offset": 1035,
+      "length": 13,
+      "value": "\"payUSdkName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
-      "length": 6,
-      "value": "\"hdfc\""
+      "offset": 1081,
+      "length": 16,
+      "value": "\"payUSdkVersion\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
-      "length": 6,
-      "value": "\"bhim\""
+      "offset": 1129,
+      "length": 15,
+      "value": "\"PayUUPIBoltUI\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1435,
+      "offset": 1166,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
       "length": 16,
       "value": "\"Setup UPI Bolt\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1495,
+      "offset": 1404,
       "length": 30,
       "value": "\"Verifying your mobile number\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 1477,
       "length": 24,
       "value": "\"Mobile number verified\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1539,
       "length": 20,
       "value": "\" has been verified\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1699,
+      "offset": 1608,
       "length": 32,
       "value": "\"Could not verify mobile number\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1684,
       "length": 27,
       "value": "\"Could not fetch bank list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1849,
+      "offset": 1758,
       "length": 30,
       "value": "\"Could not fetch account list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 1839,
       "length": 34,
       "value": "\"Could not fetch transaction list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 1920,
       "length": 30,
       "value": "\"Could not fetch dispute list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2074,
+      "offset": 1983,
       "length": 22,
       "value": "\"Do you want to exit?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2047,
       "length": 43,
       "value": "\"Do you really want to cancel the payment?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2219,
+      "offset": 2128,
       "length": 16,
       "value": "\"Setting-up UPI\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 2176,
       "length": 13,
       "value": "\"Setup M-PIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2222,
       "length": 14,
       "value": "\"Setup UPI ID\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 2276,
       "length": 74,
       "value": "\"M-PIN is required for all UPI transactions. Enter card details to setup.\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2386,
       "length": 33,
       "value": "\"   We have found %d account(s):\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 2450,
       "length": 14,
       "value": "\"Paying to %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2590,
+      "offset": 2499,
       "length": 12,
       "value": "\"Other Bank\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2638,
+      "offset": 2547,
       "length": 16,
       "value": "\"Manage Account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2686,
+      "offset": 2595,
       "length": 12,
       "value": "\"Manage UPI\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2647,
       "length": 16,
       "value": "\"Select Account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
-      "length": 25,
-      "value": "\"Select dispute category\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 2703,
       "length": 21,
       "value": "\"Linked UPI Accounts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2914,
+      "offset": 2754,
       "length": 19,
       "value": "\"Queries\/ Disputes\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2968,
+      "offset": 2808,
       "length": 32,
       "value": "\"Issue with the payment of Rs. \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 2878,
       "length": 12,
       "value": "\"Ticket ID:\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3085,
+      "offset": 2925,
       "length": 9,
       "value": "\"Txn ID:\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3135,
+      "offset": 2975,
       "length": 21,
       "value": "\"Transaction History\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3197,
+      "offset": 3037,
       "length": 21,
       "value": "\"Transaction Details\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3256,
+      "offset": 3096,
       "length": 23,
       "value": "\"Fetching your details\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3312,
+      "offset": 3152,
       "length": 13,
       "value": "\"Please wait\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 3209,
       "length": 25,
       "value": "\"Processing your payment\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3438,
+      "offset": 3278,
       "length": 25,
       "value": "\"Deregister all accounts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3504,
+      "offset": 3344,
       "length": 143,
       "value": "\"You will not be able to make faster payments if you deregister all linked accounts.\n\n\nAre you sure you want to de-register all accounts?\n\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3729,
+      "offset": 3569,
       "length": 28,
       "value": "\"Your concern is registered\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3808,
+      "offset": 3648,
       "length": 71,
       "value": "\"Our team will shortly reach out to you. Please note your dispute ID: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 3756,
+      "length": 91,
+      "value": "\"SMS will be sent to your registered phone number. Allow %@ to send and view SMS messages.\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3876,
       "length": 18,
       "value": "\"Set your UPI PIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3962,
+      "offset": 3930,
       "length": 21,
       "value": "\"UPI PIN already set\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4021,
+      "offset": 3989,
       "length": 28,
       "value": "\"Fetching your bank account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4090,
+      "offset": 4058,
       "length": 37,
       "value": "\"Could not fetch any accounts for %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 4131,
       "length": 27,
       "value": "\"Bank account & UPI ID set\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4232,
+      "offset": 4200,
       "length": 32,
       "value": "\"No bank found with name \"%@\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4313,
+      "offset": 4281,
       "length": 85,
       "value": "\"There was an error in registering your issue. Please try again or check back later.\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4434,
+      "offset": 4402,
       "length": 36,
       "value": "\"Do you want to cancel the payment?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4509,
-      "length": 20,
-      "value": "\"Verify your device\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 4582,
+      "offset": 4491,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4620,
+      "offset": 4529,
       "length": 21,
       "value": "\"Cancel Transaction?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4667,
+      "offset": 4576,
       "length": 5,
       "value": "\"YES\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4702,
+      "offset": 4611,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4737,
+      "offset": 4646,
       "length": 11,
       "value": "\"TRY AGAIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4778,
+      "offset": 4687,
       "length": 9,
       "value": "\"CONFIRM\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4819,
-      "length": 10,
-      "value": "\"CONTINUE\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 4856,
+      "offset": 4723,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 4758,
       "length": 8,
       "value": "\"CANCEL\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4932,
+      "offset": 4799,
       "length": 13,
       "value": "\"CHANGE BANK\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4838,
       "length": 8,
       "value": "\"PAY %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5006,
+      "offset": 4873,
       "length": 6,
       "value": "\"DONE\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5040,
+      "offset": 4907,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5072,
+      "offset": 4939,
       "length": 4,
       "value": "\"Ok\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5109,
+      "offset": 4976,
       "length": 13,
       "value": "\"Add Account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5157,
+      "offset": 5024,
       "length": 15,
       "value": "\"Raise dispute\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5204,
+      "offset": 5071,
       "length": 13,
       "value": "\"SET UPI PIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5248,
+      "offset": 5115,
       "length": 12,
       "value": "\"SET UPI ID\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5296,
+      "offset": 5163,
       "length": 16,
       "value": "\"Delete account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5367,
+      "offset": 5234,
       "length": 5,
       "value": "\"a\/c\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5411,
+      "offset": 5278,
       "length": 39,
       "value": "\"Change MPIN Call made successfully..!\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5498,
+      "offset": 5365,
       "length": 106,
       "value": "\"Are you sure you want to remove this account?\n\n\nThis action will remove the account from your list.\n\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5640,
+      "offset": 5507,
       "length": 25,
       "value": "\"UPI ID set successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5693,
+      "offset": 5560,
       "length": 10,
       "value": "\"UPI ID: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 5609,
       "length": 20,
       "value": "\"Try after sometime\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5802,
+      "offset": 5669,
       "length": 37,
       "value": "\"Error: Balance could not be fetched\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5875,
+      "offset": 5742,
       "length": 21,
       "value": "\"Some error occurred\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5924,
+      "offset": 5791,
       "length": 7,
       "value": "\"Today\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5959,
+      "offset": 5826,
       "length": 7,
       "value": "\"Alert\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5992,
+      "offset": 5859,
       "length": 5,
       "value": "\"pay\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6055,
+      "offset": 5922,
       "length": 15,
       "value": "\"green_checked\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6104,
+      "offset": 5971,
       "length": 14,
       "value": "\"banking_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6158,
+      "offset": 6025,
       "length": 21,
       "value": "\"success_green_check\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6210,
+      "offset": 6077,
       "length": 11,
       "value": "\"red_cross\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6251,
+      "offset": 6118,
       "length": 14,
       "value": "\"pending_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6298,
+      "offset": 6165,
       "length": 13,
       "value": "\"iphone_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6353,
+      "offset": 6220,
       "length": 23,
       "value": "\"radio_button_selected\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6420,
+      "offset": 6287,
       "length": 14,
       "value": "\"radio_button\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6473,
+      "offset": 6340,
       "length": 24,
       "value": "\"exclamatory_error_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6532,
+      "offset": 6399,
       "length": 15,
       "value": "\"dotted_circel\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6574,
+      "offset": 6441,
       "length": 11,
       "value": "\"plus_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 6612,
-      "length": 6,
-      "value": "\"axis\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 6645,
-      "length": 6,
-      "value": "\"hdfc\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 6678,
-      "length": 6,
-      "value": "\"bhim\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 6714,
-      "length": 9,
-      "value": "\"bhimUPI\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6788,
+      "offset": 6517,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6843,
+      "offset": 6572,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6913,
+      "offset": 6642,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6960,
+      "offset": 6689,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7003,
+      "offset": 6732,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 7053,
+      "offset": 6782,
       "length": 6,
       "value": "5000.0"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7090,
+      "offset": 6819,
       "length": 6,
       "value": "\"AXIS\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8597,
+      "offset": 8455,
       "length": 16,
       "value": "\"Invalid Expiry\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8511,
       "length": 34,
       "value": "\"Please enter a valid card number\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8722,
+      "offset": 8580,
       "length": 29,
       "value": "\"Please enter a valid UPI ID\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8790,
+      "offset": 8648,
       "length": 20,
       "value": "\"UPI ID unavailable\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8854,
-      "length": 60,
-      "value": "\"Something went wrong. Please try again or check back later\""
+      "offset": 8712,
+      "length": 22,
+      "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8948,
-      "length": 40,
-      "value": "\"No account found for the selected bank\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 9031,
+      "offset": 8777,
       "length": 30,
       "value": "\"Mandatory Params are missing\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9103,
+      "offset": 8849,
       "length": 69,
       "value": "\"Please check your internet connection or mobile data and try again.\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9207,
+      "offset": 8953,
       "length": 15,
       "value": "\"Network Error\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9269,
+      "offset": 9015,
       "length": 79,
       "value": "\"There was an error adding your account. Please try again or check back later.\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9504,
+      "offset": 9250,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9541,
+      "offset": 9287,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9582,
+      "offset": 9328,
       "length": 12,
       "value": "\"bankHandle\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9661,
+      "offset": 9407,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9702,
+      "offset": 9448,
       "length": 5,
       "value": "\" \/ \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9747,
+      "offset": 9493,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9807,
+      "offset": 9553,
       "length": 22,
       "value": "\"-?[0-9]+(\\.[0-9]+)?\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9862,
+      "offset": 9608,
       "length": 24,
       "value": "\"^[0-9A-Za-z.-]{2,256}$\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10033,
+      "offset": 9779,
       "length": 21,
       "value": "\"Transaction History\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10082,
+      "offset": 9828,
       "length": 23,
       "value": "\"View all transactions\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10133,
+      "offset": 9879,
       "length": 11,
       "value": "\"list_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10262,
+      "offset": 10008,
       "length": 21,
       "value": "\"Manage UPI accounts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10311,
+      "offset": 10057,
       "length": 66,
       "value": "\"Manage all your UPI accounts (Set\/reset PIN, Delete account etc)\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10405,
+      "offset": 10151,
       "length": 14,
       "value": "\"setting_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10535,
+      "offset": 10281,
       "length": 19,
       "value": "\"Queries\/ Disputes\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10582,
+      "offset": 10328,
       "length": 19,
       "value": "\"View all concerns\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10629,
+      "offset": 10375,
       "length": 11,
       "value": "\"info_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10755,
+      "offset": 10501,
       "length": 25,
       "value": "\"Deregister all accounts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10808,
+      "offset": 10554,
       "length": 43,
       "value": "\"This will remove all your linked accounts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10879,
+      "offset": 10625,
       "length": 24,
       "value": "\"deregister_upi_account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11080,
+      "offset": 10826,
       "length": 15,
       "value": "\"Check balance\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11123,
+      "offset": 10869,
       "length": 31,
       "value": "\"Fetch balance of this account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11182,
+      "offset": 10928,
       "length": 20,
       "value": "\"check_balance_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11314,
+      "offset": 11060,
       "length": 15,
       "value": "\"Reset UPI PIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11357,
+      "offset": 11103,
       "length": 38,
       "value": "\"Reset the current PIN with a new one\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11423,
+      "offset": 11169,
       "length": 20,
       "value": "\"reset_upi_pin_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11554,
+      "offset": 11300,
       "length": 16,
       "value": "\"Change UPI PIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11598,
+      "offset": 11344,
       "length": 39,
       "value": "\"Change the current PIN with a new one\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11665,
+      "offset": 11411,
       "length": 21,
       "value": "\"change_upi_pin_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11798,
+      "offset": 11544,
       "length": 16,
       "value": "\"Delete Account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11842,
+      "offset": 11588,
       "length": 45,
       "value": "\"This will remove the account from your list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11915,
+      "offset": 11661,
       "length": 21,
       "value": "\"delete_account_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12114,
+      "offset": 11860,
       "length": 16,
       "value": "\"Delete Account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12158,
+      "offset": 11904,
       "length": 45,
       "value": "\"This will remove the account from your list\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12231,
+      "offset": 11977,
       "length": 21,
       "value": "\"delete_account_icon\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 12134,
+      "length": 19,
+      "value": "\"isNewRegistration\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 12185,
+      "length": 11,
+      "value": "\"bankLogos\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12368,
+      "offset": 12256,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12287,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12440,
+      "offset": 12359,
       "length": 23,
       "value": "\"Account already added\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12512,
+      "offset": 12431,
       "length": 30,
       "value": "\"Account deleted successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12588,
+      "offset": 12507,
       "length": 27,
       "value": "\"MPIN changed successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12655,
+      "offset": 12574,
       "length": 21,
       "value": "\"Copied to clipboard\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12712,
+      "offset": 12631,
       "length": 16,
       "value": "\"already raised\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12771,
+      "offset": 12690,
       "length": 23,
       "value": "\"MPIN set successfully\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12830,
+      "offset": 12749,
       "length": 31,
       "value": "\"User canceled the transaction\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12891,
+      "offset": 12810,
       "length": 23,
       "value": "\"Transaction timed out\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12953,
+      "offset": 12872,
       "length": 58,
       "value": "\"Transaction amount should be greater than or equals to 1\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13051,
+      "offset": 12970,
       "length": 29,
       "value": "\"Transaction amount exceeded\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13120,
+      "offset": 13039,
       "length": 21,
       "value": "\"User not registered\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13184,
-      "length": 46,
-      "value": "\"UPI transaction reference number is missing.\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 13260,
+      "offset": 13090,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13308,
-      "length": 63,
-      "value": "\"You are already registered with +%@. Do you want to continue?\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 13443,
+      "offset": 13171,
       "length": 87,
       "value": "\"There was an error verifying your mobile number. Please try again or check back later\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13555,
+      "offset": 13283,
       "length": 83,
       "value": "\"There was an error while fetching bank list. Please try again or check back later\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13666,
+      "offset": 13394,
       "length": 86,
       "value": "\"There was an error while fetching account list. Please try again or check back later\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13780,
+      "offset": 13508,
       "length": 86,
       "value": "\"There was an error while fetching dispute list. Please try again or check back later\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13898,
+      "offset": 13626,
       "length": 90,
       "value": "\"There was an error while fetching transaction list. Please try again or check back later\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14015,
+      "offset": 13743,
       "length": 47,
       "value": "\"There was an error while fetching the account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14092,
+      "offset": 13820,
       "length": 43,
       "value": "\"There was an error while deleting account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14162,
+      "offset": 13890,
       "length": 40,
       "value": "\"There was an error while changing MPIN\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14228,
+      "offset": 13956,
       "length": 20,
       "value": "\"Some error occured\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14277,
+      "offset": 14005,
       "length": 25,
       "value": "\"Error verifying details\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14447,
+      "offset": 14175,
       "length": 8,
       "value": "\"607153\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14459,
+      "offset": 14187,
       "length": 46,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/axis.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14534,
+      "offset": 14262,
       "length": 8,
       "value": "\"607152\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14546,
+      "offset": 14274,
       "length": 51,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/bank_hdfc.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14626,
+      "offset": 14354,
       "length": 8,
       "value": "\"508534\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14638,
+      "offset": 14366,
       "length": 52,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/ICICI_logo.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14719,
+      "offset": 14447,
       "length": 8,
       "value": "\"607420\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14731,
+      "offset": 14459,
       "length": 47,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/kotak.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14807,
+      "offset": 14535,
       "length": 8,
       "value": "\"508548\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14819,
+      "offset": 14547,
       "length": 45,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/sbi.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14893,
+      "offset": 14621,
       "length": 8,
       "value": "\"175007\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14905,
+      "offset": 14633,
       "length": 45,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/sbi.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14979,
+      "offset": 14707,
       "length": 8,
       "value": "\"111100\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14991,
+      "offset": 14719,
       "length": 45,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/sbi.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15065,
+      "offset": 14793,
       "length": 8,
       "value": "\"180023\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15077,
+      "offset": 14805,
       "length": 45,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/sbi.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15151,
+      "offset": 14879,
       "length": 8,
       "value": "\"606985\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15163,
+      "offset": 14891,
       "length": 50,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/bank_bob.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15242,
+      "offset": 14970,
       "length": 8,
       "value": "\"508500\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15254,
+      "offset": 14982,
       "length": 52,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/union_bank.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15335,
+      "offset": 15063,
       "length": 8,
       "value": "\"508568\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15347,
+      "offset": 15075,
       "length": 45,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/pnb.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15421,
+      "offset": 15149,
       "length": 8,
       "value": "\"508532\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15433,
+      "offset": 15161,
       "length": 48,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/canara.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15510,
+      "offset": 15238,
       "length": 8,
       "value": "\"508505\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15522,
+      "offset": 15250,
       "length": 50,
       "value": "\"https:\/\/www.axisbank.com\/bank_logos\/bank_boi.png\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 15659,
+      "offset": 15387,
       "length": 292,
       "value": "[(\"607153\", 0), (\"607152\", 1), (\"508534\", 2), (\"607420\", 3), (\"508548\", 4), (\"606985\", 5), (\"508500\", 6), (\"508568\", 7), (\"508532\", 8), (\"508505\", 9)]"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Constants\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 15997,
+      "offset": 15725,
       "length": 556,
       "value": "[(\"170058\", \"\"), (\"175002\", \"\"), (\"175003\", \"\"), (\"175004\", \"\"), (\"170063\", \"\"), (\"175008\", \"\"), (\"175016\", \"\"), (\"175005\", \"\"), (\"175010\", \"\"), (\"175012\", \"\"), (\"176001\", \"\"), (\"175001\", \"\"), (\"175006\", \"\"), (\"652873\", \"\"), (\"175011\", \"\"), (\"652903\", \"\"), (\"175009\", \"\"), (\"175018\", \"\"), (\"175019\", \"\"), (\"157503\", \"\"), (\"175017\", \"\"), (\"170064\", \"\"), (\"175021\", \"\"), (\"175025\", \"\"), (\"175022\", \"\")]"
     },
@@ -7185,34 +7047,6 @@
       "offset": 3668,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Extension\/UIView+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3990,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Extension\/UIView+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 3996,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Extension\/UIView+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4033,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/UI Utilities\/Extension\/UIView+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 4039,
-      "length": 3,
-      "value": "0.5"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Management\/View\/Controllers\/ManageAccountVC.swift",
@@ -7399,581 +7233,574 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 663,
-      "length": 14,
-      "value": "\"cacheCleared\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 688,
       "length": 8,
       "value": "\"repeat\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 721,
       "length": 14,
       "value": "\"registration\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 758,
       "length": 12,
       "value": "\"management\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 818,
       "length": 11,
       "value": "\"initiated\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 865,
       "length": 19,
       "value": "\"closedWithSuccess\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 920,
       "length": 19,
       "value": "\"closedWithFailure\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
+      "offset": 977,
       "length": 21,
       "value": "\"closedWithCancelled\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
+      "offset": 1022,
       "length": 7,
       "value": "\"reset\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1059,
       "length": 13,
       "value": "\"getInstance\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
+      "offset": 1148,
       "length": 6,
       "value": "\"High\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1174,
       "length": 5,
       "value": "\"Low\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1233,
       "length": 4,
       "value": "\"ts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1323,
+      "offset": 1278,
       "length": 20,
       "value": "\"applicationPackage\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1384,
+      "offset": 1339,
       "length": 20,
       "value": "\"applicationVersion\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1392,
       "length": 12,
       "value": "\"loggingSdk\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1437,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1524,
+      "offset": 1479,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1567,
+      "offset": 1522,
       "length": 13,
       "value": "\"merchantKey\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1608,
+      "offset": 1563,
       "length": 7,
       "value": "\"refId\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1606,
       "length": 15,
       "value": "\"deviceDetails\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1652,
       "length": 10,
       "value": "\"eventKey\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1693,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1780,
+      "offset": 1735,
       "length": 11,
       "value": "\"eventType\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1824,
+      "offset": 1779,
       "length": 12,
       "value": "\"eventValue\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 1826,
       "length": 14,
       "value": "\"merchantName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1873,
       "length": 12,
       "value": "\"pluginType\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1917,
       "length": 11,
       "value": "\"eventTime\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2005,
+      "offset": 1960,
       "length": 9,
       "value": "\"evtData\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2046,
+      "offset": 2001,
       "length": 9,
       "value": "\"evtName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2050,
       "length": 19,
       "value": "\"loggingSdkVersion\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2102,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2186,
+      "offset": 2141,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2221,
+      "offset": 2176,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2262,
+      "offset": 2217,
       "length": 12,
       "value": "\"screenName\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2256,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2335,
+      "offset": 2290,
       "length": 7,
       "value": "\"txnId\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2328,
       "length": 10,
       "value": "\"identity\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2367,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2480,
+      "offset": 2435,
       "length": 4,
       "value": "\"ts\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2467,
       "length": 8,
       "value": "\"txn_id\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2516,
       "length": 21,
       "value": "\"application_package\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2623,
+      "offset": 2578,
       "length": 21,
       "value": "\"application_version\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2677,
+      "offset": 2632,
       "length": 13,
       "value": "\"logging_sdk\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2723,
+      "offset": 2678,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2721,
       "length": 10,
       "value": "\"sdk_name\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 2765,
       "length": 14,
       "value": "\"merchant_key\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 2807,
       "length": 8,
       "value": "\"ref_id\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2896,
+      "offset": 2851,
       "length": 16,
       "value": "\"device_details\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2943,
+      "offset": 2898,
       "length": 11,
       "value": "\"event_key\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2985,
+      "offset": 2940,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3027,
+      "offset": 2982,
       "length": 12,
       "value": "\"event_type\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3027,
       "length": 13,
       "value": "\"event_value\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3118,
+      "offset": 3073,
       "length": 13,
       "value": "\"event_index\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3163,
+      "offset": 3118,
       "length": 12,
       "value": "\"event_time\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3211,
+      "offset": 3166,
       "length": 16,
       "value": "\"event_severity\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3215,
       "length": 13,
       "value": "\"screen_name\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3300,
+      "offset": 3255,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3335,
+      "offset": 3290,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3372,
+      "offset": 3327,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3413,
+      "offset": 3368,
       "length": 13,
       "value": "\"plugin_type\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3433,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3514,
+      "offset": 3469,
       "length": 14,
       "value": "\"PAYU_BoltUI:\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3642,
       "length": 18,
       "value": "\"isUpiBoltEnabled\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 5114,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5195,
+      "offset": 5142,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5252,
+      "offset": 5199,
       "length": 9,
       "value": "\"TxnId: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 5247,
       "length": 19,
       "value": "\"Account Selection\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5345,
+      "offset": 5292,
       "length": 7,
       "value": "\"vpa: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 5330,
       "length": 10,
       "value": "\"Existing\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 5368,
       "length": 9,
       "value": "\"Retry: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5459,
+      "offset": 5406,
       "length": 8,
       "value": "\"Manual\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5503,
+      "offset": 5450,
       "length": 16,
       "value": "\"User Cancelled\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 5505,
       "length": 28,
       "value": "\"Searching History %@ To %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5619,
+      "offset": 5566,
       "length": 15,
       "value": "\"Txn History: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 5618,
       "length": 20,
       "value": "\"Txn History Cell: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5720,
+      "offset": 5667,
       "length": 10,
       "value": "\"Copied: \""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5765,
+      "offset": 5712,
       "length": 19,
       "value": "\"Paying Amount: %@\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5818,
+      "offset": 5765,
       "length": 17,
       "value": "\"TxnInitated: %d\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5871,
+      "offset": 5818,
       "length": 19,
       "value": "\"SelectedIndex: %d\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5930,
+      "offset": 5877,
       "length": 21,
       "value": "\"Existing List Found\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "Dictionary",
-      "offset": 6932,
+      "offset": 6879,
       "length": 449,
       "value": "[(\"merchId\", \"\"), (\"merchChanId\", \"\"), (\"balance\", \"\"), (\"otp\", \"\"), (\"mpin\", \"\"), (\"merchantauthtoken\", \"\"), (\"email\", \"\"), (\"hash\", \"\"), (\"checkSum\", \"\"), (\"atmpinFormat\", \"\"), (\"merchantchannelid\", \"\"), (\"customerId\", \"\"), (\"mcc\", \"\"), (\"submerchantid\", \"\"), (\"merchantId\", \"\"), (\"merchantvpa\", \"\"), (\"name\", \"\"), (\"otpFormat\", \"\")]"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/Event Handler\/EventConstants.swift",
       "kind": "Dictionary",
-      "offset": 7411,
+      "offset": 7358,
       "length": 232,
       "value": "[(\"mobileNumber\", \"\"), (\"phone\", \"\"), (\"mobileNo\", \"\"), (\"accountNo\", \"\"), (\"accountId\", \"\"), (\"accountNumber\", \"\"), (\"unqCustId\", \"\"), (\"vpa\", \"\"), (\"virtualAddress\", \"\")]"
     },
@@ -8015,303 +7842,296 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 2593,
+      "offset": 2513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 2623,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2649,
+      "offset": 2539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4312,
+      "offset": 3853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4342,
+      "offset": 3883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4368,
+      "offset": 3914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7404,
+      "offset": 6485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "Array",
-      "offset": 11067,
+      "offset": 10085,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltUIKit\/PayUUPIBoltUIKit\/Internal Files\/BaseVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11991,
+      "offset": 11009,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 719,
+      "length": 5,
+      "value": "\"UPI\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
       "length": 6,
       "value": "\"axis\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 981,
       "length": 14,
       "value": "\"banking_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 992,
-      "length": 6,
-      "value": "\"bhim\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1122,
-      "length": 9,
-      "value": "\"bhimUPI\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1133,
       "length": 17,
       "value": "\"cell_arrow_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1431,
+      "offset": 1295,
       "length": 21,
       "value": "\"change_upi_pin_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1460,
       "length": 20,
       "value": "\"check_balance_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1609,
       "length": 12,
       "value": "\"copy_board\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1767,
       "length": 21,
       "value": "\"delete_account_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 1940,
       "length": 24,
       "value": "\"deregister_upi_account\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2099,
       "length": 15,
       "value": "\"dotted_circel\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2383,
+      "offset": 2247,
       "length": 14,
       "value": "\"edit_pencile\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2413,
       "length": 24,
       "value": "\"exclamatory_error_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2570,
       "length": 14,
       "value": "\"fastapi_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2715,
       "length": 13,
       "value": "\"folder_open\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 2888,
       "length": 28,
       "value": "\"frequently-asked-questions\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3187,
+      "offset": 3051,
       "length": 15,
       "value": "\"green_checked\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3320,
+      "offset": 3184,
       "length": 6,
       "value": "\"hdfc\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3453,
+      "offset": 3317,
       "length": 11,
       "value": "\"info_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3459,
       "length": 13,
       "value": "\"iphone_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3736,
-      "length": 11,
-      "value": "\"lightning\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3874,
+      "offset": 3599,
       "length": 11,
       "value": "\"list_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4024,
+      "offset": 3739,
+      "length": 12,
+      "value": "\"loader-pay\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3886,
+      "length": 15,
+      "value": "\"loader-square\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4026,
+      "length": 10,
+      "value": "\"loader-u\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4175,
       "length": 17,
       "value": "\"navigation_back\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4325,
       "length": 14,
       "value": "\"pending_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4466,
       "length": 11,
       "value": "\"plus_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4462,
+      "offset": 4613,
       "length": 16,
       "value": "\"powerd_by_payu\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4611,
+      "offset": 4762,
       "length": 14,
       "value": "\"radio_button\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4775,
+      "offset": 4926,
       "length": 23,
       "value": "\"radio_button_selected\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4925,
+      "offset": 5076,
       "length": 11,
       "value": "\"red_cross\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5079,
+      "offset": 5230,
       "length": 20,
       "value": "\"reset_upi_pin_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5230,
+      "offset": 5381,
       "length": 13,
       "value": "\"search_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5376,
+      "offset": 5527,
       "length": 14,
       "value": "\"setting_icon\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5536,
+      "offset": 5687,
       "length": 21,
       "value": "\"success_green_check\""
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Library\/Developer\/Xcode\/DerivedData\/PayUUPIPlugin-hfpozxjmaaqczaescrllzxgwzcxa\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUUPIBoltUIKit\/IntermediateBuildFilesPath\/PayUUPIBoltUIKit.build\/Release-iphoneos\/PayUUPIBoltUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5675,
-      "length": 6,
-      "value": "\"user\""
     }
   ]
 }

@@ -283,7 +283,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import PayUUPIBoltBaseKit;
 #endif
 
 #endif
@@ -317,26 +316,20 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit19HdfcAuthTokenResult")
 @end
 
 @class PayUUPIBoltBaseConfig;
-@protocol PayUUPIBoltDelegate;
+@protocol PayUUPIBoltHashDelegate;
 @class PayUUPIBoltInterface;
 SWIFT_CLASS("_TtC14PayUUPIBoltKit11PayUUPIBolt")
 @interface PayUUPIBolt : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config delegate:(id <PayUUPIBoltDelegate> _Nonnull)delegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config hashDelegate:(id <PayUUPIBoltHashDelegate> _Nonnull)hashDelegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
 + (PayUUPIBoltInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)reset;
-+ (BOOL)isRegisteredWith:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
-+ (void)clearCacheWith:(NSString * _Nonnull)pg;
 @end
 
 SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit23PayUUPIBoltHashDelegate_")
 @protocol PayUUPIBoltHashDelegate
 - (void)generateHashFor:(NSDictionary<NSString *, NSString *> * _Nonnull)param onCompletion:(void (^ _Nonnull)(NSDictionary<NSString *, NSString *> * _Nonnull))onCompletion;
-@end
-
-SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit19PayUUPIBoltDelegate_")
-@protocol PayUUPIBoltDelegate <PayUUPIBoltBaseDelegate, PayUUPIBoltHashDelegate>
 @end
 
 @class PayUUPIBoltResponse;
@@ -347,9 +340,9 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 @interface PayUUPIBoltInterface : NSObject
 - (void)isUPIBoltEnabledWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkDeviceStatusWithParentVC:(UIViewController * _Nonnull)parentVC callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (NSString * _Nullable)getRegisteredMobileWithPg:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getRegisteredMobile SWIFT_WARN_UNUSED_RESULT;
 - (void)fetchBankListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (void)fetchAccountsWithIInIin:(NSString * _Nonnull)iin bankName:(NSString * _Nonnull)bankName bankCode:(NSString * _Nullable)bankCode bankId:(NSString * _Nullable)bankId vpa:(NSString * _Nullable)vpa requestType:(NSString * _Nullable)requestType isCCTxnEnabled:(BOOL)isCCTxnEnabled callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
+- (void)fetchAccountsWithIInIin:(NSString * _Nonnull)iin bankName:(NSString * _Nonnull)bankName bankCode:(NSString * _Nullable)bankCode vpa:(NSString * _Nullable)vpa requestType:(NSString * _Nullable)requestType isCCTxnEnabled:(BOOL)isCCTxnEnabled callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchLinkedAccountsWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkBalanceWithParentVC:(UIViewController * _Nonnull)parentVC accountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkVPAWithVpa:(NSString * _Nonnull)vpa requestType:(NSString * _Nonnull)requestType callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
@@ -371,7 +364,6 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 - (void)saveVPAWithVpa:(NSString * _Nonnull)vpa name:(NSString * _Nonnull)name nickName:(NSString * _Nonnull)nickName callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deleteVPAWithVpa:(NSString * _Nonnull)vpa callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchRegisteredVPAListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (void)clearCacheWithPg:(NSString * _Nonnull)pg;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

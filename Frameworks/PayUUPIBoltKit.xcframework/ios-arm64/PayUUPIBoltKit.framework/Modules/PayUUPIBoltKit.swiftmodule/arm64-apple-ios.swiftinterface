@@ -16,19 +16,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUUPIBolt : ObjectiveC.NSObject {
-  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, delegate: any PayUUPIBoltKit.PayUUPIBoltDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
+  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, hashDelegate: any PayUUPIBoltKit.PayUUPIBoltHashDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
   @objc public class func getInstance() -> PayUUPIBoltKit.PayUUPIBoltInterface?
   @objc public class func reset()
-  @objc public class func isRegistered(with pg: Swift.String) -> Swift.Bool
-  @objc public class func clearCache(with pg: Swift.String)
   @objc deinit
 }
 public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> Swift.Void
 public typealias PayUUPIBoltHashGenerationCompletion = (_ hashDict: [Swift.String : Swift.String]) -> Swift.Void
 @objc public protocol PayUUPIBoltHashDelegate {
   @objc func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping PayUUPIBoltKit.PayUUPIBoltHashGenerationCompletion)
-}
-@objc public protocol PayUUPIBoltDelegate : PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate, PayUUPIBoltKit.PayUUPIBoltHashDelegate {
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public var payuModelName: Swift.String {
@@ -48,9 +44,9 @@ extension UIKit.UIDevice {
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltInterface : ObjectiveC.NSObject {
   @objc public func isUPIBoltEnabled(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkDeviceStatus(parentVC: UIKit.UIViewController, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func getRegisteredMobile(pg: Swift.String) -> Swift.String?
+  @objc public func getRegisteredMobile() -> Swift.String?
   @objc public func fetchBankList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func fetchAccountsWithIIn(iin: Swift.String, bankName: Swift.String, bankCode: Swift.String?, bankId: Swift.String?, vpa: Swift.String?, requestType: Swift.String?, isCCTxnEnabled: Swift.Bool, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
+  @objc public func fetchAccountsWithIIn(iin: Swift.String, bankName: Swift.String, bankCode: Swift.String?, vpa: Swift.String?, requestType: Swift.String?, isCCTxnEnabled: Swift.Bool, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchLinkedAccounts(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkBalance(parentVC: UIKit.UIViewController, accountDetail: PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkVPA(vpa: Swift.String, requestType: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
@@ -72,7 +68,6 @@ extension UIKit.UIDevice {
   @objc public func saveVPA(vpa: Swift.String, name: Swift.String, nickName: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func deleteVPA(vpa: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchRegisteredVPAList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func clearCache(pg: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
