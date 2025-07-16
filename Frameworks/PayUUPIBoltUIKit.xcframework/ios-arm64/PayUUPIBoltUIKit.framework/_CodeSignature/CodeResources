@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		FZnNiOLdTrk0Q68cEUohoKzVGgA=
+		ztytxVvAVzge0LOy+zkre2G4YUU=
 		</data>
 		<key>BalanceErrorView.nib</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>BottomSheetHeaderView.nib/objects-14.0+.nib</key>
 		<data>
-		muomBOxUFobPwPu+iOmL+j0tP+g=
+		jj95TjtpuG/Rry+KkwD/DGXxyCs=
 		</data>
 		<key>BottomSheetHeaderView.nib/runtime.nib</key>
 		<data>
-		h068U1mHxOEmtFhw1lAbKmDM8cQ=
+		mWmdwnBQBzeo0NCfRLGSJCo+YhY=
 		</data>
 		<key>BrandingFooterView.nib</key>
 		<data>
-		kBOenCgpoHB/l5Drg+XNpvUbEHw=
+		hoBxTbhQ4KrrHGXB97ptKlzgRe0=
 		</data>
 		<key>DisputeCell.nib</key>
 		<data>
-		dD+HYHWanVoTdx4TSFTi/lKxtbU=
+		lEdoUe+J4LKiA/56xakJ4+fuiNE=
 		</data>
 		<key>Headers/PayUUPIBoltUIKit-Swift.h</key>
 		<data>
-		Ls5vTaTHvcLjRX16zbp+vC9FmbU=
+		dnoG6Wpu1TTTAK772JAiSQAsH0A=
 		</data>
 		<key>Headers/PayUUPIBoltUIKit.h</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Main.storyboardc/glG-Pl-xyr-view-kkS-eo-qEF.nib/objects-14.0+.nib</key>
 		<data>
-		F1phqlg31vaFL22ofhYRCyH9cjQ=
+		4zus0tmMtCF55LGPKzA13rgJ7io=
 		</data>
 		<key>Main.storyboardc/glG-Pl-xyr-view-kkS-eo-qEF.nib/runtime.nib</key>
 		<data>
-		Hd/LKkJmouNb+soHs3Epdf67nTk=
+		M6NrEAdzLkX+vtvpiVvHjrCn8jI=
 		</data>
 		<key>ManageAccountCell.nib/objects-14.0+.nib</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Management.storyboardc/23N-Hb-U9p-view-ZTP-jN-g38.nib/objects-14.0+.nib</key>
 		<data>
-		BAECsDNiNDboxes/xtCG/7p4Hrk=
+		H3iVhrKxCtT9Ydaf6skL6eGd6NU=
 		</data>
 		<key>Management.storyboardc/23N-Hb-U9p-view-ZTP-jN-g38.nib/runtime.nib</key>
 		<data>
-		BAECsDNiNDboxes/xtCG/7p4Hrk=
+		H3iVhrKxCtT9Ydaf6skL6eGd6NU=
 		</data>
 		<key>Management.storyboardc/AddAccountVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -132,17 +132,25 @@
 		<data>
 		tm0HRZ+Vu8+PFk4iQgygJXXXJN8=
 		</data>
+		<key>Management.storyboardc/DisputeTypeListVC.nib/objects-14.0+.nib</key>
+		<data>
+		o1T/jyJ19JgWL/x2x+kU7lRg+UE=
+		</data>
+		<key>Management.storyboardc/DisputeTypeListVC.nib/runtime.nib</key>
+		<data>
+		o1T/jyJ19JgWL/x2x+kU7lRg+UE=
+		</data>
 		<key>Management.storyboardc/GWl-BZ-QIu-view-G68-ic-bUd.nib/objects-14.0+.nib</key>
 		<data>
-		/lhDa52exW+pak+20Ca3f/9fu9I=
+		lzlZo6nsVM//KKyBLnAO7d7UyMk=
 		</data>
 		<key>Management.storyboardc/GWl-BZ-QIu-view-G68-ic-bUd.nib/runtime.nib</key>
 		<data>
-		/lhDa52exW+pak+20Ca3f/9fu9I=
+		lzlZo6nsVM//KKyBLnAO7d7UyMk=
 		</data>
 		<key>Management.storyboardc/Info.plist</key>
 		<data>
-		YUAdBHYQU62q1H8g4qpi4ePQ23E=
+		+bJtzxcUG/Y2adL/DsKzDCLxiF8=
 		</data>
 		<key>Management.storyboardc/LinkedUPIAccountsVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -166,7 +174,7 @@
 		</data>
 		<key>Management.storyboardc/RE9-kn-MMI-view-GNf-PN-KeK.nib/runtime.nib</key>
 		<data>
-		q0btdeTOgrC/t0ywcBdrzBFf/TQ=
+		J2CYPKS+uDPFyOwVAhiCyVJtvdM=
 		</data>
 		<key>Management.storyboardc/RaiseDisputeVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -202,11 +210,11 @@
 		</data>
 		<key>Management.storyboardc/bAM-wM-00E-view-bl7-0k-6X8.nib/objects-14.0+.nib</key>
 		<data>
-		lxiUEf1LVtcP4s4CrRZ3sHUCIUU=
+		3DNUbVZx5npRvEemVto0f/keII0=
 		</data>
 		<key>Management.storyboardc/bAM-wM-00E-view-bl7-0k-6X8.nib/runtime.nib</key>
 		<data>
-		lxiUEf1LVtcP4s4CrRZ3sHUCIUU=
+		J6/zNy7FXgx3aozv9GE5fQnLZB8=
 		</data>
 		<key>Management.storyboardc/g0i-NM-a5i-view-Zrd-Kr-sDW.nib/objects-14.0+.nib</key>
 		<data>
@@ -215,6 +223,14 @@
 		<key>Management.storyboardc/g0i-NM-a5i-view-Zrd-Kr-sDW.nib/runtime.nib</key>
 		<data>
 		ha4Rtb906G8i47QaKtZ3dJ7kD5k=
+		</data>
+		<key>Management.storyboardc/hkx-i3-vfu-view-93b-oY-nMO.nib/objects-14.0+.nib</key>
+		<data>
+		cMBdcZIdeig16vrkpLnG9a9eOMI=
+		</data>
+		<key>Management.storyboardc/hkx-i3-vfu-view-93b-oY-nMO.nib/runtime.nib</key>
+		<data>
+		cMBdcZIdeig16vrkpLnG9a9eOMI=
 		</data>
 		<key>Management.storyboardc/vx9-s8-3lY-view-V8x-bx-en5.nib/objects-14.0+.nib</key>
 		<data>
@@ -226,11 +242,11 @@
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vvVQXk/sFBnVD788D3Uf5N1KmYM=
+		6NJjp0AGy89FzhA0FXBhkhF8Zmw=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		C2k/7s5kOxjqQWCoXbe8ThDnCE8=
+		ToaUPOITgA/K4ZuJAAyOKITfrHM=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -238,11 +254,11 @@
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		C2k/7s5kOxjqQWCoXbe8ThDnCE8=
+		ToaUPOITgA/K4ZuJAAyOKITfrHM=
 		</data>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4KstCyONoFC8b2M605pyplS2YSM=
+		e7uJZKQMuQGD1yOuxSozqQPPepc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -250,7 +266,7 @@
 		</data>
 		<key>NavigationView.nib</key>
 		<data>
-		CfNMuTO5QWQMoLnoclrqZiqvgVk=
+		18S2fSeEsIq9fLxlZrGLy9A1RL0=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -334,11 +350,11 @@
 		</data>
 		<key>RegisterAndPayment.storyboardc/apc-7P-iG4-view-wzU-3z-wbH.nib/objects-14.0+.nib</key>
 		<data>
-		7Ih2hQeWsc+nyYGdg08/o9h8O8k=
+		zGgateyu+AK4Ygr7GcRkMEE9bRc=
 		</data>
 		<key>RegisterAndPayment.storyboardc/apc-7P-iG4-view-wzU-3z-wbH.nib/runtime.nib</key>
 		<data>
-		2BDF4l6d2KKjRHwr+kJOFFOqKio=
+		fbZWqR+PHtKmoNO2yVpYp+hfv48=
 		</data>
 		<key>RegisterAndPayment.storyboardc/h3Q-Em-6CV-view-V6R-Aw-5bt.nib/objects-14.0+.nib</key>
 		<data>
@@ -358,19 +374,19 @@
 		</data>
 		<key>RegisterAndPayment.storyboardc/n2u-x0-k4J-view-tpH-a0-VXl.nib/objects-14.0+.nib</key>
 		<data>
-		eQZSKWMFyD+s6Q15WLLeIUlUk8o=
+		DIay6kDPpZMKNEgnmfltuB8yFro=
 		</data>
 		<key>RegisterAndPayment.storyboardc/n2u-x0-k4J-view-tpH-a0-VXl.nib/runtime.nib</key>
 		<data>
-		eQZSKWMFyD+s6Q15WLLeIUlUk8o=
+		DIay6kDPpZMKNEgnmfltuB8yFro=
 		</data>
 		<key>RegisterAndPayment.storyboardc/xhg-Pf-bK2-view-lBm-v5-T4w.nib/objects-14.0+.nib</key>
 		<data>
-		4yykDuoqtuie6rusVPP93T6d2fY=
+		WAN3BcqiP2xsPQHwbnfUlmp/pxY=
 		</data>
 		<key>RegisterAndPayment.storyboardc/xhg-Pf-bK2-view-lBm-v5-T4w.nib/runtime.nib</key>
 		<data>
-		4yykDuoqtuie6rusVPP93T6d2fY=
+		WAN3BcqiP2xsPQHwbnfUlmp/pxY=
 		</data>
 		<key>SelectBankTableViewCell.nib</key>
 		<data>
@@ -394,7 +410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIaKktJGEA3uEIQpbu6iNoqNFy53FFbnWm2rt+L3MY8=
+			JbnvlgkrhViW5IJPfrcd9+G+5b9z0q8E7A7W4Bj6e/8=
 			</data>
 		</dict>
 		<key>BalanceErrorView.nib</key>
@@ -415,35 +431,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CJKeyty3RFyaQrSr90wEekl/USciQGl3jjNtij1f/Xw=
+			ob9GwzOx11D8L3+f9JtvagnqIHRD/PBwatKsU6TuAAo=
 			</data>
 		</dict>
 		<key>BottomSheetHeaderView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qcPYm0MdEdi3TtSzgrHGXTmY1sZhhTfZiTCl3S+0gpA=
+			wvPkDST+XAQ5MfMsCML5dxA8/61uUmx4sSY+dusjDZ8=
 			</data>
 		</dict>
 		<key>BrandingFooterView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OZmRHaELdvH3CHiRRAJTftHyvg92a4/O4K7AQqTQe+o=
+			DE2HsTed2Oeg99mG9RFgvDxVQzGvfzzqHsPZ9BdnJRA=
 			</data>
 		</dict>
 		<key>DisputeCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnnMNIEf8lV396wu7iaOJeDelnwMmljcZmcD6s9UGLo=
+			GeGQvarB0KOhtWXqBAtvXn5VsX2QHpI+Xck3Mtt/aTs=
 			</data>
 		</dict>
 		<key>Headers/PayUUPIBoltUIKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rGMkmqb19Rr1kUN923OgAAsOQZL3+kClJbQQns/y5kg=
+			UN7VAwnvETQUFNc2S6a09NScvmJTLiW6DWZAD1YO5Qk=
 			</data>
 		</dict>
 		<key>Headers/PayUUPIBoltUIKit.h</key>
@@ -534,14 +550,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z5xb4yLFaVMm06rEpUHUswD/s2SVR/pMTouBWbXHERE=
+			zXiu6bmddymxCJhkgHgHic2Iybgb+Afx1HrK4L7KtgI=
 			</data>
 		</dict>
 		<key>Main.storyboardc/glG-Pl-xyr-view-kkS-eo-qEF.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pUyDlN+qrhE3WuhWYZGcIMPUJWzkTap3dsZH2xNq2Lc=
+			xYhxdjRynTTMJYpAOgsd/pRVZwpJBBWMRf0X5+QBIT0=
 			</data>
 		</dict>
 		<key>ManageAccountCell.nib/objects-14.0+.nib</key>
@@ -562,14 +578,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xu+Ow9s7XJx1u9SpTPFI4o7E9VwRYfSJkyGdK0bMZdg=
+			fMbXTHByybtO64oUT2E45iAeeYeDLPUDC0xndmfEMZ8=
 			</data>
 		</dict>
 		<key>Management.storyboardc/23N-Hb-U9p-view-ZTP-jN-g38.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xu+Ow9s7XJx1u9SpTPFI4o7E9VwRYfSJkyGdK0bMZdg=
+			fMbXTHByybtO64oUT2E45iAeeYeDLPUDC0xndmfEMZ8=
 			</data>
 		</dict>
 		<key>Management.storyboardc/AddAccountVC.nib/objects-14.0+.nib</key>
@@ -600,25 +616,39 @@
 			z9oP0U69sSoXy9eEwu5qVE+VYqBwVycGmUJ3WbIQRZ4=
 			</data>
 		</dict>
+		<key>Management.storyboardc/DisputeTypeListVC.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pyzg8x1s5b5+6y/lkGHzbkv5cUu07uArmpNr9ocItEM=
+			</data>
+		</dict>
+		<key>Management.storyboardc/DisputeTypeListVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pyzg8x1s5b5+6y/lkGHzbkv5cUu07uArmpNr9ocItEM=
+			</data>
+		</dict>
 		<key>Management.storyboardc/GWl-BZ-QIu-view-G68-ic-bUd.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUPh3Y0opselorHmsyY9g/dDLcL36uYdp7KscpYx7ps=
+			VhtnIueTt3a3FNV4iIyHDVHgJ1Ma66fNhwrX6Q1q6/g=
 			</data>
 		</dict>
 		<key>Management.storyboardc/GWl-BZ-QIu-view-G68-ic-bUd.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUPh3Y0opselorHmsyY9g/dDLcL36uYdp7KscpYx7ps=
+			VhtnIueTt3a3FNV4iIyHDVHgJ1Ma66fNhwrX6Q1q6/g=
 			</data>
 		</dict>
 		<key>Management.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ILax1w1p0LFlskDCGbPTqUbAugSKjY6bx38V67Iq5GY=
+			RLe+dt8Gone9yF8uCvsQjwFqMUC7mBV5Y8cP1notw24=
 			</data>
 		</dict>
 		<key>Management.storyboardc/LinkedUPIAccountsVC.nib/objects-14.0+.nib</key>
@@ -660,7 +690,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			My21G+hDMMpPmvA70qg8nrZalwisrJw3IKQIdiYI1eI=
+			Ctr8tkpy+ZaBwtPxuC05X7T5KDmmtGeugmiPg2+Ut4c=
 			</data>
 		</dict>
 		<key>Management.storyboardc/RaiseDisputeVC.nib/objects-14.0+.nib</key>
@@ -723,14 +753,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			urUWEYsFUOSbYBcsgZLc+Ztr6NZ+Mz2YmGrnV4Su+M8=
+			dm0P9WJ93IR/OG8konPlSkenuADWYOX3LKj47mqWUPk=
 			</data>
 		</dict>
 		<key>Management.storyboardc/bAM-wM-00E-view-bl7-0k-6X8.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			urUWEYsFUOSbYBcsgZLc+Ztr6NZ+Mz2YmGrnV4Su+M8=
+			LofTx2yo9hnnx6GG3W/6DDLepziq0MWPExhBCtA2QGo=
 			</data>
 		</dict>
 		<key>Management.storyboardc/g0i-NM-a5i-view-Zrd-Kr-sDW.nib/objects-14.0+.nib</key>
@@ -745,6 +775,20 @@
 			<key>hash2</key>
 			<data>
 			FGqGRUU5GXRJaxkSHkY+GGTnbGoT+VSUgKU3+WaUygc=
+			</data>
+		</dict>
+		<key>Management.storyboardc/hkx-i3-vfu-view-93b-oY-nMO.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LKmawVInsrBGgbeBeaL/6BT3sJ7NqsmtrFFvDJQE2BU=
+			</data>
+		</dict>
+		<key>Management.storyboardc/hkx-i3-vfu-view-93b-oY-nMO.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LKmawVInsrBGgbeBeaL/6BT3sJ7NqsmtrFFvDJQE2BU=
 			</data>
 		</dict>
 		<key>Management.storyboardc/vx9-s8-3lY-view-V8x-bx-en5.nib/objects-14.0+.nib</key>
@@ -765,14 +809,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdJ/N3Ka8BnPyxhSew29dofl/vahe/TGg8PVynlrOno=
+			fCB/OcY/RNvMtoOsJb/qzfxIBSh3N7pylPc6O/M0awA=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9iYhXwE0i8xkuSeele5yajbmLJvgReSPkpGkfbgHNBw=
+			SFCvvM20CZZkd3wYVgehAdeAFqg0g3s9mdwmuXL64Rw=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -786,14 +830,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9iYhXwE0i8xkuSeele5yajbmLJvgReSPkpGkfbgHNBw=
+			SFCvvM20CZZkd3wYVgehAdeAFqg0g3s9mdwmuXL64Rw=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			10cqzNvN38Gs9+p9zK7kNUdF6APQmiT14XRYrx88gAU=
+			/9R69/9khaKsqpmJUkIKwjyiccp1hvLJ9cI8GyflpRA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -807,7 +851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+U4d0snk7AY+LyLzvmc5n30osXgoWnyMOaYdjP9DPc=
+			+pwUGg/vX0v4gQSrCw+aFIJJfiOOGhuguifYC2L2O4c=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -954,14 +998,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pxrxe/mMpFIHstqsTmsSyhVz+OtmhKCGXxPJvT0Bkao=
+			H7T12WoD+2bV+9Oc15XaCAJaA49YoKzt8Cw2sU71b3g=
 			</data>
 		</dict>
 		<key>RegisterAndPayment.storyboardc/apc-7P-iG4-view-wzU-3z-wbH.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BY64xVK9S3NRfBT8EzN6exZjieMyPj7GQpZfsdIZMB8=
+			S0eftGStQZe5ErcBVUExZyUZNecYeYv9fN1N4gOYYGE=
 			</data>
 		</dict>
 		<key>RegisterAndPayment.storyboardc/h3Q-Em-6CV-view-V6R-Aw-5bt.nib/objects-14.0+.nib</key>
@@ -996,28 +1040,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K3qZRm4w8yyyhH1cBf1wnHfRHxYGyjzpIf/nfrDDxLo=
+			8+etk2vb/ThzaQro6W00bFKzjS6PDE/NsvR71lLhGeI=
 			</data>
 		</dict>
 		<key>RegisterAndPayment.storyboardc/n2u-x0-k4J-view-tpH-a0-VXl.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K3qZRm4w8yyyhH1cBf1wnHfRHxYGyjzpIf/nfrDDxLo=
+			8+etk2vb/ThzaQro6W00bFKzjS6PDE/NsvR71lLhGeI=
 			</data>
 		</dict>
 		<key>RegisterAndPayment.storyboardc/xhg-Pf-bK2-view-lBm-v5-T4w.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SQvQXy5SQtgMup66TTr486Qlfe8FP5O53xDyKM/anwg=
+			aSXVJ7HIAds7mJi4JuNmK9UtiJXXsWdAGVKll1DQ2Io=
 			</data>
 		</dict>
 		<key>RegisterAndPayment.storyboardc/xhg-Pf-bK2-view-lBm-v5-T4w.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SQvQXy5SQtgMup66TTr486Qlfe8FP5O53xDyKM/anwg=
+			aSXVJ7HIAds7mJi4JuNmK9UtiJXXsWdAGVKll1DQ2Io=
 			</data>
 		</dict>
 		<key>SelectBankTableViewCell.nib</key>

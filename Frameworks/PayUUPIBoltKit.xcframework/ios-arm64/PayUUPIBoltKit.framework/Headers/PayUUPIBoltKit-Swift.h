@@ -283,6 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import PayUUPIBoltBaseKit;
 #endif
 
 #endif
@@ -306,8 +307,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @class NSString;
-SWIFT_CLASS("_TtC14PayUUPIBoltKit19HdfcAuthTokenResult")
-@interface HdfcAuthTokenResult : NSObject
+SWIFT_CLASS("_TtC14PayUUPIBoltKit17BEAuthTokenResult")
+@interface BEAuthTokenResult : NSObject
 @property (nonatomic, copy) NSString * _Nullable username;
 @property (nonatomic, copy) NSString * _Nullable accessToken;
 @property (nonatomic, copy) NSString * _Nonnull tokenType;
@@ -316,15 +317,17 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit19HdfcAuthTokenResult")
 @end
 
 @class PayUUPIBoltBaseConfig;
-@protocol PayUUPIBoltHashDelegate;
+@protocol PayUUPIBoltDelegate;
 @class PayUUPIBoltInterface;
 SWIFT_CLASS("_TtC14PayUUPIBoltKit11PayUUPIBolt")
 @interface PayUUPIBolt : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config hashDelegate:(id <PayUUPIBoltHashDelegate> _Nonnull)hashDelegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltInterface * _Nonnull)initSDKWithConfig:(PayUUPIBoltBaseConfig * _Nonnull)config delegate:(id <PayUUPIBoltDelegate> _Nonnull)delegate SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
 + (PayUUPIBoltInterface * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
 + (void)reset;
++ (BOOL)isRegisteredWith:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
++ (void)clearCacheWith:(NSString * _Nonnull)pg;
 @end
 
 SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit23PayUUPIBoltHashDelegate_")
@@ -332,17 +335,89 @@ SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit23PayUUPIBoltHashDelegate_")
 - (void)generateHashFor:(NSDictionary<NSString *, NSString *> * _Nonnull)param onCompletion:(void (^ _Nonnull)(NSDictionary<NSString *, NSString *> * _Nonnull))onCompletion;
 @end
 
+SWIFT_PROTOCOL("_TtP14PayUUPIBoltKit19PayUUPIBoltDelegate_")
+@protocol PayUUPIBoltDelegate <PayUUPIBoltBaseDelegate, PayUUPIBoltHashDelegate>
+@end
+
+SWIFT_CLASS("_TtC14PayUUPIBoltKit23PayUUPIBoltHashConstant")
+@interface PayUUPIBoltHashConstant : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull hashString;)
++ (NSString * _Nonnull)hashString SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull hashName;)
++ (NSString * _Nonnull)hashName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14PayUUPIBoltKit26PayUUPIBoltHybridConstants")
+@interface PayUUPIBoltHybridConstants : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull payUPaymentParams;)
++ (NSString * _Nonnull)payUPaymentParams SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull payUCheckoutProConfig;)
++ (NSString * _Nonnull)payUCheckoutProConfig SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull errorMsg;)
++ (NSString * _Nonnull)errorMsg SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull errorMessage;)
++ (NSString * _Nonnull)errorMessage SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull errorCode;)
++ (NSString * _Nonnull)errorCode SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull isTxnInitiated;)
++ (NSString * _Nonnull)isTxnInitiated SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull payuResponse;)
++ (NSString * _Nonnull)payuResponse SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull code;)
++ (NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull message;)
++ (NSString * _Nonnull)message SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull result;)
++ (NSString * _Nonnull)result SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull somethingWentWrong;)
++ (NSString * _Nonnull)somethingWentWrong SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kTrue;)
++ (NSString * _Nonnull)kTrue SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14PayUUPIBoltKit35PayUUPIBoltHybridResponseMethodName")
+@interface PayUUPIBoltHybridResponseMethodName : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull handlePayURetry;)
++ (NSString * _Nonnull)handlePayURetry SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull generateHash;)
++ (NSString * _Nonnull)generateHash SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14PayUUPIBoltKit36PayUUPIBoltHybridResponseTransformer")
+@interface PayUUPIBoltHybridResponseTransformer : NSObject
+- (NSDictionary<NSString *, id> * _Nonnull)onPayUHandleRetryFor:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage onCompletion:(void (^ _Nonnull)(BOOL))onCompletion SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSString *> * _Nonnull)generateHashFor:(NSDictionary<NSString *, NSString *> * _Nonnull)param onCompletion:(void (^ _Nonnull)(NSDictionary<NSString *, NSString *> * _Nonnull))onCompletion SWIFT_WARN_UNUSED_RESULT;
+- (void)hashGeneratedWithArgs:(id _Nullable)args errorCallback:(void (^ _Nonnull)(NSError * _Nullable))errorCallback;
+- (void)retryHandledWithArgs:(id _Nullable)args errorCallback:(void (^ _Nonnull)(NSError * _Nullable))errorCallback;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class PayUUPIBoltPaymentParams;
+@class PayUUPIBoltAccountDetail;
+SWIFT_CLASS("_TtC14PayUUPIBoltKit22PayUUPIBoltHybridUtils")
+@interface PayUUPIBoltHybridUtils : NSObject
++ (PayUUPIBoltBaseConfig * _Nullable)getBaseConfig:(NSDictionary<NSString *, id> * _Nullable)configDict SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltPaymentParams * _Nullable)getPaymentParams:(NSDictionary<NSString *, id> * _Nullable)paramsDict SWIFT_WARN_UNUSED_RESULT;
++ (PayUUPIBoltAccountDetail * _Nonnull)getAccountDetail:(NSDictionary<NSString *, id> * _Nullable)arguments SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface PayUUPIBoltHybridUtils (SWIFT_EXTENSION(PayUUPIBoltKit))
++ (NSDictionary<NSString *, id> * _Nonnull)handlerResponseWithResponse:(id _Nullable)response SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class PayUUPIBoltResponse;
 @class UIViewController;
-@class PayUUPIBoltAccountDetail;
-@class PayUUPIBoltPaymentParams;
 SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 @interface PayUUPIBoltInterface : NSObject
 - (void)isUPIBoltEnabledWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkDeviceStatusWithParentVC:(UIViewController * _Nonnull)parentVC callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (NSString * _Nullable)getRegisteredMobile SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getRegisteredMobileWithPg:(NSString * _Nonnull)pg SWIFT_WARN_UNUSED_RESULT;
 - (void)fetchBankListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
-- (void)fetchAccountsWithIInIin:(NSString * _Nonnull)iin bankName:(NSString * _Nonnull)bankName bankCode:(NSString * _Nullable)bankCode vpa:(NSString * _Nullable)vpa requestType:(NSString * _Nullable)requestType isCCTxnEnabled:(BOOL)isCCTxnEnabled callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
+- (void)fetchAccountsWithIInIin:(NSString * _Nonnull)iin bankName:(NSString * _Nonnull)bankName bankCode:(NSString * _Nullable)bankCode bankId:(NSString * _Nullable)bankId vpa:(NSString * _Nullable)vpa requestType:(NSString * _Nullable)requestType isCCTxnEnabled:(BOOL)isCCTxnEnabled callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchLinkedAccountsWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkBalanceWithParentVC:(UIViewController * _Nonnull)parentVC accountDetail:(PayUUPIBoltAccountDetail * _Nonnull)accountDetail callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)checkVPAWithVpa:(NSString * _Nonnull)vpa requestType:(NSString * _Nonnull)requestType callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
@@ -364,6 +439,7 @@ SWIFT_CLASS("_TtC14PayUUPIBoltKit20PayUUPIBoltInterface")
 - (void)saveVPAWithVpa:(NSString * _Nonnull)vpa name:(NSString * _Nonnull)name nickName:(NSString * _Nonnull)nickName callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)deleteVPAWithVpa:(NSString * _Nonnull)vpa callback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
 - (void)fetchRegisteredVPAListWithCallback:(void (^ _Nonnull)(PayUUPIBoltResponse * _Nonnull))callback;
+- (void)clearCacheWithPg:(NSString * _Nonnull)pg;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

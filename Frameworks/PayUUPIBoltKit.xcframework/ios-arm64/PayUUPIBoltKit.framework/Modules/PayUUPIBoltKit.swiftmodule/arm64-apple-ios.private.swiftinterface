@@ -15,10 +15,141 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @objcMembers open class PayUUPIBoltHybridConstants : ObjectiveC.NSObject {
+  @objc public static let payUPaymentParams: Swift.String
+  @objc public static let payUCheckoutProConfig: Swift.String
+  @objc public static let errorMsg: Swift.String
+  @objc public static let errorMessage: Swift.String
+  @objc public static let errorCode: Swift.String
+  @objc public static let isTxnInitiated: Swift.String
+  @objc public static let payuResponse: Swift.String
+  @objc public static let code: Swift.String
+  @objc public static let message: Swift.String
+  @objc public static let result: Swift.String
+  @objc public static let somethingWentWrong: Swift.String
+  @objc public static let kTrue: Swift.String
+  @_hasMissingDesignatedInitializers @objcMembers public class ScreenType {
+    @objc public static let all: Swift.String
+    @objc public static let transactionHistory: Swift.String
+    @objc public static let manageUPIAccounts: Swift.String
+    @objc public static let dispute: Swift.String
+    @objc public static let deregisterUPI: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objcMembers public class AccountDetail {
+    @objc public static let accountId: Swift.String
+    @objc public static let accountNo: Swift.String
+    @objc public static let ifscCode: Swift.String
+    @objc public static let accountName: Swift.String
+    @objc public static let bankCode: Swift.String
+    @objc public static let credentialType: Swift.String
+    @objc public static let credentialLength: Swift.String
+    @objc public static let aeba: Swift.String
+    @objc public static let mbeba: Swift.String
+    @objc public static let accountType: Swift.String
+    @objc public static let formatType: Swift.String
+    @objc public static let bankName: Swift.String
+    @objc public static let otpCredentialType: Swift.String
+    @objc public static let otpLength: Swift.String
+    @objc public static let bankId: Swift.String
+    @objc public static let vpa: Swift.String
+    @objc public static let cardNo: Swift.String
+    @objc public static let expiry: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objcMembers public class PaymentParam {
+    @objc public static let merchantKey: Swift.String
+    @objc public static let merchantName: Swift.String
+    @objc public static let amount: Swift.String
+    @objc public static let productInfo: Swift.String
+    @objc public static let firstName: Swift.String
+    @objc public static let email: Swift.String
+    @objc public static let phone: Swift.String
+    @objc public static let surl: Swift.String
+    @objc public static let furl: Swift.String
+    @objc public static let isProduction: Swift.String
+    @objc public static let refId: Swift.String
+    @objc public static let bankId: Swift.String
+    @objc public static let pluginTypes: Swift.String
+    @objc public static let issuingBanks: Swift.String
+    @objc public static let excludedBanksIINs: Swift.String
+    @objc public static let isProtectedScreen: Swift.String
+    @objc public static let clientId: Swift.String
+    @objc public static let userCredential: Swift.String
+    @objc public static let txnId: Swift.String
+    @objc public static let initiationMode: Swift.String
+    @objc public static let additionalParam: Swift.String
+    @objc public static let purpose: Swift.String
+    @_hasMissingDesignatedInitializers @objcMembers public class AdditionalParam {
+      @objc public static let udf1: Swift.String
+      @objc public static let udf2: Swift.String
+      @objc public static let udf3: Swift.String
+      @objc public static let udf4: Swift.String
+      @objc public static let udf5: Swift.String
+      @objc public static let udf6: Swift.String
+      @objc deinit
+    }
+    @objc deinit
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers open class PayUUPIBoltHybridUtils : ObjectiveC.NSObject {
+  @objc public class func getBaseConfig(_ configDict: [Swift.String : Any]?) -> PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig?
+  @objc public class func getPaymentParams(_ paramsDict: [Swift.String : Any]?) -> PayUUPIBoltBaseKit.PayUUPIBoltPaymentParams?
+  @objc public class func getAccountDetail(_ arguments: [Swift.String : Any]?) -> PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension PayUUPIBoltKit.PayUUPIBoltHybridUtils {
+  public enum PayUErrorType : Swift.Int {
+    case topViewControllerUnavailable
+    case paramsNotSet
+    case hashNotSetProperly
+    case paymentParamNotSet
+    case configParamNotSet
+    case invalidMethodName
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public class func getErrorObjectFor(errorType: PayUUPIBoltKit.PayUUPIBoltHybridUtils.PayUErrorType) -> Foundation.NSError
+  @objc dynamic public class func handlerResponse(response: Any?) -> [Swift.String : Any]
+  public class func encodeToJSONString<T>(_ object: T) -> Swift.String? where T : Swift.Encodable
+}
+extension PayUUPIBoltKit.PayUUPIBoltHybridUtils {
+  public class func setValueIfAvailable<T>(propertyName: inout T, keyName: Swift.String, dictionary: [Swift.String : Any]?)
+  public class func setValueIfAvailable<T>(propertyName: inout T, value: Any?)
+  public class func getValueIfAvailable<T>(value: Any?, type: T.Type) -> T?
+}
+@_inheritsConvenienceInitializers @objc public class PayUUPIBoltHybridResponseMethodName : ObjectiveC.NSObject {
+  @objc public static let handlePayURetry: Swift.String
+  @objc public static let generateHash: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PayUUPIBoltHybridResponseTransformer : ObjectiveC.NSObject {
+  @objc public func onPayUHandleRetry(for errorCode: Swift.Int, errorMessage: Swift.String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion) -> [Swift.String : Any]
+  @objc public func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping PayUUPIBoltKit.PayUUPIBoltHashGenerationCompletion) -> [Swift.String : Swift.String]
+  @objc public func hashGenerated(args: Any?, errorCallback: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public func retryHandled(args: Any?, errorCallback: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUUPIBoltHashConstant : ObjectiveC.NSObject {
+  @objc public static let hashString: Swift.String
+  @objc public static let hashName: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUUPIBolt : ObjectiveC.NSObject {
-  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, hashDelegate: any PayUUPIBoltKit.PayUUPIBoltHashDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
+  @objc public class func initSDK(config: PayUUPIBoltBaseKit.PayUUPIBoltBaseConfig, delegate: any PayUUPIBoltKit.PayUUPIBoltDelegate) -> PayUUPIBoltKit.PayUUPIBoltInterface
   @objc public class func getInstance() -> PayUUPIBoltKit.PayUUPIBoltInterface?
   @objc public class func reset()
+  @objc public class func isRegistered(with pg: Swift.String) -> Swift.Bool
+  @objc public class func clearCache(with pg: Swift.String)
   @objc deinit
 }
 public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> Swift.Void
@@ -26,12 +157,14 @@ public typealias PayUUPIBoltHashGenerationCompletion = (_ hashDict: [Swift.Strin
 @objc public protocol PayUUPIBoltHashDelegate {
   @objc func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping PayUUPIBoltKit.PayUUPIBoltHashGenerationCompletion)
 }
+@objc public protocol PayUUPIBoltDelegate : PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate, PayUUPIBoltKit.PayUUPIBoltHashDelegate {
+}
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public var payuModelName: Swift.String {
     get
   }
 }
-@objc public class HdfcAuthTokenResult : ObjectiveC.NSObject, Swift.Codable {
+@objc public class BEAuthTokenResult : ObjectiveC.NSObject, Swift.Codable {
   @objc public var username: Swift.String?
   @objc public var accessToken: Swift.String?
   @objc public var tokenType: Swift.String
@@ -44,9 +177,9 @@ extension UIKit.UIDevice {
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltInterface : ObjectiveC.NSObject {
   @objc public func isUPIBoltEnabled(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkDeviceStatus(parentVC: UIKit.UIViewController, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func getRegisteredMobile() -> Swift.String?
+  @objc public func getRegisteredMobile(pg: Swift.String) -> Swift.String?
   @objc public func fetchBankList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
-  @objc public func fetchAccountsWithIIn(iin: Swift.String, bankName: Swift.String, bankCode: Swift.String?, vpa: Swift.String?, requestType: Swift.String?, isCCTxnEnabled: Swift.Bool, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
+  @objc public func fetchAccountsWithIIn(iin: Swift.String, bankName: Swift.String, bankCode: Swift.String?, bankId: Swift.String?, vpa: Swift.String?, requestType: Swift.String?, isCCTxnEnabled: Swift.Bool, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchLinkedAccounts(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkBalance(parentVC: UIKit.UIViewController, accountDetail: PayUUPIBoltBaseKit.PayUUPIBoltAccountDetail, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func checkVPA(vpa: Swift.String, requestType: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
@@ -68,6 +201,10 @@ extension UIKit.UIDevice {
   @objc public func saveVPA(vpa: Swift.String, name: Swift.String, nickName: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func deleteVPA(vpa: Swift.String, callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
   @objc public func fetchRegisteredVPAList(callback: @escaping PayUUPIBoltKit.PayUUPIBoltCallBack)
+  @objc public func clearCache(pg: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
+extension PayUUPIBoltKit.PayUUPIBoltHybridUtils.PayUErrorType : Swift.Equatable {}
+extension PayUUPIBoltKit.PayUUPIBoltHybridUtils.PayUErrorType : Swift.Hashable {}
+extension PayUUPIBoltKit.PayUUPIBoltHybridUtils.PayUErrorType : Swift.RawRepresentable {}

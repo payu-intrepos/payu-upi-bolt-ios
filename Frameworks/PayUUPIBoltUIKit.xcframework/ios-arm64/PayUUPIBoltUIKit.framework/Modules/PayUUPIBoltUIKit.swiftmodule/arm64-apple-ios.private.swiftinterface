@@ -17,11 +17,47 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUUPIBoltUIHybridConstants : PayUUPIBoltKit.PayUUPIBoltHybridConstants {
+  @_hasMissingDesignatedInitializers @objcMembers public class ScreenType {
+    @objc deinit
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUUPIBoltUI : ObjectiveC.NSObject {
   @objc public class func initSDK(parentVC: UIKit.UIViewController, config: PayUUPIBoltUIKit.PayUUPIBoltUIConfig, delegate: any PayUUPIBoltUIKit.PayUUPIBoltUIDelegate) -> PayUUPIBoltUIKit.PayUUPIBoltUIInterface
   @objc public class func initSDK(parentVC: UIKit.UIViewController, configJSON: Any?, delegate: any PayUUPIBoltUIKit.PayUUPIBoltUIDelegate) -> PayUUPIBoltUIKit.PayUUPIBoltUIInterface?
   @objc public class func getInstance() -> PayUUPIBoltUIKit.PayUUPIBoltUIInterface?
   @objc public class func reset()
+  @objc public class func isRegistered(with pg: Swift.String) -> Swift.Bool
+  @objc public class func clearCache(with pg: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PayUUPIBoltUIHybridResponseMethodName : ObjectiveC.NSObject {
+  @objc public static let onPayUSuccess: Swift.String
+  @objc public static let onPayUFailure: Swift.String
+  @objc public static let onPayUCancel: Swift.String
+  @objc public static let handlePayURetry: Swift.String
+  @objc public static let generateHash: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PayUUPIBoltUIHybridResponseTransformer : ObjectiveC.NSObject {
+  @objc public func onError(_ error: (any Swift.Error)?) -> Any?
+  @objc public func onPayUCancel(isTxnInitiated: Swift.Bool) -> Any?
+  @objc public func onPayUFailure(response: PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> Any?
+  @objc public func onPayUSuccess(response: PayUUPIBoltBaseKit.PayUUPIBoltResponse) -> Any?
+  @objc public func onPayUHandleRetry(for errorCode: Swift.Int, errorMessage: Swift.String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion) -> [Swift.String : Any]
+  @objc public func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping PayUUPIBoltKit.PayUUPIBoltHashGenerationCompletion) -> [Swift.String : Swift.String]
+  @objc public func hashGenerated(args: Any?, errorCallback: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public func retryHandled(args: Any?, errorCallback: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUUPIBoltUIHashConstant : ObjectiveC.NSObject {
+  @objc public static let hashString: Swift.String
+  @objc public static let hashName: Swift.String
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol PayUUPIBoltUIDelegate : PayUUPIBoltKit.PayUUPIBoltHashDelegate {
@@ -47,6 +83,12 @@ import _SwiftConcurrencyShims
   @objc public func openUPIManagement(screenType: PayUUPIBoltUIKit.PayUUPIBoltUIScreenType)
   @objc public func registerAndPay(paymentParamsJSON: Any?)
   @objc public func openUPIManagement(screenTypeString: Any?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUUPIBoltUIHybridUtils : PayUUPIBoltKit.PayUUPIBoltHybridUtils {
+  @objc public class func getUIConfig(_ configDict: [Swift.String : Any]?) -> PayUUPIBoltUIKit.PayUUPIBoltUIConfig?
+  @objc public class func getScreenType(_ string: Swift.String?) -> PayUUPIBoltUIKit.PayUUPIBoltUIScreenType
   @objc override dynamic public init()
   @objc deinit
 }

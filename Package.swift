@@ -36,6 +36,7 @@ let package = Package(
         .binaryTarget(name: "PayUUPIBoltUIKit", path: "./Frameworks/PayUUPIBoltUIKit.xcframework"),
         .binaryTarget(name: "PayUUPIBoltKit", path: "./Frameworks/PayUUPIBoltKit.xcframework"),
         .binaryTarget(name: "PayUUPIBoltBaseKit", path: "./Frameworks/PayUUPIBoltBaseKit.xcframework"),
+        .binaryTarget(name: "PayUUPIBoltCoreKit", path: "./Frameworks/PayUUPIBoltCoreKit.xcframework"),
         .target(
             name: "PayUIndia-UPIBoltUIKitTarget",
             dependencies: [
@@ -49,6 +50,7 @@ let package = Package(
             dependencies: [
                 "PayUUPIBoltKit",
                 "PayUUPIBoltBaseKit",
+                "PayUUPIBoltCoreKit",
                 .product(name: "PayUIndia-Analytics", package: "PayUAnalytics-iOS"),
                 .product(name: "PayUIndia-NetworkReachability", package: "PayUNetworkReachability-iOS"),
                 .product(name: "PayUIndia-CrashReporter", package: "PayUCrashReporter-iOS"),

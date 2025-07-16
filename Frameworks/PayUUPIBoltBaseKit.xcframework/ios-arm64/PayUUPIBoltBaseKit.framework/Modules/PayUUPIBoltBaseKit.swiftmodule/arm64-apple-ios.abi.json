@@ -20147,99 +20147,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "upiTxnRefNo",
-            "printedName": "upiTxnRefNo",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(py)upiTxnRefNo",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC11upiTxnRefNoSivp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(im)upiTxnRefNo",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC11upiTxnRefNoSivg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(im)setUpiTxnRefNo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC11upiTxnRefNoSivs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB17TransactionStatusC11upiTxnRefNoSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC11upiTxnRefNoSivM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "npciTxnId",
             "printedName": "npciTxnId",
             "children": [
@@ -20825,99 +20732,6 @@
           },
           {
             "kind": "Var",
-            "name": "txnRefNo",
-            "printedName": "txnRefNo",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(py)txnRefNo",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC8txnRefNoSivp",
-            "moduleName": "PayUUPIBoltBaseKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(im)txnRefNo",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC8txnRefNoSivg",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionStatus(im)setTxnRefNo:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC8txnRefNoSivs",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB17TransactionStatusC8txnRefNoSivM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionStatusC8txnRefNoSivM",
-                "moduleName": "PayUUPIBoltBaseKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "txnStatusDetails",
             "printedName": "txnStatusDetails",
             "children": [
@@ -21448,8 +21262,8 @@
           },
           {
             "kind": "Var",
-            "name": "respCode",
-            "printedName": "respCode",
+            "name": "crn",
+            "printedName": "crn",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21467,8 +21281,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(py)respCode",
-            "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC8respCodeSSSgvp",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(py)crn",
+            "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC3crnSSSgvp",
             "moduleName": "PayUUPIBoltBaseKit",
             "declAttributes": [
               "HasInitialValue",
@@ -21499,8 +21313,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(im)respCode",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC8respCodeSSSgvg",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(im)crn",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC3crnSSSgvg",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -21534,8 +21348,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(im)setRespCode:",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC8respCodeSSSgvs",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIBoltTransactionDetail(im)setCrn:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC3crnSSSgvs",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "declAttributes": [
@@ -21555,8 +21369,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PayUUPIBoltBaseKit0aB17TransactionDetailC8respCodeSSSgvM",
-                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC8respCodeSSSgvM",
+                "usr": "s:18PayUUPIBoltBaseKit0aB17TransactionDetailC3crnSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0aB17TransactionDetailC3crnSSSgvM",
                 "moduleName": "PayUUPIBoltBaseKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -21754,8 +21568,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "handleRetry",
-            "printedName": "handleRetry(for:errorMessage:onCompletion:)",
+            "name": "onPayUHandleRetry",
+            "printedName": "onPayUHandleRetry(for:errorMessage:onCompletion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21794,13 +21608,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PayUUPIBoltBaseKit@objc(pl)PayUUPIBoltBaseDelegate(im)handleRetryFor:errorMessage:onCompletion:",
-            "mangledName": "$s18PayUUPIBoltBaseKit0abC8DelegateP11handleRetry3for12errorMessage12onCompletionySi_SSySbctF",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(pl)PayUUPIBoltBaseDelegate(im)onPayUHandleRetryFor:errorMessage:onCompletion:",
+            "mangledName": "$s18PayUUPIBoltBaseKit0abC8DelegateP02onA12UHandleRetry3for12errorMessage0F10CompletionySi_SSySbctF",
             "moduleName": "PayUUPIBoltBaseKit",
             "genericSig": "<τ_0_0 where τ_0_0 : PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate>",
             "sugared_genericSig": "<Self where Self : PayUUPIBoltBaseKit.PayUUPIBoltBaseDelegate>",
             "protocolReq": true,
-            "objc_name": "handleRetryFor:errorMessage:onCompletion:",
+            "objc_name": "onPayUHandleRetryFor:errorMessage:onCompletion:",
             "declAttributes": [
               "ObjC"
             ],
@@ -53112,20 +52926,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 241,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltTransactionStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",
       "kind": "Dictionary",
       "offset": 461,
@@ -53137,7 +52937,7 @@
       "kind": "StringLiteral",
       "offset": 562,
       "length": 4,
-      "value": "\"00\""
+      "value": "\"10\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltBaseKit\/PayUUPIBoltBaseKit\/Models\/PayUUPIBoltPaymentParams.swift",

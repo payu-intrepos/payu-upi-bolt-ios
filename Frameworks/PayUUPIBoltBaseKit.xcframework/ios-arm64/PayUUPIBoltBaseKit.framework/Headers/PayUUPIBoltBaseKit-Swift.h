@@ -457,7 +457,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit21PayUUPIBoltBaseConfig")
 
 SWIFT_PROTOCOL("_TtP18PayUUPIBoltBaseKit23PayUUPIBoltBaseDelegate_")
 @protocol PayUUPIBoltBaseDelegate
-- (void)handleRetryFor:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage onCompletion:(void (^ _Nonnull)(BOOL))onCompletion;
+- (void)onPayUHandleRetryFor:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage onCompletion:(void (^ _Nonnull)(BOOL))onCompletion;
 @end
 
 SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit21PayUUPIBoltChangeMPIN")
@@ -805,7 +805,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit28PayUUPIBoltTransactionDetail")
 @interface PayUUPIBoltTransactionDetail : NSObject
 @property (nonatomic, copy) NSString * _Nullable result;
 @property (nonatomic, copy) NSString * _Nullable txnId;
-@property (nonatomic, copy) NSString * _Nullable respCode;
+@property (nonatomic, copy) NSString * _Nullable crn;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -848,13 +848,11 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit29PayUUPIBoltTransactionHistory")
 
 SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit28PayUUPIBoltTransactionStatus")
 @interface PayUUPIBoltTransactionStatus : NSObject
-@property (nonatomic) NSInteger upiTxnRefNo;
 @property (nonatomic, copy) NSString * _Nullable npciTxnId;
 @property (nonatomic, copy) NSString * _Nullable amount;
 @property (nonatomic, copy) NSString * _Nullable status;
 @property (nonatomic, copy) NSString * _Nullable statusDesc;
 @property (nonatomic, copy) NSString * _Nullable statusCode;
-@property (nonatomic) NSInteger txnRefNo;
 @property (nonatomic, strong) PayUUPIBoltTransactionDetail * _Nullable txnStatusDetails;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

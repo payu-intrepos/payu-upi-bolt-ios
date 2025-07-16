@@ -265,13 +265,11 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltTransactionStatus : ObjectiveC.NSObject, Swift.Codable {
-  @objc public var upiTxnRefNo: Swift.Int
   @objc public var npciTxnId: Swift.String?
   @objc public var amount: Swift.String?
   @objc public var status: Swift.String?
   @objc public var statusDesc: Swift.String?
   @objc public var statusCode: Swift.String?
-  @objc public var txnRefNo: Swift.Int
   @objc public var txnStatusDetails: PayUUPIBoltBaseKit.PayUUPIBoltTransactionDetail?
   @objc override dynamic public init()
   @objc deinit
@@ -281,7 +279,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltTransactionDetail : ObjectiveC.NSObject, Swift.Codable {
   @objc public var result: Swift.String?
   @objc public var txnId: Swift.String?
-  @objc public var respCode: Swift.String?
+  @objc public var crn: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -289,7 +287,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
 }
 public typealias PayUUPIBoltRetryGenerationCompletion = (_ bool: Swift.Bool) -> Swift.Void
 @objc public protocol PayUUPIBoltBaseDelegate {
-  @objc func handleRetry(for errorCode: Swift.Int, errorMessage: Swift.String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion)
+  @objc func onPayUHandleRetry(for errorCode: Swift.Int, errorMessage: Swift.String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion)
 }
 @_inheritsConvenienceInitializers @objc public class PayUUPIBoltListKeys : ObjectiveC.NSObject, Swift.Codable {
   @objc public var txnId: Swift.String?
