@@ -205,6 +205,7 @@ public typealias PayUUPIBoltCallBack = (_ response: PayUUPIBoltBaseKit.PayUUPIBo
   @objc public var formatType: Swift.String?
   @objc public var intlAccFlag: Swift.String?
   @objc public var virtualAddress: Swift.String?
+  @objc public var iin: Swift.String?
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws

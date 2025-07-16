@@ -954,6 +954,7 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit31PayUUPIUserProfileAccountDetail")
 @property (nonatomic, copy) NSString * _Nullable formatType;
 @property (nonatomic, copy) NSString * _Nullable intlAccFlag;
 @property (nonatomic, copy) NSString * _Nullable virtualAddress;
+@property (nonatomic, copy) NSString * _Nullable iin;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -15603,6 +15603,123 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "iin",
+            "printedName": "iin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(py)iin",
+            "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC3iinSSSgvp",
+            "moduleName": "PayUUPIBoltBaseKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)iin",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC3iinSSSgvg",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUUPIBoltBaseKit@objc(cs)PayUUPIUserProfileAccountDetail(im)setIin:",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC3iinSSSgvs",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC3iinSSSgvM",
+                "mangledName": "$s18PayUUPIBoltBaseKit0A28UUPIUserProfileAccountDetailC3iinSSSgvM",
+                "moduleName": "PayUUPIBoltBaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
 		<data>
-		FNOTwNP6IOKueDt5lXrndmADtLw=
+		e/LNFicbzJlrnQ7z76dDb4MFYec=
 		</data>
 		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
 		<data>
-		kFID+tZ9CSmmNfp12l7MCCxq5FA=
+		STynElojNJ+os13Kv1jYOc16Zio=
 		</data>
 		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fdMCloSfT8WBFVOKLR85NLHieaXeBbMRB8Rmbmm9bg=
+			wS/ZSoN09t8TBxcX2x1JQMHNmFK2htf4SLjfmSYFgoA=
 			</data>
 		</dict>
 		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mewcrJxMsxF3zDRAQYt0CiWcDFPeJdUmrp9EPqznkj0=
+			7biJRgb34c0u57uSyP852F/0sNeSwxCClqg6pd0kXdE=
 			</data>
 		</dict>
 		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
