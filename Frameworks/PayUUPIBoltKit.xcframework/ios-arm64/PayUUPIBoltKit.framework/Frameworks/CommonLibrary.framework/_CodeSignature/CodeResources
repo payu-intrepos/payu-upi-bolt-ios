@@ -6,7 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		nbwni+Ym2KdFYtvw3LFpiVNrfCU=
+		exxsoN8zp5RL4JrJSxJL8lxxAhM=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		zrLknSNVE24OH/Q8mOvbOtqnOjI=
+		</data>
+		<key>ic_upi_npci_logo.png</key>
+		<data>
+		1YXeR91/rkV+sj23vg+lVmspSFU=
 		</data>
 		<key>locked_phone.png</key>
 		<data>
@@ -23,6 +31,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bR68s9qifNpp0UNr3i53JldtPsaUGlJZCfVv3yUZgSM=
+			</data>
+		</dict>
+		<key>ic_upi_npci_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TtpF4SAnmuF0p+qbeG4LeNFyTXPfc4mj9QIoRdrAumA=
+			</data>
+		</dict>
 		<key>locked_phone.png</key>
 		<dict>
 			<key>hash2</key>
