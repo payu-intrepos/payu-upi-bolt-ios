@@ -5442,7 +5442,7 @@
       "kind": "StringLiteral",
       "offset": 292,
       "length": 26,
-      "value": "\"https:\/\/sandbox.payu.in\/\""
+      "value": "\"https:\/\/pp30api.payu.in\/\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/upi-plugin-ios\/Dependency\/PayUUPIBoltCoreKit\/PayUUPIBoltCoreKit\/Internal Files\/Constants\/URLConstants.swift",

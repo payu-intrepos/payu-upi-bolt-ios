@@ -27,7 +27,6 @@ import _SwiftConcurrencyShims
   @objc public static let message: Swift.String
   @objc public static let result: Swift.String
   @objc public static let somethingWentWrong: Swift.String
-  @objc public static let kTrue: Swift.String
   @_hasMissingDesignatedInitializers @objcMembers public class ScreenType {
     @objc public static let all: Swift.String
     @objc public static let transactionHistory: Swift.String

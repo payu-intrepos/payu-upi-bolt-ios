@@ -6,15 +6,23 @@
 	<dict>
 		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
 		<data>
-		e/LNFicbzJlrnQ7z76dDb4MFYec=
+		kdREQDst3pFVRKEchzjC8GT1yHs=
 		</data>
 		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
 		<data>
-		nbwni+Ym2KdFYtvw3LFpiVNrfCU=
+		exxsoN8zp5RL4JrJSxJL8lxxAhM=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		zrLknSNVE24OH/Q8mOvbOtqnOjI=
 		</data>
 		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
 		<data>
-		HfvhHDUm2ACXrkX+qsWvuMRhZ1c=
+		SzqSGszMyFrn5Pg0Dmh/jEF4HFY=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/ic_upi_npci_logo.png</key>
+		<data>
+		1YXeR91/rkV+sj23vg+lVmspSFU=
 		</data>
 		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
 		<data>
@@ -38,7 +46,7 @@
 		</data>
 		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
 		<data>
-		STynElojNJ+os13Kv1jYOc16Zio=
+		Em3rUOgke460mlp+LFd/+wubWC4=
 		</data>
 		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>Headers/PayUUPIBoltKit-Swift.h</key>
 		<data>
-		jfaM++8qWkEatMw3/hB6prbE8tM=
+		3zQd+MZ5zFElQO5g0cwofzb9hnE=
 		</data>
 		<key>Headers/PayUUPIBoltKit.h</key>
 		<data>
@@ -58,15 +66,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sSn/n8EMQSanR7ucfzmYkcOTbuE=
+		wpPN5W0RiadaO5FNj/PH2gCC1Tw=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3lF6nPmuhe0EzAx2E8uZB26tdeY=
+		dqphxCYuqfuz55SoMSpRkuE7dPU=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		sAhZSDpbNLZ9HdMXMCIRLS1f7po=
+		73eTlAVVLzCd0MDfb0a3SW+FPUY=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -74,11 +82,11 @@
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		sAhZSDpbNLZ9HdMXMCIRLS1f7po=
+		73eTlAVVLzCd0MDfb0a3SW+FPUY=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		P53WimhvrGYXmSlFuZDSF/sN860=
+		H9UScgyXy4AIjUA8ZWPLxwRoO+0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,21 +103,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wS/ZSoN09t8TBxcX2x1JQMHNmFK2htf4SLjfmSYFgoA=
+			oOyos/8QxMOJRpsho6zzKHjZwE6NWBfNpNCGcfdUvbQ=
 			</data>
 		</dict>
 		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NQU7of04GFbllzJi3/ZTA4f5GTsTpxI6Ym7SzF9rXmg=
+			Tjt7XtzMYoLER4P/BEExWUMENpWahdAGFmTejpE/7XA=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bR68s9qifNpp0UNr3i53JldtPsaUGlJZCfVv3yUZgSM=
 			</data>
 		</dict>
 		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgNGFM4vBI8Tyht3jqCevNTJDpnR1EBUBDs4uT9Rd2A=
+			uV9QIbxlYkejwNANfu/b/BY5xnS1BW7N5iK9z2cqv6k=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/ic_upi_npci_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TtpF4SAnmuF0p+qbeG4LeNFyTXPfc4mj9QIoRdrAumA=
 			</data>
 		</dict>
 		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
@@ -151,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7biJRgb34c0u57uSyP852F/0sNeSwxCClqg6pd0kXdE=
+			iSWf790ogu4D3pxie/5DcW8VgPb3CtglgNldpTU1sUk=
 			</data>
 		</dict>
 		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
@@ -172,7 +194,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vmf88nduii1JI2FpB3B9/KP+dXbv9cPyRPYvi/y4uoc=
+			1UsdfS+vVUItqzCQ9YwJ64R2qTwcQV7tzvihO+Jmj6g=
 			</data>
 		</dict>
 		<key>Headers/PayUUPIBoltKit.h</key>
@@ -186,14 +208,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YRpNBGP4mfHSIbja2Dphs7u4MM0uzgAa/gBbFYjvms4=
+			c7sYJREtU6PlMQP2AgXHJWLbbPGAfh14lEXJQPc37cI=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKScLuYvUX9C1wZJ5j/XcSNAld/N4uhx7M6NIlLcyfQ=
+			d9N7lop6qifrR8k2IyWpkH7yDtRrOPmbZa6+T+qTB/0=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -207,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKScLuYvUX9C1wZJ5j/XcSNAld/N4uhx7M6NIlLcyfQ=
+			d9N7lop6qifrR8k2IyWpkH7yDtRrOPmbZa6+T+qTB/0=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UrTdplwHbTVgB649aPVGyB0dZVl8R8J0/ncAf6uVsas=
+			hqNtRt3PY+vwWLhSI66O55ea5dWl3IMPcBWpn/Q/qWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
