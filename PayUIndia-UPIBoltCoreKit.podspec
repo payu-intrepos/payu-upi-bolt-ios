@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description         = "The PayUUPIHdfcPluginKit SDK provides core functionality, used across other framewroks."
 
   s.source              = { :git => "https://github.com/payu-intrepos/payu-upi-bolt-ios.git",
-                            :tag => "#{s.version}"
+                            :tag => "PayUIndia-UPIBoltCoreKit-#{s.version}"
                           }
   
   s.pod_target_xcconfig = {
