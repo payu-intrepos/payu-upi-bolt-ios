@@ -4,50 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
-		<data>
-		w1jBFVLXLZfjqRVzQW5wVNrPtrk=
-		</data>
-		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
-		<data>
-		nbwni+Ym2KdFYtvw3LFpiVNrfCU=
-		</data>
-		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
-		<data>
-		HfvhHDUm2ACXrkX+qsWvuMRhZ1c=
-		</data>
-		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
-		<data>
-		ScvEkaYT4PvJfboetsiPaKP/TK4=
-		</data>
-		<key>Frameworks/CommonLibrary.framework/toolbar_back_arrow.png</key>
-		<data>
-		8S8fvmzfntzddRkG90cSrVqlXLQ=
-		</data>
-		<key>Frameworks/CommonLibrary.framework/xml-signature.js</key>
-		<data>
-		ZFFDITTRxU9mHjlvLaM5R3n3H2Q=
-		</data>
-		<key>Frameworks/OlivePayLibrary.framework/Info.plist</key>
-		<data>
-		LIzu9qLrUhehoHygtFHCnJJNKQM=
-		</data>
-		<key>Frameworks/OlivePayLibrary.framework/ListKeysPayload.xml</key>
-		<data>
-		Kvxd8NB0n++wWcd9UscFiCVcaI0=
-		</data>
-		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
-		<data>
-		UluEviMg9HMV+p8Zc4UQIL6jcyI=
-		</data>
-		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
-		<data>
-		/EzbWClMGjp4IG8ZrOTBNwGmoA8=
-		</data>
-		<key>Frameworks/OlivePayLibrary.framework/upiuataxisbankcoin.cer</key>
-		<data>
-		MaykMyVXzXmjxLJR/IeaEmGa0hk=
-		</data>
 		<key>Headers/PayUUPIBoltKit-Swift.h</key>
 		<data>
 		3zQd+MZ5zFElQO5g0cwofzb9hnE=
@@ -91,83 +47,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NJV/mGqY1lSJrjL8fYggf2xWGjYswaoXJwN06M1cm7E=
-			</data>
-		</dict>
-		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NQU7of04GFbllzJi3/ZTA4f5GTsTpxI6Ym7SzF9rXmg=
-			</data>
-		</dict>
-		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bgNGFM4vBI8Tyht3jqCevNTJDpnR1EBUBDs4uT9Rd2A=
-			</data>
-		</dict>
-		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8ygwk0Iw5CyD1i10O6cPsIsiXYbanVPi35/P4Ycr9h8=
-			</data>
-		</dict>
-		<key>Frameworks/CommonLibrary.framework/toolbar_back_arrow.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MdzxBPrrvL2D2e5qKKVc1RNKWZ6JV6xCthCQKcIXJZg=
-			</data>
-		</dict>
-		<key>Frameworks/CommonLibrary.framework/xml-signature.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tv8SCgfK0OiMQvFxuuOrSO/x7BMv0KIAjpluZqO0on0=
-			</data>
-		</dict>
-		<key>Frameworks/OlivePayLibrary.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EJzaUUQeQg20N7UDExbk6sPbYZOyTHZ09owNpb1wwFM=
-			</data>
-		</dict>
-		<key>Frameworks/OlivePayLibrary.framework/ListKeysPayload.xml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g2ay6J9O0ZYIr25xQL5/NXnqXtleciAIazb4gkSm2As=
-			</data>
-		</dict>
-		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G87kS4fLQaMGX04RFUq6CYxISSdEbwBsUw+ShcgXni0=
-			</data>
-		</dict>
-		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jTEDErlU37WOQkCNOXBLAL7cPzTO5fv5wSzpVNrj6bA=
-			</data>
-		</dict>
-		<key>Frameworks/OlivePayLibrary.framework/upiuataxisbankcoin.cer</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lW97HDGUp4V4juotivSb3jDh97kX6oa/yhB56ilozbI=
-			</data>
-		</dict>
 		<key>Headers/PayUUPIBoltKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
