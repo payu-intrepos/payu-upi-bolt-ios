@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		meiNEADP93FdjPllJ1mHxaOgVtA=
+		zGz0EzzZuGrMdpL9TDl3V8n2LFg=
 		</data>
 		<key>Modules/PayUUPIBoltCoreKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cjvSeeIE5TF3LHlfYSoDNx2yGgU=
+		2BXybcNC0vc6uPa4Vxo0C1MAFjs=
 		</data>
 		<key>Modules/PayUUPIBoltCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PayUUPIBoltCoreKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		F90X4S+Wc3VM1h0diShMDJDHcR8=
+		S9iJneDkKj4V+JgQPpVDxu/K8GY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SBdftqt4PVO+k7Sk2/zhKg31vZ2OcVwQphcc8BRHlvI=
+			X9hlP1fl/v/DpL4/d/evFo3fPdx+DggfSJZFUeEUB64=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LT4mIVp97Zox0C54x/3YTmEMVupulZkk+znI6LPOE+Q=
+			71I8kNTqJhn3BvfzDgelps0hBykudPDqLSkxs4CTNyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
