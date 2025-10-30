@@ -874,7 +874,6 @@ SWIFT_CLASS("_TtC18PayUUPIBoltBaseKit19PayUUPIBoltUserInfo")
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable isMerchant;
 @property (nonatomic, copy) NSString * _Nullable showMerchant;
-@property (nonatomic) BOOL defVPAStatus;
 @property (nonatomic, copy) NSString * _Nullable defaultFlag;
 @property (nonatomic, copy) NSString * _Nullable custid;
 @property (nonatomic, copy) NSString * _Nullable accId;

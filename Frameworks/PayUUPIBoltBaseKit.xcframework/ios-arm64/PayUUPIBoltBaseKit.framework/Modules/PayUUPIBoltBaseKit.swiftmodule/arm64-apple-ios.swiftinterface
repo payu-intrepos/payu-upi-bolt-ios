@@ -610,7 +610,6 @@ public typealias PayUUPIBoltRetryGenerationCompletion = (_ bool: Swift.Bool) -> 
   @objc public var name: Swift.String?
   @objc public var isMerchant: Swift.String?
   @objc public var showMerchant: Swift.String?
-  @objc public var defVPAStatus: Swift.Bool
   @objc public var defaultFlag: Swift.String?
   @objc public var custid: Swift.String?
   @objc public var accId: Swift.String?
