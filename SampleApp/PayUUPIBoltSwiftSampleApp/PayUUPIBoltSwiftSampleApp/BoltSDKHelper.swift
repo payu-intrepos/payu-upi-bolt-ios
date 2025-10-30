@@ -9,7 +9,11 @@ import UIKit
 import PayUUPIBoltKit
 import PayUUPIBoltBaseKit
 
-class BoltSDKHelper {
+class BoltSDKHelper: PayUUPIBoltDelegate {
+    func onPayUHandleRetry(for errorCode: Int, errorMessage: String, onCompletion: @escaping PayUUPIBoltBaseKit.PayUUPIBoltRetryGenerationCompletion) {
+        onCompletion(true)
+    }
+    
     
     // MARK: - UPI Bolt SDK
     
@@ -19,7 +23,7 @@ class BoltSDKHelper {
 
     init(parentVC: UIViewController, config: PayUUPIBoltBaseConfig) {
         self.parentVC = parentVC
-        bolt = PayUUPIBolt.initSDK(config: config, hashDelegate: self)
+        bolt = PayUUPIBolt.initSDK(config: config, delegate: self)
     }
     
     func testisUPIBoltSDKAvailable(pg: String, callback: @escaping PayUUPIBoltCallBack) {
@@ -46,7 +50,7 @@ class BoltSDKHelper {
         requestType: String,
         callback: @escaping PayUUPIBoltCallBack
     ) {
-        bolt?.fetchAccountsWithIIn(iin: "500007", bankName: "Mybank", bankCode: "AABD", vpa: vpa, requestType: requestType, isCCTxnEnabled: false, callback: callback)
+        bolt?.fetchAccountsWithIIn(iin: "500007", bankName: "Mybank", bankCode: "AABD", bankId: "", vpa: vpa, requestType: requestType, isCCTxnEnabled: false, callback: callback)
     }
 
     func testFetchVPAProfiles(

@@ -4,6 +4,58 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
+		<data>
+		SzZc/sezBbQ6Aj20hIQfghcPWxg=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
+		<data>
+		exxsoN8zp5RL4JrJSxJL8lxxAhM=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		zrLknSNVE24OH/Q8mOvbOtqnOjI=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
+		<data>
+		SzqSGszMyFrn5Pg0Dmh/jEF4HFY=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/ic_upi_npci_logo.png</key>
+		<data>
+		1YXeR91/rkV+sj23vg+lVmspSFU=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
+		<data>
+		ScvEkaYT4PvJfboetsiPaKP/TK4=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/toolbar_back_arrow.png</key>
+		<data>
+		8S8fvmzfntzddRkG90cSrVqlXLQ=
+		</data>
+		<key>Frameworks/CommonLibrary.framework/xml-signature.js</key>
+		<data>
+		ZFFDITTRxU9mHjlvLaM5R3n3H2Q=
+		</data>
+		<key>Frameworks/OlivePayLibrary.framework/Info.plist</key>
+		<data>
+		LIzu9qLrUhehoHygtFHCnJJNKQM=
+		</data>
+		<key>Frameworks/OlivePayLibrary.framework/ListKeysPayload.xml</key>
+		<data>
+		Kvxd8NB0n++wWcd9UscFiCVcaI0=
+		</data>
+		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
+		<data>
+		k3AmcVaT4kThMUdpRs2Txs5SLeg=
+		</data>
+		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/EzbWClMGjp4IG8ZrOTBNwGmoA8=
+		</data>
+		<key>Frameworks/OlivePayLibrary.framework/upiuataxisbankcoin.cer</key>
+		<data>
+		MaykMyVXzXmjxLJR/IeaEmGa0hk=
+		</data>
 		<key>Headers/PayUUPIBoltKit-Swift.h</key>
 		<data>
 		3zQd+MZ5zFElQO5g0cwofzb9hnE=
@@ -14,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wpPN5W0RiadaO5FNj/PH2gCC1Tw=
+		hzTnsQ+p3j4vtC5D4DQo8Dlo4BQ=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mOV/Wn11WlnQ3kcCIylVD2oJO2U=
+		dqphxCYuqfuz55SoMSpRkuE7dPU=
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +86,7 @@
 		</data>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		T+sqIwdeAAUA0G7sa4eYU2Pne+0=
+		fzoS9XZ8D4aIi6XkSQ2FfbMEPP8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +99,97 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/CommonLibrary.framework/CommonLibrary</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MYpjYwJApdGb6ia/33/DFgCr1s5ncwqrdaYwDh4BsNQ=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tjt7XtzMYoLER4P/BEExWUMENpWahdAGFmTejpE/7XA=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bR68s9qifNpp0UNr3i53JldtPsaUGlJZCfVv3yUZgSM=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uV9QIbxlYkejwNANfu/b/BY5xnS1BW7N5iK9z2cqv6k=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/ic_upi_npci_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TtpF4SAnmuF0p+qbeG4LeNFyTXPfc4mj9QIoRdrAumA=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/locked_phone.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8ygwk0Iw5CyD1i10O6cPsIsiXYbanVPi35/P4Ycr9h8=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/toolbar_back_arrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MdzxBPrrvL2D2e5qKKVc1RNKWZ6JV6xCthCQKcIXJZg=
+			</data>
+		</dict>
+		<key>Frameworks/CommonLibrary.framework/xml-signature.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tv8SCgfK0OiMQvFxuuOrSO/x7BMv0KIAjpluZqO0on0=
+			</data>
+		</dict>
+		<key>Frameworks/OlivePayLibrary.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EJzaUUQeQg20N7UDExbk6sPbYZOyTHZ09owNpb1wwFM=
+			</data>
+		</dict>
+		<key>Frameworks/OlivePayLibrary.framework/ListKeysPayload.xml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g2ay6J9O0ZYIr25xQL5/NXnqXtleciAIazb4gkSm2As=
+			</data>
+		</dict>
+		<key>Frameworks/OlivePayLibrary.framework/OlivePayLibrary</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ASbCSKIJdzgnkQ9VfqZc6RNF81Fb9UAkhQwt/hGcWOc=
+			</data>
+		</dict>
+		<key>Frameworks/OlivePayLibrary.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jTEDErlU37WOQkCNOXBLAL7cPzTO5fv5wSzpVNrj6bA=
+			</data>
+		</dict>
+		<key>Frameworks/OlivePayLibrary.framework/upiuataxisbankcoin.cer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lW97HDGUp4V4juotivSb3jDh97kX6oa/yhB56ilozbI=
+			</data>
+		</dict>
 		<key>Headers/PayUUPIBoltKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -65,7 +208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFpveimPtov0nKWndWBHHdlZUhhz+kQHBGdk0xggQkQ=
+			c7sYJREtU6PlMQP2AgXHJWLbbPGAfh14lEXJQPc37cI=
 			</data>
 		</dict>
 		<key>Modules/PayUUPIBoltKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dr9vxRCAGmiRhx+Q9lwUp5zdv7V8qL9PaE7Y16ln134=
+			k5NFaPfJADC45YSQF6/FgN/64XcVnWvzbc2MaocmT0A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

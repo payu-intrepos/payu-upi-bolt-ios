@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         "ref\(Int64(Date().timeIntervalSince1970))"
     }
 
-    var pluginType = "AXIS"
+    var pluginType = "BHIM"
     var amount = "1.00"
     var phone = "919876543210"
     var email = "upi@email.com"
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     // MARK: - UPI Bolt UI -
     
     var config: PayUUPIBoltUIConfig {
-        PayUUPIBoltUIConfig(
+       let config = PayUUPIBoltUIConfig(
             merchantName: merchantNameTextField.text ?? "",
             merchantKey: keyTextField.text ?? "",
             phone: phoneTextField.text ?? "",
@@ -71,6 +71,8 @@ class ViewController: UIViewController {
             clientId: "Myntra",
             isProduction: isProductionSwitch.isOn
         )
+        config.issuingBanks = ["AXIS"]
+        return config
     }
     
     var helper: SDKHelper?

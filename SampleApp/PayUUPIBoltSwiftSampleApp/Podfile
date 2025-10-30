@@ -4,4 +4,5 @@ platform :ios, '13.0'
 target 'PayUUPIBoltSwiftSampleApp' do
   use_frameworks!
   pod 'PayUIndia-UPIBoltUIKit'
+  pod 'PayUIndia-UPIBoltCoreKit'
 end
